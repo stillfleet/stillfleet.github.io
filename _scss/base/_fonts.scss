@@ -1,0 +1,70 @@
+$fout-auto: auto;
+$fout-ok: swap;
+$fout-unpreferable: fallback;
+$fout-unacceptable: block;
+
+$default-font-display: $fout-auto;
+
+@font-face {
+    font-family: 'mono_italic';
+    font-weight: 700;
+    src: url('/assets/fonts/IBMPlexMono-LightItalic.ttf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@font-face {
+    /* font-family: 'h3_custom_font'; */
+    /* font-family: 'h6_custom_font'; */
+    font-family: 'mono_regular';
+    font-weight: 400;
+    src: url('/assets/fonts/IBMPlexMono-Regular.ttf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@font-face {
+    /* font-family: 'h4_custom_font'; */
+    font-family: 'citizen_bold';
+    font-weight: 400;
+    src: url('/assets/fonts/Citizen-Bold.otf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@font-face {
+    /* font-family: 'p_custom_font'; */
+    font-family: 'sans_regular';
+    font-weight: 400;
+    src: url('/assets/fonts/IBMPlexSans-Regular-1.ttf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@font-face {
+    /* font-family: 'link_custom_font'; */
+    font-family: 'sans_regular_heavy';
+    font-weight: 800;
+    src: url('/assets/fonts/IBMPlexSans-Bold.ttf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@font-face {
+    /* font-family: 'nav_custom_font'; */
+    font-family: 'mono_light';
+    font-weight: 700;
+    src: url('/assets/fonts/IBMPlexMono-Light.ttf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@font-face {
+    font-family: 'warnock_pro';
+    font-weight: 400;
+    src: url('/assets/fonts/WarnockPro-Light.otf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@font-face {
+    font-family: 'american_typewriter';
+    font-weight: 400;
+    src: url('/assets/fonts/AmericanTypewriterRegular.ttf') format('woff2');
+    font-display: $default-font-display;
+}
+
+@import url('https://fonts.cdnfonts.com/css/redaction?styles=81790,81793,81796,81799,81802');
