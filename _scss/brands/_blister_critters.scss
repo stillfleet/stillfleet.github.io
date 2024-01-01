@@ -1,5 +1,21 @@
+$blister_critters_primary: magenta;
+$blister_critters_secondary: $stillfleet-bluish;
+$blister_critters_bg: $electric-yellow;
+
 body[data-brand="blister_critters"] {
   color: $font-color;
   background: $background;
   font-size: $body-font-size;
+}
+
+////////////////
+// Accents 
+///////////////
+
+[data-accent="blister_critters"] {
+  &:hover, a:hover {
+    background-color: $blister_critters_bg !important;  
+    color: $blister_critters_primary !important;
+    font-weight: bold;
+  }
 }

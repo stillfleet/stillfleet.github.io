@@ -1,4 +1,4 @@
 ---
-layout: brands/stillfleet
+layout: default
 ---
 

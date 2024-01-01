@@ -1,5 +1,5 @@
 ---
-layout: brands/studio
+layout: default
 ---
 
 
