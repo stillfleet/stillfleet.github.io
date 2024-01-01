@@ -3,7 +3,7 @@ header {
   display: flex;
   height: 5rem; 
   flex-direction: column;
-  justicy-content: space-between;
+  justify-content: space-between;
   padding-bottom: 1rem;
 
   @include medium-breakpoint {
