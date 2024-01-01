@@ -1,14 +1,19 @@
 header {
-  a.logo {
-    display: inline-block;
-    width: 28.8%;
+  display: flex;
+  height: 4rem;
 
-    img.logo-img {
-      max-height: 100%;
-      max-width: 100%;  
-    }  
+  h1 {
+    height: inherit;
+    a {
+      text-indent: -9999em;
+      height: 100px;
+      width: 200px;
+      display: inline-block;
+      background-size: cover;
+      background: url('/assets/img/sf-logo-white.png') no-repeat;
+    }
   }
-
+  
   img.headericon {
     width: 18px;
     height: 18px;
