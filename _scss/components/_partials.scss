@@ -5,11 +5,17 @@
 a[data-include="cover"] {
   figure {
     img {
-      max-width: 160px;
+      max-width: 125px;
+      @include medium-breakpoint {
+        max-width: 160px;
+      }
     }  
 
     figcaption {
-      width: 150px;
+      width: 140px;
+      @include medium-breakpoint {
+        width: 150px;
+      }
     }
   }
 }
