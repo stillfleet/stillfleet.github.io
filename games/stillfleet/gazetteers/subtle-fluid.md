@@ -1,5 +1,8 @@
 ---
 layout: brands/stillfleet
+title: Motes in the Eye
+cover: assets/img/brands/stillfleet/subtle-fluid-cover.jpg
+categories: "Stillfleet", "gazetteers"
 ---
 
 ## The blooder: nanotechnology for Stillfleet & other sci-fi RPGs

@@ -1,10 +1,12 @@
 ---
 layout: brands/stillfleet
+title: Sleeper in the Sky
+cover: assets/img/brands/stillfleet/ven001-cover.jpg
 ---
 
 ## Twenty-five pages of mayhem…
 
-<img src="{{ '/assets/img/products/ven001/cover.jpg' }}" alt="Cover of Sleeper in the Sky" style="float: right; max-width: 33%" />
+<img src="{{ '/assets/img/brands/stillfleet/ven001-cover.jpg' }}" alt="Cover of Sleeper in the Sky" style="float: right; max-width: 33%" />
 
 Including statblocks for xenofauna, lists of oddments and archaetech, and a loaded sky-dungeon to explore! 
 

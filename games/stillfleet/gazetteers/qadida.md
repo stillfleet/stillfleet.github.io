@@ -1,6 +1,8 @@
 ---
 layout: brands/stillfleet
 title: Qadida
+cover: assets/img/brands/stillfleet/qadida-cover.jpg
+categories: "Stillfleet", "gazetteers"
 ---
 
 ## A new espionage-themed setting + new rules…
