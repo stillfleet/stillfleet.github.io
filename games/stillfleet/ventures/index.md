@@ -3,8 +3,8 @@ layout: brands/stillfleet
 title: Ventures
 ---
 
-{% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet' and page.name contains 'mvr'" %}
-{% assign ventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet' and page.name contains 'ven'" %}
+{% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
+{% assign ventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-venture'" %}
 
 
 ## Ready to run
@@ -17,7 +17,7 @@ lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numqu
 
 lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 
-<ul class="covers">
+<ul id="ventures" class="covers">
   {% for page in ventures %}
     <li>{% include components/cover.html page=page %}</li>
   {% endfor %}
@@ -27,7 +27,7 @@ lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numqu
 
 lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
 
-<ul class="covers">
+<ul id="miniventures" class="covers">
   {% for page in miniventures %}
     <li>{% include components/cover.html page=page %}</li>
   {% endfor %}

@@ -1,0 +1,18 @@
+---
+layout: brands/stillfleet
+---
+{% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
+
+{% include components/product.html src=page.cover alt=page.title %}
+
+{{ content }}
+
+{% include components/purchase.html url=page.purchase %}
+
+{% include components/stillfleet/play_now.html %}
+
+If you enjoy this venture, please consider leaving a positive review here and saying hi on the Stillfleet Discord.
+
+{% include components/internal_nav.html current=page all=miniventures %}
+
+{% include components/credits.html title=page.title version=page.version copyright=page.copyright citations=page.credits %}

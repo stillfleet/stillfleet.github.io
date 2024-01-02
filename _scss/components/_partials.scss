@@ -1,3 +1,7 @@
+//
+// _includes/components/credits.html
+//
+
 a[data-include="cover"] {
   figure {
     img {
@@ -8,7 +12,6 @@ a[data-include="cover"] {
       width: 150px;
     }
   }
-  
 }
 
 ul.covers {
@@ -21,5 +24,101 @@ ul.covers {
     list-style: none;
     margin: 0;
     padding: 0;   
+  }
+}
+
+//
+// _includes/components/product.html
+//
+
+figure.product {
+  float: right;
+  max-width: 50%;
+  margin-left: 2em;
+  margin-right: -4em;
+  filter: drop-shadow(4px 4px 4px $rich-black);
+
+  figcaption {
+
+  }
+}
+
+//
+// _includes/components/credits.html
+//
+
+footer#credits {
+  background-color: $rich-black;
+  padding: 1em;
+  margin-bottom: 1em;
+
+  h1 {
+    font-size: $h4;
+    margin: 0;
+    color: $fpo-gray;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 0 1em;
+    padding: 0;
+
+    li {
+      list-style: none;
+      width: 50%;
+
+      cite {
+
+      }    
+    }
+  }
+}
+
+//
+// _includes/components/purchase.html
+//
+
+a.purchase {
+  display: inline-block;
+  background-color: $stillfleet-red;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+//
+// _includes/components/internal-nav.html
+//
+
+nav[data-role="internal-nav"] {
+  clear: both;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: $rich-black;
+    margin: 1rem 0 0;
+    padding: 0;
+
+    li {
+      padding: 0.7rem 0;
+      list-style: none;
+      font-weight: bold;
+      font-size: 1.2em;
+
+      a {
+        color: white;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
   }
 }

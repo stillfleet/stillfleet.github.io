@@ -1,13 +1,11 @@
 ---
 layout: brands/stillfleet
 title: Qadida
+heading: A new espionage-themed setting + new rules...
 cover: assets/img/brands/stillfleet/qadida-cover.jpg
-categories: "Stillfleet", "gazetteers"
 ---
 
-## A new espionage-themed setting + new rules…
-
-<img src="{{ '/assets/img/qadida/cover-bg.jpg' }}" style="float: right; max-width: 33%;" alt="Qadida cover" />
+{% include components/product.html src=page.cover alt=page.title %}
 
 Take Stillfleet and the Grit System into a world of intrigue, assassination, and warfare that is quiet, cold, and high-stakes for the entire network of worlds exploited by the Worshipful Company of Stillfleeters.
 
@@ -29,7 +27,3 @@ If you're a fan of Spire or Blades in the Dark looking for a fresh take on some 
 - new market tech and wondrous archaetech
 - unforgettable locations and NPCs in and around the domed/divided city
 - at least full (ad)venture to pull your table into webs of intrigue right away
-
-*NOTE, we are showing DRAFT art and pages of layout as we actively work on this book!*
-
-[Reserve your copy of Qadida today >](https://www.kickstarter.com/projects/wythe/qadida-a-spy-filled-stillfleet-gazetteer)

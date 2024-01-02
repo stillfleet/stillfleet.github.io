@@ -1,0 +1,9 @@
+<footer id="credits">
+  <h1>{{ include.title }}</h1>
+  <small>© {{ include.copyright }} | {{ include.version }}</small>
+  <ul>
+    {% for citation in include.citations %}
+      <li><cite>{{ citation }}</cite></li>
+    {% endfor %}
+  </ul>
+</footer>

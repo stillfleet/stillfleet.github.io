@@ -1,0 +1,37 @@
+{% for page in include.all %}
+  {% if page.path == include.current.path %}
+    {% assign pindex = forloop.index0 | minus: 1 %}
+    {% assign nindex = forloop.index0 | plus: 1 %}
+    {% assign prev = include.all[pindex] %}
+    {% if prev == nil %}
+      {% assign prev = include.all.last %}
+    {% endif %}
+    {% assign next = include.all[nindex] %}
+    {% if next == nil %}
+      {% assign next = include.all.first %}
+    {% endif %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if prev == next %}
+  {% assign prev = nil %}
+{% endif %}
+
+<nav data-role="internal-nav">
+  <ul>
+    {% if prev %}
+      <li class="previous">
+        &lt;
+        <a href="{{ prev.url }}">{{ prev.title }}</a>
+      </li>
+    {% endif %}
+    <li class="index"><a href="{{ include.current.dir }}">View all</a></li>
+    {% if next %}
+      <li class="next">
+        <a href="{{ next.url }}">{{ next.title }}</a>
+        &gt;
+      </li>
+    {% endif %}
+  </ul>
+</nav>

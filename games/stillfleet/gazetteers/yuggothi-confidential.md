@@ -2,12 +2,12 @@
 layout: brands/stillfleet
 title: Yuggothi Confidential
 cover: assets/img/brands/stillfleet/yuggothi-cover.jpg
-categories: "Stillfleet", "gazetteers"
+
 ---
 
 ## A GM-less/all-GM game about giant crabs from Pluto
 
-<img src="{{ '/assets/img/products/yuggothi-confidential/cover.jpg' }}" alt="cover" style="float:right; max-width: 33%;" />
+{% include components/product.html src=page.cover alt=page.title %}
 
 Have you ever wondered what it's like to be one aspect of a mycelial network? Do you enjoy "flipped dungeons" where you play as the villains? 
 
