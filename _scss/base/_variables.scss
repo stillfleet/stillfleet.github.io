@@ -25,21 +25,14 @@ $desktop: $medium !default;
 // Global Colors
 //==============================================================================
 
-$background: url('/assets/img/sf-bg.jpg') no-repeat black !default;
-
 $rich-black: #100;
 $white: rgb(240,240,240);
 $fpo-gray: #6d6b68;
-$stillfleet-green: #109773;
-$stillfleet-bluish: #348375;
-$stillfleet-red: #fb0e3a;
-$stillfleet-light-red: #ffdbe2;
-$stillfleet-medium-red: #fd869d;
-$stillfleet-rose: #b45a76;
+$tephnian-red: #fb0e3a;
+$weird-blue: #348375;
 $electric-yellow: #e1dd33;
-$stillfleet-pink: #ffecee;
 
-$primary-color: $stillfleet-red !default;
+$primary-color: $tephnian-red !default;
 $secondary-color: #29de7d !default;
 $accent-color: #cdcdcd !default;
 $alternate-background: #fafafa !default;

@@ -2,7 +2,6 @@
 layout: brands/stillfleet
 title: Yuggothi Confidential
 cover: assets/img/brands/stillfleet/yuggothi-cover.jpg
-
 ---
 
 ## A GM-less/all-GM game about giant crabs from Pluto

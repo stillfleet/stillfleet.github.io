@@ -1,12 +1,9 @@
 ---
-layout: brands/stillfleet
-title: Motes in the Eye
+layout: brands/stillfleet-gazetteers
+title: Subtle Fluid
+heading: "The blooder: nanotechnology for Stillfleet & other sci-fi RPGs"
 cover: assets/img/brands/stillfleet/subtle-fluid-cover.jpg
 ---
-
-## The blooder: nanotechnology for Stillfleet & other sci-fi RPGs
-
-{% include components/product.html src=page.cover alt=page.title %}
 
 Subtle Fluid offers 37 pages of rules, art by Ethan Gould, and hooks about nanotechnology—collected into a single zine, immaculately designed by Erich Lazar—that will add dangerous spice to your games of Stillfleet, or any other sci-fi RPG.
 

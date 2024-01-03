@@ -54,17 +54,32 @@ figure.product {
 //
 
 footer#credits {
-  background-color: $rich-black;
+  background-color: black;
   padding: 1em;
-  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
 
-  h1 {
-    font-size: $h4;
-    margin: 0;
-    color: $fpo-gray;
+  section {
+    flex-basis: 25%;
+    flex-grow: 2; 
+    flex-shrink: 1;
+
+    h1 {
+      color: $fpo-gray;
+      font-size: $h4;
+      margin: 0;  
+    }
+    small {
+      display: block;
+      color: $fpo-gray;
+    }  
+    margin-right: 2rem;
   }
-
+  
   ul {
+    flex-basis: 66%;
+    flex-grow: 3;
+    flex-shrink: 2;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -89,7 +104,7 @@ footer#credits {
 
 a.purchase {
   display: inline-block;
-  background-color: $stillfleet-red;
+  background-color: $tephnian-red;
   color: white;
   padding: 1rem;
   border-radius: 4px;
@@ -103,12 +118,11 @@ a.purchase {
 
 nav[data-role="internal-nav"] {
   clear: both;
-
   ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: $rich-black;
+    background-color: black;
     margin: 1rem 0 0;
     padding: 0;
 

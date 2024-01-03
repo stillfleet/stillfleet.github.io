@@ -1,11 +1,11 @@
 ---
-layout: brands/stillfleet
+layout: brands/stillfleet-product
 title: Quick Start Rules
 cover: assets/img/brands/stillfleet/qsr-cover.jpg
 sku: QSRV2
 version: Version 2.0 ☉ 2023
-shop:
-  - https://stillfleet.itch.io/quickstart/purchase
+copyright: 2023 Stillfleet Studio
+shop: https://stillfleet.itch.io/quickstart/purchase
 credits:
   - Writing – Wythe Marschall
   - Art – Ethan Gould
@@ -16,9 +16,6 @@ credits:
 ---
 
 > Stillfleet is a new tabletop RPG about exploring ruined spacecraft—hulks—and habitable earth-like planets, cut off from contact with Terra for decades or centuries—rocks.
-
-{% include components/product.html src=page.cover alt=page.title %}
-
 
 Players take the roles of "voidminers"—explorers working for the Worshipful Company of Stillfleeters, more often known simply as the Co. Their home, the alien space station nicknamed Spindle—a sea slug made of undulating black stone, kilometers tall—is a mystery to its own inhabitants. It brims with timespace gates called stiffworks, many of which are already tacked to habitable worlds…
 
@@ -43,6 +40,3 @@ This Quickstart contains 42 pages of rules, entire classes, gear (sample weapons
 - [Download the Quickstart Rules from Itch](https://stillfleet.itch.io/quickstart)
 - [Download the Quickstart Rules in Brazilian Portuguese](https://stillfleet.itch.io/quickstart)
 
-{% include components/credits.html title=page.title version=page.version citations=page.credits %}
-
-© 2023 Stillfleet Studio

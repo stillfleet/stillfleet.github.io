@@ -1,5 +1,48 @@
+//==============================================================================
+// Brand Colors
+//==============================================================================
+
+$primary-color: $tephnian-red !default;
+$secondary-color: #29de7d !default;
+$accent-color: #cdcdcd !default;
+$alternate-background: #fafafa !default;
+$alternate-color: #404040 !default;
+$link-color: $primary-color !default;
+$link-hover-color: darken($link-color, 15%) !default;
+$highlight: #ffeea8 !default;
+$error: #d33c40 !default;
+$success: #29de7d !default;
+$bq-border: 16px solid #f0f0f0 !default;
+
+//==============================================================================
+// Typography
+//==============================================================================
+
+// Custom Font Usages
+// Flagship brand font: Citizen (Bold)
+$studio-brand-font: 'citizen_bold';
+// Headers font: IBM Plex Sans (Bold)
+$studio-header-font: 'sans_regular_heavy';
+// Information font: IBM Plex Sans (Light)
+$studio-info-font: 'sans_regular';
+// Body text and long form type setting: Warnock Pro (Regular)
+// $body-text-font: 'warnock_pro';
+$studio-body-text-font: 'sans_regular';
+// Meta features: IBM Plex Mono (Light Italic)
+$studio-meta-features-font: 'mono_light';
+// Descriptive features: Warnock Pro (Semibold Italic) (typically Stillfleet Green)
+$studio-descriptive-features-font: 'warnock_pro';
+// Diegetic features: American Typewriter ITC Pro (Medium) (FPO Gray, 65%)
+$studio-diagetic-features-font: 'american_typewriter';
+
+// Body
+$studio-background: url('/assets/img/paper-bg.gif') repeat black !default;
+$studio-font-color: $rich-black !default;
+$studio-font-family: $body-text-font, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+
 body[data-brand="studio"] {
-  color: $font-color;
-  background: $background;
+  color: $studio-font-color;
+  background: $studio-background;
   font-size: $body-font-size;
+  font-family: $studio-font-family;
 }

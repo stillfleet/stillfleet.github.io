@@ -1,10 +1,11 @@
 $blister_critters_primary: magenta;
-$blister_critters_secondary: $stillfleet-bluish;
+$blister_critters_secondary: $weird-blue;
 $blister_critters_bg: $electric-yellow;
+$blister_critters_background: none;
 
 body[data-brand="blister_critters"] {
   color: $font-color;
-  background: $background;
+  background: $blister_critters_background;
   font-size: $body-font-size;
 }
 

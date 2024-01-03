@@ -1,5 +1,21 @@
+$stillfleet-background: url('/assets/img/sf-bg.jpg') no-repeat fixed black !default;
+
+
+//==============================================================================
+// Brand Colors
+//==============================================================================
+
+$stillfleet-green: #109773;
+$stillfleet-bluish: $weird-blue;
+$stillfleet-red: $tephnian-red;
+$stillfleet-light-red: #ffdbe2;
+$stillfleet-medium-red: #fd869d;
+$stillfleet-rose: #b45a76;
+$stillfleet-pink: #ffecee;
+
+
 body[data-brand="stillfleet"] {
   color: $font-color;
-  background: $background;
+  background: $stillfleet-background;
   font-size: $body-font-size;
 }

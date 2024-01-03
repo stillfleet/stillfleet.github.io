@@ -20,18 +20,18 @@
 
 <nav data-role="internal-nav">
   <ul>
+    <li class="previous">
     {% if prev %}
-      <li class="previous">
         &lt;
         <a href="{{ prev.url }}">{{ prev.title }}</a>
-      </li>
     {% endif %}
+    </li>
     <li class="index"><a href="{{ include.current.dir }}">View all</a></li>
+    <li class="next">
     {% if next %}
-      <li class="next">
         <a href="{{ next.url }}">{{ next.title }}</a>
         &gt;
-      </li>
     {% endif %}
+    </li>
   </ul>
 </nav>

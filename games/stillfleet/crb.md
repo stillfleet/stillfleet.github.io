@@ -1,9 +1,10 @@
 ---
-layout: brands/stillfleet
+layout: brands/stillfleet-product
 title: Core Rulebook
 cover: assets/img/brands/stillfleet/crb-cover.jpg
 sku: CRBV1
 version: Version 1.0 ☉ 2022
+copyright: 2022 Stillfleet Studio
 shop:
   - https://stillfleet.itch.io/stillfleet-core-rulebook/purchase
 credits:
@@ -17,8 +18,6 @@ credits:
 ---
 
 > Uniquely flexible mechanics. An unforgettable game cosmos. Politically charged cosmic fantasy at its weirdest.
-
-{% include components/product.html src=page.cover alt=page.title %}
 
 Set in a paradoxically bleak and vibrant superfuture, Stillfleet is a sci-fi tabletop roleplaying game that empowers players with simple, intuitive mechanics and hundreds of options for powers.
 
@@ -43,7 +42,3 @@ As heard on the real-play podcast Fun City, the game uses simple rules that take
 Play as a tech-hacking banshee, a peacemaking witness, a reality-warping tremulant, a giant bug, a strong AI trapped in a flash drive, a talking cactus, a void elf from the Dyson-sphere-enclosed Wytch Planet, Tnín... The choices are yours. The cosmos of Stillfleet is hilarious and horrifying. The struggles, all too real.
 
 Voidminer—what will you do to resist the temptation of power? To liberate the provincials? To survive?
-
-{% include components/credits.html title=page.title version=page.version citations=page.credits %}
-
-© 2022 Stillfleet Studio

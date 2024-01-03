@@ -1,0 +1,28 @@
+---
+layout: default
+brand: studio
+credits:
+---
+
+<article>
+  {% if page.heading %}
+    <h1>{{ page.heading }}</h1>
+  {% else %}
+    <h1>{{ page.title }}</h1>
+  {% endif %}
+
+  {% include components/product.html src=page.cover alt=page.title %}
+
+  {{ content }}
+
+</article>
+
+{% assign product_line = site.pages | where: "layout", page.layout %}
+
+{% if product_line %}
+  {% include components/internal_nav.html current=page all=product_line %}
+{% endif %}
+
+{% if page.credits %}
+  {% include components/credits.html title=page.title version=page.version copyright=page.copyright citations=page.credits %}
+{% endif %}

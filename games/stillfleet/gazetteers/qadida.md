@@ -1,11 +1,9 @@
 ---
-layout: brands/stillfleet
+layout: brands/stillfleet-gazetteers
 title: Qadida
 heading: A new espionage-themed setting + new rules...
 cover: assets/img/brands/stillfleet/qadida-cover.jpg
 ---
-
-{% include components/product.html src=page.cover alt=page.title %}
 
 Take Stillfleet and the Grit System into a world of intrigue, assassination, and warfare that is quiet, cold, and high-stakes for the entire network of worlds exploited by the Worshipful Company of Stillfleeters.
 

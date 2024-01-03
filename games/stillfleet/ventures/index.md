@@ -1,5 +1,6 @@
 ---
-layout: brands/stillfleet
+layout: page
+brand: stillfleet
 title: Ventures
 ---
 

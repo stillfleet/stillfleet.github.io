@@ -7,13 +7,8 @@ slug:
 
 <main class="content">
 
-{% if page.heading %}
-  <h1>{{ page.heading }}</h1>
-{% else %}
-  <h1>{{ page.title }}</h1>
-{% endif %}
-
 {{ content }}
+
 </main><!-- end .content -->
 
 {%- include footer.html -%}

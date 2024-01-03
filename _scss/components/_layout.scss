@@ -13,12 +13,13 @@ header {
 main {
   flex: 1 0 auto;
 
-  margin: auto 1rem;
+  article {
+    margin: auto 1rem;
 
-  @include medium-breakpoint {
-    margin: auto 8rem;
+    @include medium-breakpoint {
+      margin: auto 8rem;
+    }  
   }
-  
 }
 footer {
   flex-shrink: 0;

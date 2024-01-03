@@ -6,6 +6,7 @@ cover: assets/img/brands/stillfleet/ven002-cover.jpg
 sku: VEN002
 shop: https://stillfleet.itch.io/the-rain-thieves/purchase
 copyright: 2022 Aaron H. and Wythe Marschall
+version:
 credits:
   - By Aaron H.
   - With writing by Wythe Marschall

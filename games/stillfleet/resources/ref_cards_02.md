@@ -1,3 +1,3 @@
 ---
-layout: brands/stillfleet
+layout: brands/stillfleet-resources
 ---
