@@ -1,14 +1,11 @@
 ---
-layout: brands/stillfleet
+layout: brands/stillfleet-gazetteers
 title: Yuggothi Confidential
+heading: A GM-less/all-GM game about giant crabs from Pluto
 cover: assets/img/brands/stillfleet/yuggothi-cover.jpg
 ---
 
-## A GM-less/all-GM game about giant crabs from Pluto
-
-{% include components/product.html src=page.cover alt=page.title %}
-
-Have you ever wondered what it's like to be one aspect of a mycelial network? Do you enjoy "flipped dungeons" where you play as the villains? 
+> Have you ever wondered what it's like to be one aspect of a mycelial network? Do you enjoy "flipped dungeons" where you play as the villains? 
 
 If you answered yes to either of these questions—and even if you didn't—you will probably love *Yuggothi Confidential*! Or at least part of you will! Because who among us is merely one thing and not also its opposites, its inchoate potentialities-otherwise? Amirite!?
 
