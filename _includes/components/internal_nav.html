@@ -23,13 +23,13 @@
     <li class="previous">
     {% if prev %}
         &lt;
-        <a href="{{ prev.url }}">{{ prev.title }}</a>
+        <a href="{{ prev.url }}">{{ prev.heading }}</a>
     {% endif %}
     </li>
     <li class="index"><a href="{{ include.current.dir }}">View all</a></li>
     <li class="next">
     {% if next %}
-        <a href="{{ next.url }}">{{ next.title }}</a>
+        <a href="{{ next.url }}">{{ next.heading }}</a>
         &gt;
     {% endif %}
     </li>

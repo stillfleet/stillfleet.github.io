@@ -26,4 +26,3 @@ Interesting bits contained in this short playable scenario:
 - Rules clarifications regarding stiffworks
 - "Wolves"
 - Space agriculture
-
