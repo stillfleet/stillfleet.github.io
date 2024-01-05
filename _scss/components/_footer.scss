@@ -10,10 +10,11 @@ body > footer {
   flex-wrap: wrap;
 
   @include medium-breakpoint {
-    height: 3rem;
+    height: 9rem;
     flex-direction: row;
     text-align: left;
     flex-wrap: nowrap;
+    padding: 1rem 0 5rem; 
   }
 
   & > * {

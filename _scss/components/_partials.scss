@@ -142,3 +142,42 @@ nav[data-role="internal-nav"] {
     }
   }
 }
+
+//
+// _includes/components/callout.html
+//
+
+a.callout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+
+  &:hover {
+    text-decoration: none;
+    color: lighten($primary-color, 20%);
+  }
+
+  header, footer {
+    background-color: transparent;
+    display: block;
+    backdrop-filter: blur(4px) brightness(30%);
+    flex-shrink: 0;
+  }
+  header {
+    h1 { 
+      width: auto;
+      font-size: $h3;
+      background: transparent; 
+    }
+  }
+
+  footer {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }
+}

@@ -1,5 +1,11 @@
+{% if include.text %}
+  {% assign text = include.text %}
+{% else %}
+  {% assign text = "Buy now" %}  
+{% endif %}
+
 {% if include.url %}
   <a class="purchase" href="{{ include.url }}">
-  Buy now
+    {{ text }}
   </a>
 {% endif %}

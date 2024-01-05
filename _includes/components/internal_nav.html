@@ -18,6 +18,11 @@
   {% assign prev = nil %}
 {% endif %}
 
+{% if next.url == include.current.url %}
+  {% assign next = nil %}
+{% endif %}
+
+{% if next %}
 <nav data-role="internal-nav">
   <ul>
     <li class="previous">
@@ -35,3 +40,4 @@
     </li>
   </ul>
 </nav>
+{% endif %}

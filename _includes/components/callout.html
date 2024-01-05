@@ -1,12 +1,9 @@
-<aside class="callout">
+<a href="{% link {{ include.cta_url }} %}" class="callout" style="background-image: url('{{ include.src }}')">
   <header>
-    <figure>
-      <img src="{{ include.src }}" />
-    </figure>
     <h1>{{ include.heading }}</h1>
   </header>
   <p>{{ include.text }}</p>
   <footer>
-    <a href="{{ include.cta_url }}">{{ include.cta_text }}</a>
+    {{ include.cta_text }}
   </footer>
-</aside>
+</a>
