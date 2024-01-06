@@ -18,3 +18,10 @@
     @content;
   }
 }
+
+// Break on full-screen desktop
+@mixin xlarge-breakpoint {
+  @media (min-width: #{$desktop-full}) {
+    @content;
+  }
+}

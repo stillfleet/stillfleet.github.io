@@ -1,3 +1,18 @@
+body {
+  border-top: 3px solid white;
+  @include small-breakpoint {
+    border-top: 3px solid yellow;
+  }
+  @include medium-breakpoint {
+    border-top: 3px solid orange;
+  }
+  @include large-breakpoint {
+    border-top: 3px solid red;
+  }
+  @include xlarge-breakpoint {
+    border-top: 3px solid purple;
+  }
+}
 body#home {
   display: flex;
   flex-direction: column;
@@ -8,16 +23,42 @@ body#home {
     margin: 4rem;
     gap: 2rem;
 
+    &[data-content="masthead"] {
+      flex-direction: column;
+      flex-basis: auto;
+
+      @include medium-breakpoint {
+        flex-direction: row;
+      }
+    }
+
     &.full-width {
       display: block;
       margin: 0;
       padding: 0;
     }
 
+    section[data-content="lede"] {
+      flex: 4;
+      @include xlarge-breakpoint {
+        flex-grow: 3;
+      }
+    }
+
     section.callouts {
       display: flex;
-      flex-direction: column;
-      gap: 1rem 0;
+      flex-direction: row;
+      flex: 2;
+      gap: 0.5rem;
+
+      @include medium-breakpoint {
+        flex-direction: column;
+      }
+
+      @include xlarge-breakpoint {
+        flex-direction: row;
+        flex-shrink: 2;
+      }
     }
   }
 }

@@ -151,11 +151,20 @@ a.callout {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 250px;
-  height: 250px;
+  //min-width: 20px;
+  min-height: 200px;
   background-size: cover;
   background-position: center;
-  flex-grow: 1;
+  flex: 1;
+
+  @include small-breakpoint {
+
+  }
+  
+  @include large-breakpoint {
+   //min-height: 250px;
+   // max-height: 350px;
+  }
 
   &:hover {
     text-decoration: none;
@@ -166,7 +175,8 @@ a.callout {
     background-color: transparent;
     display: block;
     backdrop-filter: blur(4px) brightness(30%);
-    flex-shrink: 0;
+    flex-grow: 0;
+
   }
   header {
     h1 { 
@@ -174,6 +184,16 @@ a.callout {
       font-size: $h3;
       background: transparent; 
     }
+  }
+
+  p {
+    display: none;
+    flex-shrink: 0;
+
+    @include medium-breakpoint {
+      display: block;
+      flex-shrink: 1;
+    }  
   }
 
   footer {
