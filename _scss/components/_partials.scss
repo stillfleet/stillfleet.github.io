@@ -110,6 +110,18 @@ a.purchase {
   border-radius: 4px;
   font-size: 1.5rem;
   font-weight: bold;
+
+  img {
+    max-height: 50px;
+  }
+
+
+  &[data-vendor="itchio"] {
+
+  }
+  &[data-vendor="dtrpg"] {
+
+  }
 }
 
 //

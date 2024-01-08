@@ -5,7 +5,9 @@ cover: assets/img/brands/stillfleet/qsr-cover.jpg
 sku: QSRV2
 version: Version 2.0 ☉ 2023
 copyright: 2023 Stillfleet Studio
-shop: https://stillfleet.itch.io/quickstart/purchase
+shop:
+  "itchio": https://stillfleet.itch.io/quickstart/purchase
+  "dtrpg": https://www.drivethrurpg.com/product/345671/Stillfleet--Quickstart-Rules
 credits:
   - Writing – Wythe Marschall
   - Art – Ethan Gould

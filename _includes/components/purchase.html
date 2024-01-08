@@ -5,7 +5,8 @@
 {% endif %}
 
 {% if include.url %}
-  <a class="purchase" href="{{ include.url }}">
+  <a class="purchase" data-vendor="{{ include.vendor }}" href="{{ include.url }}">
+    <img src="/assets/img/third-party/{{ include.vendor }}.png" alt="{{ include.vendor }}" />
     {{ text }}
   </a>
 {% endif %}
