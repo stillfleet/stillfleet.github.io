@@ -45,4 +45,8 @@ body[data-brand="studio"] {
   background: $studio-background;
   font-size: $body-font-size;
   font-family: $studio-font-family;
+
+  h1, h2 {
+    font-family: 'citizen_bold';
+  }
 }

@@ -1,6 +1,8 @@
+{% if include.src %}
 <figure class="product" style="{{ include.style }}">
   <img src="/{{ include.src }}" alt="{{ include.alt }}" />
   {% if include.caption %}
     <figcaption>{{ include.caption }}</figcaption>
   {% endif %}
 </figure>
+{% endif %}

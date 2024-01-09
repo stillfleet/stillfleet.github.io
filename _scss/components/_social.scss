@@ -28,6 +28,10 @@
           path {
             fill: $white;  
           }
+          &.facebook {
+            fill-rule: evenodd;
+            stroke-width: 0px;
+          }
           &.twitch {
             /* enable-background:new 0 0 512 512; */
           }

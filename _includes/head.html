@@ -95,5 +95,5 @@
 {% else %}
 {% assign brand = layout.brand %}
 {% endif %}
-<body id="{{ layout.slug }}" data-brand="{{ brand }}">
+<body id="{{ layout.slug }}" data-brand="{{ brand }}" data-env={{ jekyll.environment }}>
    {%- include header.html -%}
