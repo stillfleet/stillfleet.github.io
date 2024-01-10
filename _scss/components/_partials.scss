@@ -213,3 +213,54 @@ a.callout {
     font-weight: bold;
   }
 }
+
+//
+// feature
+//
+.feature {  
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  @include medium-breakpoint {
+    flex-direction: row;    
+  }
+
+  img {
+    display: none;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0.5rem auto 0;
+
+    @include medium-breakpoint {
+      display: inline;
+      max-height: 400px;
+      max-width: 400px;
+    }
+  }
+  
+  article {
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+
+    @include medium-breakpoint {
+      margin: 1rem;
+    }
+
+    @include large-breakpoint {
+      margin: 2rem 4rem;  
+    }
+    
+    & h2 {
+      font-family: 'sans_regular_heavy';
+      display: block;
+      text-align: center;
+
+      @include medium-breakpoint {
+        display: none;
+        margin: auto 2rem;  
+      }          
+    }
+  }
+}

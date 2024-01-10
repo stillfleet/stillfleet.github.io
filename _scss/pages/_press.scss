@@ -1,0 +1,24 @@
+body#press {
+
+  #press-float-city {
+    float: right;
+    background-color: #a7aaab;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 1rem;
+
+    article {
+      margin: 1rem;
+      color: black;
+    }
+
+    h2 {
+      color: black;
+    }
+
+    img {
+      max-width: 300px;
+    }
+  }
+}

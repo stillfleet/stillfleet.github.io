@@ -8,7 +8,6 @@ layout: product
 {% for item in page.shop %}
   {% assign vendor = item[0] %}
   {% assign url = item[1] %}
-  {% include components/purchase.html vendor=vendor url=url %}
 {% endfor %}
 
 

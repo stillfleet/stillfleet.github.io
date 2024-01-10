@@ -20,9 +20,41 @@ main {
       margin: auto 8rem;
     }  
   }
+
+  & > section {
+    &.full-width {
+      display: block;
+      margin: 0 !important;
+      padding: 0;
+    }
+
+    &.half-width {
+      width: 50%;
+      display: block;
+      margin: 0 !important;
+      padding: 0;
+    }
+  }
 }
 footer {
   flex-shrink: 0;
+}
+
+ul.button-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 1rem;
+  }
+}
+ul.rowlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 a.stillfleet-logo {

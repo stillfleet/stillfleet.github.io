@@ -55,3 +55,56 @@
     }
   }
 }
+
+.external {
+  @extend %buttons;
+  display: inline-block;
+  background-color: white;
+  padding: 1rem;
+  margin: 0;
+  color: black;
+  border: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.itchio {
+    background: url('/assets/img/third-party/itchio.png') no-repeat white;
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;    
+  }
+  &.drivethrurpg {
+    background: url('/assets/img/third-party/drivethrurpg.png') no-repeat white;
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;    
+  }
+  &.spotify {
+    background: url('/assets/img/third-party/spotify.png') no-repeat white;
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;    
+  }
+
+  &.patreon {
+    background: url('/assets/img/third-party/patreon.png') no-repeat white;
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;
+  }
+
+  &.simplecast {
+    background: url('/assets/img/third-party/simplecast.png') no-repeat white;
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;
+  }
+  &.apple-podcasts {
+    background: url('/assets/img/third-party/apple-podcasts.png') no-repeat white;
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;
+  }
+}

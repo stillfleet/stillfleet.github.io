@@ -32,16 +32,9 @@ body#home {
       }
     }
 
-    &.full-width {
-      display: block;
-      margin: 0;
-      padding: 0;
-    }
-
-    &#why-we-roll {
+    &.feature#why-we-roll {
       background: rgb(233,30,215);
       background: linear-gradient(180deg, rgba(233,30,215,1) 0%, rgba(186,71,230,1) 48%, rgba(143,106,253,1) 100%);
-      display: flex;
       
       justify-content: space-around;
       color: white;
@@ -49,7 +42,7 @@ body#home {
       flex-direction: column;
 
       @include medium-breakpoint {
-        flex-direction: row;    
+        flex-direction: row;
       }
 
       img {
