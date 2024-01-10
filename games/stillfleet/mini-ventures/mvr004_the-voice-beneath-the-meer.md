@@ -23,7 +23,7 @@ Additionally, GMs and loreheads can simply run with the old-school TTRPG setting
 
 - Locations in the county, 
 - Its (modest) capital fort-city
-- A sample manor “haunted” by nanite-reanimated corpses…
+- A sample manor “haunted” by nanite-reanimated corpses...
 
 Other content to enjoy:
 
@@ -33,3 +33,11 @@ Other content to enjoy:
 - All of the lore to-date regarding the province-world of Pays
 - Some haunted forest locations
 - Random moon generator
+
+<ul class="button-list">
+  <li>
+    <a href="https://stillfleet.itch.io/voice-beneath-the-meer/purchase" class="external itchio">
+      Download The Voice Beneath the Meer from Itch
+    </a>
+  </li>
+</ul>

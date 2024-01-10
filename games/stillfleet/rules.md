@@ -2,6 +2,7 @@
 layout: page
 brand: stillfleet
 title: Rulebooks
+heading: New to the game?
 ---
 {% assign rulebooks = site.pages | where_exp: "page", "page.name == 'crb.md' or page.name == 'qsr.md'" %}
 

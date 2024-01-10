@@ -25,3 +25,13 @@ If you're a fan of Spire or Blades in the Dark looking for a fresh take on some 
 - new market tech and wondrous archaetech
 - unforgettable locations and NPCs in and around the domed/divided city
 - at least full (ad)venture to pull your table into webs of intrigue right away
+
+## Hear it live
+
+If you like live play, watch the 5-part double-venture (featuring 2 opposed teams of spies) set on Qadida.
+
+1. [Free Qadida opener](https://www.youtube.com/watch?v=hZDylMoW7_w)
+2. [Worshipful Qadida opener](https://www.youtube.com/watch?v=K9RXVrVgbgE)
+3. [(FQ) Yellow Tent Shaver](https://www.youtube.com/watch?v=uGXv6FJMbsM)
+4. [(WQ) The hit](https://www.youtube.com/watch?v=GA4_C8d3Ces)
+5. [(Both) The End?!](https://www.youtube.com/watch?v=x7IWiIbP_i0)

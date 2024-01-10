@@ -29,3 +29,17 @@ Will you survive the dust cyclones and spider-ambushes? Will you discover the te
 This pulp-tastic, politically charged, eco-horror venture (playable scenario) is a great way to introduce new players to *Stillfleet* or challenge veterans with a campaign of rockside exploration and intrigue!
 
 ***The Rain Thieves* features 100 pages of new rules, settings, encounters, archaetech, maps, speculative ecology, political fronts, and excerpts from a gastro-tourism guidebook for wetans (giant bugs).**
+
+<ul class="button-list">
+  <li>
+    <a href="https://stillfleet.itch.io/the-rain-thieves/purchase" class="external itchio">
+      Download The Sleeper in the Sky from Itch
+    </a>
+  </li>
+  <li>
+    <a href="https://preview.drivethrurpg.com/en/product/421103/the-rain-thieves-ven002" class="external drivethrurpg">
+      Download The Rain Thieves from Itch
+    </a>
+  </li>
+  
+</ul>

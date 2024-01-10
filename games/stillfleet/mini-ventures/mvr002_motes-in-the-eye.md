@@ -32,3 +32,11 @@ Thanks to Ian Derk for advice regarding deserts, and [Vex](https://hexavexagon.i
 Thanks to Stephen Aubrey and Jedd Cole for their thorough edits.
 
 And thanks to all of our playtesters, both of "Motes" and *The Rain Thieves*!
+
+<ul class="button-list">
+  <li>
+    <a href="https://stillfleet.itch.io/motes-in-the-eye/purchase" class="external itchio">
+      Download Motes in the Eye from Itch
+    </a>
+  </li>
+</ul>

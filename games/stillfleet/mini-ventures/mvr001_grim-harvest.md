@@ -30,3 +30,11 @@ Check out "Grim Harvest" for:
 - An *epic* plot!
 
 All in only 9 pages!
+
+<ul class="button-list">
+  <li>
+    <a href="https://stillfleet.itch.io/grim-harvest/purchase" class="external itchio">
+      Download Grim Harvest from Itch
+    </a>
+  </li>
+</ul>

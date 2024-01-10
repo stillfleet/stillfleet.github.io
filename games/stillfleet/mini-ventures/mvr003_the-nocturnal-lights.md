@@ -26,3 +26,11 @@ Interesting bits contained in this short playable scenario:
 - Rules clarifications regarding stiffworks
 - "Wolves"
 - Space agriculture
+
+<ul class="button-list">
+  <li>
+    <a href="https://stillfleet.itch.io/nocturnal-lights/purchase" class="external itchio">
+      Download Nocturnal Lights from Itch
+    </a>
+  </li>
+</ul>

@@ -16,7 +16,7 @@ credits:
   - With additional editing by Stephen Aubrey
 ---
 
-> **"Around the Dome"** is the Stillfleet Studio's 6th official mini-venture as well as a 22-page preview of Qadida, the full-length gazetteer (setting sourcebook + venture) by Ian Derk.
+> **"Around the Dome"** is the Stillfleet Studio's 6th official mini-venture as well as a 22-page preview of [Qadida]({% link games/stillfleet/gazetteers/qadida.md %}), the full-length gazetteer (setting sourcebook + venture) by Ian Derk.
 
 Whether or not your group intends to run a spy-themed campaign in the domed city, this quick story—weaving across both Worshipful Qadida (run by the W.Co.) and Free Qadida (a fledgling anarcho-socialist state backed by H.Co.)—provides more than enough material for a fun, heart rate-raising venture.
 
@@ -31,12 +31,10 @@ Whether or not your group intends to run a spy-themed campaign in the domed city
 - A timeline of the Worshipful Company's involvement on Qadida
 - Bombs, hidden agendas, lies, and other spycraft
 
-## Hear it live
-
-If you like live play, watch the 5-part double-venture (featuring 2 opposed teams of spies) set on Qadida.
-
-1. [Free Qadida opener](https://www.youtube.com/watch?v=hZDylMoW7_w)
-2. [Worshipful Qadida opener](https://www.youtube.com/watch?v=K9RXVrVgbgE)
-3. [(FQ) Yellow Tent Shaver](https://www.youtube.com/watch?v=uGXv6FJMbsM)
-4. [(WQ) The hit](https://www.youtube.com/watch?v=GA4_C8d3Ces)
-5. [(Both) The End?!](https://www.youtube.com/watch?v=x7IWiIbP_i0)
+<ul class="button-list">
+  <li>
+    <a href="https://stillfleet.itch.io/around-the-dome/purchase" class="external itchio">
+      Download Around the Dome from Itch
+    </a>
+  </li>
+</ul>

@@ -4,7 +4,6 @@ title: Sleeper in the Sky
 heading: The Sleeper in the Sky
 cover: assets/img/brands/stillfleet/ven001-cover.jpg
 shop: https://stillfleet.itch.io/sleeper/purchase
-permalink: /products/sleeper
 sku: VEN001
 version: Version 1.0
 copyright: 2020 Stillfleet Studio

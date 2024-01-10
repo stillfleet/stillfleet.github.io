@@ -4,7 +4,6 @@ layout: page
 title: Play Stillfleet
 heading: Find or start a Stillfleet game today
 keywords: play stillfleet, stillfleet playtest, stillfleet game, stillfleet gaming, stillfleet games, stillfleet campaign, stillfleet group, stillfleet groups, stillfleet players, stillfleet gm, stillfleet discord, stillfleet community, connect stillfleet
-permalink: /play-stillfleet
 ---
 
 Although the Core Rulebook is still in development, plenty of people are playing *Stillfleet*. The game design team welcomes you to join our community (be respectful, no fascists allowed!). We also welcome your feedback on the game.

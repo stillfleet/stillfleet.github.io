@@ -35,3 +35,11 @@ This mini-venture features:
 - Gulm ship map courtesy Hyperdrive Fleet
 - Maps for Kakudun and Graafa
 - Forbidden Snakeman lore!
+
+<ul class="button-list">
+  <li>
+    <a href="https://stillfleet.itch.io/sphere-of-redacted/purchase" class="external itchio">
+      Download The Sphere of [REDACTED] from Itch
+    </a>
+  </li>
+</ul>

@@ -14,29 +14,75 @@
           </a>
           <input type="checkbox" id="sm-stillfleet">
           <ul class="sub-menu">
-            <li><a href="/games/stillfleet/rules.html">Rules</a></li>
-            <li><a href="/games/stillfleet/ventures/">Ventures</a></li>
-            <li><a href="/games/stillfleet/gazetteers/">Gazetteers</a></li>
-            <li><a href="/games/stillfleet/resources/">Resources</a></li>
+            <li><a href="/games/stillfleet/rules.html">Core Rules</a></li>
+            <li><a href="{% link games/stillfleet/ventures/index.md %}">Ventures
+{% assign ventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-venture'" %}
+              <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-ventures">▶</label>
+              </a>              
+              <input type="checkbox" id="sm-stillfleet-ventures">
+              <ul class="sub-menu">
+                {% for venture in ventures %}
+                  <li><a href="{{ venture.url }}">{{ venture.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li><a href="{% link games/stillfleet/mini-ventures/index.md %}">Mini-ventures
+{% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
+                <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-mini-ventures">▶</label>
+              </a>
+              <input type="checkbox" id="sm-stillfleet-mini-ventures">
+              <ul class="sub-menu">
+                {% for miniventure in miniventures %}
+                  <li><a href="{{ miniventure.url }}">{{ miniventure.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            <li><a href="/games/stillfleet/gazetteers/">Gazetteers
+                <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-gazetteers">▶</label>
+              </a>
+              <input type="checkbox" id="sm-stillfleet-gazetteers">
+              <ul class="sub-menu">
+                <li><a href="{% link games/stillfleet/gazetteers/qadida.md %}">Qadida</a></li>
+              </ul>
+            </li>
+            <li><a href="/games/stillfleet/resources/">Resources
+              <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-resources">▶</label></a>
+              <input type="checkbox" id="sm-stillfleet-resources">
+              <ul class="sub-menu">
+                <li><a href="https://strings.stillfleet.com">STRINGS</a></li>
+                <li><a href="{% link games/stillfleet/resources/ref_cards_01.md %}">Archaetech & Encounters</a></li>
+                <li><a href="{% link games/stillfleet/resources/ref_cards_02.md %}">HULKRAWL</a></li>
+              </ul>
+            </li>
           </ul>
         </li>
-        <li data-accent="blister_critters"><a  href="/games/blister_critters/">Blister Critters</a></li>
+        <!-- <li><a href="/malinger">MALINGER!</a></li> -->
+        <!-- <li><a href="/wraith/">Wraith</a></li> -->
+        <!-- <li><a href="/qqqrobot_factory/">qqqRobot Factory</a></li> -- to be renamed -->
+        <li><a href="/games/blister_critters/">Blister Critters</a></li>
+        <!-- <li><a href="/games/the_sometimes_kingdom/">The Sometimes Kingdom</a></li> -->
+        <!-- <li><a href="/games/danse_macabre/">Blister Critters</a></li> -->
       </ul>
     </li>
-    <li><a href="{{ link systems/index.md }}">
+<!--  <li><a href="{{ link systems/index.md }}">
         Systems
-        <!-- <span class="drop-icon">▾</span> -->
         <label title="Toggle Drop-down" class="drop-icon" for="sm-systems">▼</label>
         <input type="checkbox" id="sm-systems">
         <ul class="sub-menu">
           <li>
-            <a href="/games/stillfleet/">
-              Stillfleet
+            <a href="{{ link systems/grit/index.md }}">
+              The Grit System
+              <label title="Toggle Drop-down" class="drop-icon" for="sm-systems">▶</label>
             </a>
+            <input type="checkbox" id="sm-grit-system">
+            <ul class="sub-menu">
+              <li><a href="/systems/grit/srd.html">System Reference Document</a></li>
+              <li><a href="/systems/grit/license.html">System License</a></li>
+            </ul>
           </li>
         </ul>
       </a>
-    </li>
+    </li> -->
     <li><a href="/about.html">About</a></li>
     <li><a href="/press.html">Press</a></li>
   </ul>

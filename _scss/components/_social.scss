@@ -69,11 +69,11 @@
     text-decoration: none;
   }
 
-  &.itchio {
-    background: url('/assets/img/third-party/itchio.png') no-repeat white;
+  &.apple-podcasts {
+    background: url('/assets/img/third-party/apple-podcasts.png') no-repeat white;
     background-position: 0.5rem;
     background-size: 2rem;
-    padding-left: 3rem;    
+    padding-left: 3rem;
   }
   &.drivethrurpg {
     background: url('/assets/img/third-party/drivethrurpg.png') no-repeat white;
@@ -81,13 +81,18 @@
     background-size: 2rem;
     padding-left: 3rem;    
   }
-  &.spotify {
-    background: url('/assets/img/third-party/spotify.png') no-repeat white;
+  &.itchio {
+    background: url('/assets/img/third-party/itchio.png') no-repeat white;
     background-position: 0.5rem;
     background-size: 2rem;
     padding-left: 3rem;    
   }
-
+  &.kickstarter {
+    background: url('/assets/img/third-party/kickstarter.png') no-repeat white;
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;    
+  }
   &.patreon {
     background: url('/assets/img/third-party/patreon.png') no-repeat white;
     background-position: 0.5rem;
@@ -101,10 +106,10 @@
     background-size: 2rem;
     padding-left: 3rem;
   }
-  &.apple-podcasts {
-    background: url('/assets/img/third-party/apple-podcasts.png') no-repeat white;
+  &.spotify {
+    background: url('/assets/img/third-party/spotify.png') no-repeat white;
     background-position: 0.5rem;
     background-size: 2rem;
-    padding-left: 3rem;
+    padding-left: 3rem;    
   }
 }

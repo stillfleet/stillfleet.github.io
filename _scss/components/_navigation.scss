@@ -57,6 +57,10 @@
     margin: 0 0 0 1em;
     display: none;
 
+    li {
+      text-align: left;
+    }
+
     li:last-child {
       border-width: 0;
     }
@@ -74,12 +78,26 @@
         }
 
         &::before {
+          color: darken($fpo-gray, 20%);
           content: '↪ ';
           padding-right: 1em;
 
           @include medium-breakpoint {
             content: '';
             padding-right: 0;
+          }
+        }
+      }
+      .sub-menu {
+        li a {
+          &::before {
+            content: '» ';
+            padding-right: 1em;
+
+            @include medium-breakpoint {
+              content: '';
+              padding-right: 0;
+            }
           }
         }
       }
@@ -126,7 +144,7 @@
   width: 2em;
   text-align: center;
   text-shadow: 0 0 0 transparent;
-  color: rgba(255, 255, 255, .75);
+  color: rgba(255, 255, 255, .75);  
 }
 
 #primary-nav .drop-icon {
