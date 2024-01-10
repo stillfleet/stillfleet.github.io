@@ -6,10 +6,20 @@ credits:
 
 <article id="product">
   {% if page.heading %}
-    <h1>{{ page.heading }}</h1>
+    {% assign heading_text = page.heading %}
   {% else %}
-    <h1>{{ page.title }}</h1>
+    {% assign heading_text = page.title %}
   {% endif %}
+
+  {% if page.heading_image %}
+    <h1 style="background: url('{{ page.heading_image }}') no-repeat; background-size: contain; background-position: center; height: 300px; text-indent: -9999em;">
+      {{ heading_text }}
+    </h1>
+  {% else %}
+    <h1>{{ heading_text }}</h1>
+  {% endif %}
+
+  
 
   {% include components/product.html src=page.cover alt=page.title %}
 

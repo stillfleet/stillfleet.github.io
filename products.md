@@ -3,7 +3,6 @@ layout: page
 brand: stillfleet
 heading: A field of anti-glittering holes in the starry sky
 title: Products
-permalink: /products
 keywords: stillfleet, stillfleet products, stillfleet pdfs, stillfleet books, stillfleet modules, stillfleet rules, quickstart rules, stillfleet quickstart, stillfleet qsr, wayfarers, stillfleet character design, subtle fluid, blooder, nanotech, stillfleet venture, the sleeper in the sky, stillfleet sleeper, yuggothi confidential, stillfleet games
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: page
 brand: stillfleet
-permalink: /resources
 title: Resources
 heading: Track your voidguilders in style
 keywords: stillfleet character sheet, stillfleet resources, stillfleet tools, stillfleet extras
@@ -28,6 +27,4 @@ This page offers resources for playing Stillfleet, including character sheets, r
 
 - [STRINGS](https://strings.stillfleet.com)
 - [Create a random 1st-level character >](https://stillfleet.com/resources/generator)
-
-<a href="https://www.patreon.com/posts/meta-what-genre-41382080" class="external patreon">META ☉ What Genre is Stillfleet?</a>
 

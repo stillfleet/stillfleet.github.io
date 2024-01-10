@@ -1,7 +1,6 @@
 ---
 layout: page
 brand: stillfleet
-permalink: /press
 heading: Real Stillfleet gameplay and reviews
 title: Press
 slug: press

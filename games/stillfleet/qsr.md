@@ -6,7 +6,6 @@ sku: QSRV2
 version: Version 2.0 ☉ 2023
 copyright: 2023 Stillfleet Studio
 heading: Join the Worshipful Company of Stillfleeters! Tour the void! Try to survive!
-permalink: /products/qsr
 keywords: quickstart, quickstart rules, stillfleet quickstart, stillfleet intro, stillfleet pregens, pregenerated characters
 shop:
   "itchio": https://stillfleet.itch.io/quickstart/purchase

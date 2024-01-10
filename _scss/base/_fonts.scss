@@ -67,4 +67,11 @@ $default-font-display: $fout-auto;
     font-display: $default-font-display;
 }
 
+@font-face {
+    font-family: 'darumadrop-one';
+    font-weight: 400;
+    src: url('/assets/fonts/DarumadropOne-Regular.ttf') format('woff2');
+    font-display: $default-font-display;
+}
+
 @import url('https://fonts.cdnfonts.com/css/redaction?styles=81790,81793,81796,81799,81802');

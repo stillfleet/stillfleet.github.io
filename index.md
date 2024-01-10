@@ -7,12 +7,8 @@ heading: Spaceships are dungeons, hanging in the void…
 
 <section data-content="masthead">
   <section data-content="lede">
-    <h2>Making Taxpunk Grimdark Sci-Fi</h2>
-    <p>Stillfleet is a grimdark, taxpunk, politically charged tabletop roleplaying game (RPG) set in space, far into the ruinous future. Using a unique, highly flexible rules system, players explore ruined spacecraft—hulks—as well as earth-like planets that have been cut off from Terra for centuries.</p>
-    <p>You are a voidminer—a salvager working for the Worshipful Company of Stillfleeters (the Co.). Your home, the alien space station nicknamed Spindle—a sea slug made of undulating black stone, kilometers tall—is a mystery to its own inhabitants. It brims with timespace gates called stiffworks, many of which are already tacked to habitable worlds…</p>
-    <p>Theoretically, the players are working together to help the Co. recover long-lost technology and knowledge… In practice, this is not always the case.</p>
-    <p>Thus Stillfleet is really two different games, one hulkside—a series of explorations of technical structures in outer space—and the other rockside—a political game about managing (or destroying) a company distributed across many worlds.</p>
-    <p>The Core Rulebook is currently in development. But playtest rules exist, and many gamers have already discovered the joys of voidmining.</p>
+    <h2>Static Feature</h2>
+    <p>Text TBD</p>
   </section>
 
   <section class="callouts">

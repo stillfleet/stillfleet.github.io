@@ -3,7 +3,6 @@ layout: brands/stillfleet-gazetteers
 title: Yuggothi Confidential
 heading: A GM-less/all-GM game about giant crabs from Pluto
 cover: assets/img/brands/stillfleet/yuggothi-cover.jpg
-permalink: /products/yuggothi-confidential
 keywords: yuggothi confidential, science horror, lovecraftian horror, lovecraftian, lovecraft, mi-go, mi-go game, collaborative rpg, sci-fi rpg, gmless, gmless rpg, gm-less rpg, all-gm rpg, yuggoth, wythe marschall, ethan gould
 ---
 

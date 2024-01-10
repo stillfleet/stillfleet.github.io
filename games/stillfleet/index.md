@@ -27,7 +27,7 @@ brand: stillfleet
 
 You are a "voidminer"—a salvager working for the Worshipful Company of Stillfleeters (the Co.). Your home, the alien space station nicknamed Spindle—a sea slug made of undulating black stone, kilometers tall—is a mystery to its own inhabitants. It brims with timespace gates called stiffworks, many of which are already tacked to habitable worlds…
 
-
+<a href="https://www.patreon.com/posts/meta-what-genre-41382080" class="external patreon">META ☉ What Genre is Stillfleet?</a>
 
 ## Aliens, intrigue, and enigmas
 

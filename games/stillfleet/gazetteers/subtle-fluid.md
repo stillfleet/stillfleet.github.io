@@ -3,7 +3,6 @@ layout: brands/stillfleet-gazetteers
 title: Subtle Fluid
 heading: "The blooder: nanotechnology for Stillfleet & other sci-fi RPGs"
 cover: assets/img/brands/stillfleet/subtle-fluid-cover.jpg
-permalink: /products/subtle-fluid
 keywords: subtle fluid, blooder, nanotech rpg, nanotech game, the blood rpg, stillfleet class, stillfleet ventures, nanofluidics, nanotech, nanotechnology, nanorobots, nanobots, nanobio rpg, wetware rpg
 ---
 

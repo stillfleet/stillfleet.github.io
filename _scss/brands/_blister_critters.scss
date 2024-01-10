@@ -1,3 +1,9 @@
+$blister_critters-pink: $mexican-pink;
+$blister_critters-yellow: $school-bus-yellow;
+$blister_critters-blue: $sapphire;
+$blister_critters-teal: $dark-cyan;
+$blister_critters-green: #55bc7b;
+
 $blister_critters_primary: black;
 $font-color: $blister_critters_primary;
 $blister_critters_secondary: $weird-blue;
@@ -5,12 +11,27 @@ $blister_critters_bg: $electric-yellow;
 $blister_critters_background: none;
 
 body[data-brand="blister_critters"] {
+  background: $school-bus-yellow;
+  background: linear-gradient(180deg, $blister-critters-pink 0%, $blister-critters-yellow 35%, white 100%) no-repeat;
+
   color: $font-color;
-  background: $blister_critters_background;
   font-size: $body-font-size;
 
-  h1, h2, h3, h4, h5, h6 {
-    color: $blister_critters_primary;
+  a {
+    color: $blister_critters_blue;
+    font-weight: bold;
+    &:hover {
+      color: darken($blister_critters_blue, 20%);
+    }
+  }
+
+  strong {
+    color: $blister-critters-pink;
+    font-weight: bold;
+  }
+
+  blockquote {
+    border-left-color: $blister-critters-pink;
   }
 }
 
