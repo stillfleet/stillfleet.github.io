@@ -1,6 +1,6 @@
 ---
 layout: page
-brand: stillfleet
+brand: studio
 heading: Real Stillfleet gameplay and reviews
 title: Press
 slug: press
