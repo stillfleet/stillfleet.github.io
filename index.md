@@ -17,6 +17,18 @@ heading: Spaceships are dungeons, hanging in the void…
   </section>
 </section>
 
+<section class="full-width" data-accent="blister_critters">
+<h2>Blister Critters</h2>
+
+<p>lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+</section>
+
+<section class="full-width" data-accent="stillfleet">
+<h2>Stillfleet</h2>
+
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui do</p>
+</section>
+
 <section class="full-width feature" id="why-we-roll">
   <img src="/assets/img/why-we-roll.png" />
 
@@ -28,16 +40,4 @@ heading: Spaceships are dungeons, hanging in the void…
       <li><a href="https://open.spotify.com/show/4S4FWpv9ptMUybjewdIDsX?si=233c7ac0cb5c4055" class="external spotify">Listen on Spotify</a></li>
     </ul>
   </article>
-</section>
-
-<section class="full-width">
-<h2>Horiontal Feature 2</h2>
-
-<p>lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-</section>
-
-<section class="full-width">
-<h2>Horizontal Feature 3</h2>
-
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui do</p>
 </section>
