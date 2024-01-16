@@ -164,7 +164,7 @@ a.callout {
   flex-direction: column;
   justify-content: space-between;
   //min-width: 20px;
-  min-height: 200px;
+  min-height: 300px;
   background-size: cover;
   background-position: center;
   flex: 1;
@@ -217,50 +217,82 @@ a.callout {
 //
 // feature
 //
-.feature {  
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+main > .feature {
+  display: flex !important;
+  justify-content: space-around !important;
+  flex-direction: column !important;
+  padding: 3rem auto;
 
   @include medium-breakpoint {
-    flex-direction: row;    
+    flex-direction: row !important;    
+  }
+  &:nth-child(odd) {
+    img {
+      order: 1;
+      object-position: right;
+    }
+    article {
+      order: 2;
+    }
+  }
+  &:nth-child(even) {
+    img {
+      order: 2;
+      object-position: left;
+    }
+    article {
+      order: 1;
+    }
   }
 
   img {
-    display: none;
     max-width: 100px;
     max-height: 100px;
     margin: 0.5rem auto 0;
+    object-fit: scale-down;
+    transition: 0.5s;
+
+    &.collapse {
+      display: none;
+    }
 
     @include medium-breakpoint {
-      display: inline;
+      &.collapse {
+        display: inline;
+      }
       max-height: 400px;
       max-width: 400px;
+      padding: 0 0 0 2rem;
     }
+
   }
-  
   article {
     flex-shrink: 1;
     display: flex;
     flex-direction: column;
+    margin: 2rem;
 
     @include medium-breakpoint {
-      margin: 1rem;
+      margin: 1rem 2rem;
     }
 
     @include large-breakpoint {
-      margin: 2rem 4rem;  
+      margin: 2rem;  
     }
     
-    & h2 {
+
+    h2 {
       font-family: 'sans_regular_heavy';
-      display: block;
+      font-size: $h1;
       text-align: center;
 
       @include medium-breakpoint {
-        display: none;
         margin: auto 2rem;  
       }          
+    }
+
+    p {
+
     }
   }
 }

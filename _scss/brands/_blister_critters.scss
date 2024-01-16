@@ -10,9 +10,12 @@ $blister_critters_secondary: $weird-blue;
 $blister_critters_bg: $electric-yellow;
 $blister_critters_background: none;
 
+$blister_critters_warm_gradient: linear-gradient(180deg, $blister-critters-pink 0%, $blister-critters-yellow 35%, white 100%) no-repeat;
+$blister_critters_cool_gradient: linear-gradient(180deg, transparent 0%, #32cc80 55%, #2230a1 80%, black 100%) no-repeat;
+
 body[data-brand="blister_critters"] {
   background: $school-bus-yellow;
-  background: linear-gradient(180deg, $blister-critters-pink 0%, $blister-critters-yellow 35%, white 100%) no-repeat;
+  background: $blister_critters_warm_gradient;
 
   color: $font-color;
   font-size: $body-font-size;

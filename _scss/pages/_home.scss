@@ -32,11 +32,46 @@ body#home {
       }
     }
 
+    &.feature#stillfleet {
+      background: $stillfleet-background;
+
+      img {
+        overflow-x: hidden;
+        max-height: 500px;
+        width: auto;
+        flex-shrink: 0;
+        padding: 0;
+        object-fit: cover;
+        object-position: bottom;
+      }
+
+      article {
+        color: white;
+        h2 {
+
+        }
+      }
+    }
+
+    &.feature#blister-critters {
+      background: $blister_critters_cool_gradient;
+
+      article {
+        h2 {
+          color: $blister-critters-pink;
+        }
+      }
+      ul {
+        background: url('/assets/img/brands/blister_critters/stuff_background.png') no-repeat;
+        background-position: top center;
+        background-size: scale;
+        padding: 3rem;
+      }
+    }
+
     &.feature#why-we-roll {
       background: rgb(233,30,215);
       background: linear-gradient(180deg, rgba(233,30,215,1) 0%, rgba(186,71,230,1) 48%, rgba(143,106,253,1) 100%);
-      
-      justify-content: space-around;
       color: white;
 
       flex-direction: column;
@@ -44,53 +79,13 @@ body#home {
       @include medium-breakpoint {
         flex-direction: row;
       }
-
-      img {
-        display: none;
-        max-width: 100px;
-        max-height: 100px;
-        margin: 0.5rem auto 0;
-
-        @include medium-breakpoint {
-          display: inline;
-          max-height: 400px;
-          max-width: 400px;
-          padding: 0 0 0 2rem;
-        }
-
-      }
-      
-      article {
-        flex-shrink: 1;
-        display: flex;
-        flex-direction: column;
-
-        @include medium-breakpoint {
-          margin: 1rem;
-        }
-
-        @include large-breakpoint {
-          margin: 2rem 4rem;  
-        }
-        
-
-        & h2 {
+      article h2 {
           color: #fdff00;
-          font-family: 'sans_regular_heavy';
-          display: block;
-          font-size: $h1;
-          text-align: center;
 
           @include medium-breakpoint {
-            display: none;
             margin: auto 2rem;  
           }          
         }
-
-        p {
-
-        }
-      }
     }
 
     section[data-content="lede"] {

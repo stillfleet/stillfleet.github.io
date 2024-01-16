@@ -1,4 +1,10 @@
-<a href="{% link {{ include.cta_url }} %}" class="callout" style="background-image: url('{{ include.src }}')">
+{% if include.cta_url contains "http" %}
+  {% assign url = {{ include.cta_url }} %}
+{% else %}
+  {% assign url = link {{ include.cta_url }} %}
+{% endif %}
+
+<a href="{{ url }}" class="callout" style="background-image: url('{{ include.src }}')">
   <header>
     <h1>{{ include.heading }}</h1>
   </header>

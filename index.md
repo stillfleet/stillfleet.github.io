@@ -1,40 +1,61 @@
 ---
 layout: home
-title: Stillfleet Studio
+title: The Stillfleet Studio ☉ High quality tabletop games from a Leftist perspective
 keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi rpg, science fiction rpg, grimdark, grimdark rpg, future rpg, space, outer space, space rpg, postfuture, wythe marschall, ethan gould, spindle, spin, stillfleeter, fleeter, voidminer, wayfarers, float city, archaetech, escheresque
-heading: Spaceships are dungeons, hanging in the void…
 ---
 
 <section data-content="masthead">
   <section data-content="lede">
-    <h2>Static Feature</h2>
-    <p>Text TBD</p>
+    <h2>Be weird ☉ do crimes</h2>
+    <p>The Stillfleet Studio makes high-quality, mind-expanding, innovative, and replayable tabletop games with a focus on roleplaying.</p>
   </section>
 
   <section class="callouts">
-    {% include components/callout.html heading="Qadida" src="assets/img/brands/stillfleet/qadida-cover.jpg" cta_url="games/stillfleet/gazetteers/qadida.md" cta_text="Get it now!" %}
-    {% include components/callout.html heading="Blister Critters" src="assets/img/brands/blister_critters/cover-mini.png" cta_url="games/blister_critters/index.md" cta_text="Learn more!" %}
+    {% include components/callout.html 
+      heading="Try the infamous political superfuture sci-fi tour de force" 
+      src="assets/img/brands/stillfleet/qadida-cover.jpg" 
+      cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" 
+      cta_text="Free Quickstart" %}
+    {% include components/callout.html 
+      heading="Unleash your inner critter" 
+      src="assets/img/brands/blister_critters/cover-mini.png" cta_url="https://play.blistercritters.com" 
+      cta_text="Launching Soon!" %}
   </section>
 </section>
 
-<section class="full-width" data-accent="blister_critters">
-<h2>Blister Critters</h2>
-
-<p>lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<section class="full-width feature" id="blister-critters">
+  <img class="collapse" src="/assets/img/brands/blister_critters/moue-revered.png" />
+  <article>
+    <h2>Burrow into your new favorite cartoon — starring&nbsp;you!</h2>
+    <p>Discover your inner cartoon-self in <em>Blister Critters</em>—a TTRPG full of <strong>Saturday-morning</strong> action. In this innovative <strong>eco-apocalyptic</strong> game, you play as an animal who wields bizarre mutations to survive in a <strong>vast, cruel suburbia</strong> populated by fellow Critters and feral Beasts. The Grit System powering <em>Blister Critters</em> takes minutes to learn, and the Critter-specific rules focus on <strong>player agency</strong> and group discovery in the shadow of humanity—whether gnarly or zany in tone.
+    </p>
+    <ul class="rowlist">
+      <li><a href="" class="external drivethrurpg">Free Quickstart</a></li>
+      <li><a href="" class="external youtube">Watch actual play with Jenn De La Vega!</a></li>
+    </ul>
+  </article>
 </section>
 
-<section class="full-width" data-accent="stillfleet">
-<h2>Stillfleet</h2>
-
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui do</p>
+<section class="full-width feature" id="stillfleet">
+  <img class="collapse" src="/assets/img/brands/stillfleet/pepper-elf-transparent-reverse.png" />
+  <article>
+    <h2>Mine the void—or undermine the Co.</h2>
+    <p><em>Stillfleet</em> is a politically charged TTRPG set far into the superfuture. Using the unique, highly flexible Grit System, players take on the role of <strong>voidminers</strong>—salvagers working for the venal Worshipful Company of Stillfleeters (<strong>the Co.</strong>) who explore ruined spacecraft and earth-like planets that have been cut off from Terra for centuries. The Co.’s headquarters, the alien space station nicknamed <strong>Spindle</strong>, brims with timespace gates called <strong>stiffworks</strong>—and with the vile secrets of the Co.’s directors…
+    </p>
+    <ul class="rowlist">
+        <li><a href="" class="external drivethrurpg">Get the full rules</a></li>
+        <li><a href="" class="external floatcity">Listen to epic actual play</a></li>
+    </ul>
+  </article>
 </section>
 
 <section class="full-width feature" id="why-we-roll">
-  <img src="/assets/img/why-we-roll.png" />
+  <img class="collapse" src="/assets/img/why-we-roll.png" />
 
   <article>
-    <h2>Why We Roll</h2>
-    <p><strong>Why We Roll</strong> is fun and practical in tone, combining the benefits of a shoot-the-shit professional chat with an advice show, and including some actual-play segments. Chris and Wythe take a sensitive, curious, ecumenical approach to game design, and their perspectives are informed by years of work on their own games. Between conversations, Chris and Wythe work through specific problems in the course of playing new games, often with one of the games’ designers.</p>
+    <h2>Dive deep behind the GM screen</h2>
+    <p>Hosted by <strong>Chris Pickett</strong> (the creator of <em>Danse Macabre</em>) and <strong>Wythe Marschall</strong> (the creator of <em>Stillfleet</em>), <em>Why We Roll</em> is fun and practical in tone, combining the banter of a shoot-the-breeze chat with a cerebral unboxing of specific TTRPG elements (plus a dash of actual play). Chris and Wythe take a curious and ecumenical approach to game design, inviting everyone at the table to consider why we roll.
+</p>
     <ul class="rowlist">
       <li><a href="https://podcasts.apple.com/us/podcast/why-we-roll/id1710405585" class="external apple-podcasts">Listen on Apple Podcasts</a></li>
       <li><a href="https://open.spotify.com/show/4S4FWpv9ptMUybjewdIDsX?si=233c7ac0cb5c4055" class="external spotify">Listen on Spotify</a></li>
