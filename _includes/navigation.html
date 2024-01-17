@@ -14,7 +14,17 @@
           </a>
           <input type="checkbox" id="sm-stillfleet">
           <ul class="sub-menu">
-            <li><a href="/games/stillfleet/rules.html">Core Rules</a></li>
+            <li><a href="/games/stillfleet/rules.html">Core Rules
+            {% assign rulebooks = site.pages | where_exp: "page", "page.name == 'crb.md' or page.name == 'qsr.md'" %}
+            <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-rules">▶</label>
+            </a>
+            <input type="checkbox" id="sm-stillfleet-rules">
+              <ul class="sub-menu">
+                {% for rulebook in rulebooks %}
+                  <li><a href="{{ rulebook.url }}">{{ rulebook.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
             <li><a href="{% link games/stillfleet/ventures/index.md %}">Ventures
 {% assign ventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-venture'" %}
               <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-ventures">▶</label>

@@ -26,7 +26,9 @@ body#home {
     &[data-content="masthead"] {
       flex-direction: column;
       flex-basis: auto;
-      padding: 2rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      margin: 1rem auto;
 
       h2 {
         font-size: $h1;
@@ -35,7 +37,86 @@ body#home {
       @include medium-breakpoint {
         flex-direction: row;
       }
+
+      section[data-content="lede"] {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 200px;
+        margin: 2rem;
+        transition: 0.5s;
+        flex-grow: 0;
+
+
+        @include medium-breakpoint {
+          transform: rotate(-10deg);
+        }
+
+        h2 {
+          font-size: $h2;
+        }
+        p {
+          font-weight: bold;
+          font-size: $h4;
+        }
+      }
+
+      section[data-content="static-callout"] {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: url("/assets/img/brands/home-blooder-mouse-transparent.png") no-repeat;
+        background-size: contain;
+        background-position: center;
+        justify-content: space-between;
+        flex: 3 0 auto;
+        min-width: 400px;
+        min-height: 400px;
+        transition: 0.5s;
+
+        @include small-breakpoint {
+          min-width: 500px;
+          min-height: 500px;
+          transition: 0.5s;
+        }
+
+
+        @include xlarge-breakpoint {
+          justify-content: space-around;
+        }
+
+        a {
+          max-width: 125px;
+          background-color: white;
+          color: $tephnian-red;
+          padding: 1rem;
+          border-radius: 8px;
+          font-weight: bold;
+          transition: 0.5s;
+
+          &:hover {
+            background-color: $tephnian-red;
+            color: white;
+
+            transition: 0.5s;
+            opacity: 0.7;
+            text-decoration: none;
+          }
+
+          &[data-brand="stillfleet"] {
+            align-self: flex-start;
+          }
+          &[data-brand="blister_critters"] {
+            align-self: center;
+            margin-bottom: 8em;
+          }
+        }
+        img {
+          max-height: 500px;
+        }
+      }
     }
+
 
     section.callouts {
       display: flex;
@@ -55,8 +136,18 @@ body#home {
 
     &.feature#stillfleet {
       background: linear-gradient(to bottom, $rich-black 0%, transparent 10%, transparent 100%), $stillfleet-background;
-      padding-top: 4rem !important;
-      padding-bottom: 4rem !important;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+
+      @include medium-breakpoint {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+      }
+
+      @include xlarge-breakpoint {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+      }
 
       img {
         overflow-x: hidden;
@@ -72,8 +163,19 @@ body#home {
 
       article {
         color: white;
-        h2 {
 
+        margin-top: 0;
+        margin-bottom: 0;
+
+        @include medium-breakpoint {
+          margin-top: 2rem !important;
+          margin-bottom: 2rem !important;
+        }
+
+        @include xlarge-breakpoint {
+        }
+        h2 {
+          margin-bottom: 1rem;
         }
         ul li > a.external {
           background-color: black;
@@ -89,7 +191,6 @@ body#home {
 
     &.feature#blister-critters {
       background: url('/assets/img/brands/blister_critters/stuff_background2.png'), $blister_critters_cool_gradient;
-      background-attachment: fixed;
       background-position: top center;
 
       img {
@@ -126,11 +227,19 @@ body#home {
       background: linear-gradient(180deg, $rich-black 0%, rgba(233,30,215,1) 5%, rgba(186,71,230,1) 48%, rgba(143,106,253,1) 100%);
       color: white;
       background-attachment: fixed;
-
+      padding: 1rem;
       flex-direction: column;
+
+      @include medium-breakpoint {
+        padding: 2rem;
+      }
 
       img {
         margin-right: 2rem;
+
+        @include xlarge-breakpoint {
+          margin-right: auto;
+        }
       }
 
       a {
@@ -146,10 +255,15 @@ body#home {
       @include medium-breakpoint {
         flex-direction: row;
       }
-      article h2 {
-        color: #fdff00;
-        text-align: left;
-
+      article {
+        margin: 0;
+        @include medium-breakpoint {
+          margin: 2rem;
+        }
+        h2 {
+          color: #fdff00;
+          text-align: left;
+        }
       }
     }
 

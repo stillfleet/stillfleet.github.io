@@ -223,14 +223,11 @@ main > section.feature {
   justify-content: space-around !important;
   flex-direction: column !important;
   margin: 0 !important;
-  padding: 2rem 2rem;
-
 
   @include medium-breakpoint {
     flex-direction: row !important;
   }
   @include large-breakpoint {
-    padding: 2rem 3rem;
   }
   &:nth-child(odd) {
     img {
@@ -240,6 +237,15 @@ main > section.feature {
     article {
       order: 2;
 
+      margin: 2rem;
+
+      @include medium-breakpoint {
+        margin: auto 2rem 2rem auto;
+      }
+
+      @include large-breakpoint {
+      }
+
       h2 {
         text-align: left;
       }
@@ -248,8 +254,18 @@ main > section.feature {
   &:nth-child(even) {
     article {
       order: 1;
+      margin: 2rem;
+
+      @include medium-breakpoint {
+        margin: auto 0 2rem 2rem;
+      }
+
+      @include large-breakpoint {
+      }
+
       h2 {
         text-align: left;
+        margin-bottom: 1rem;
       }
     }
     img {
@@ -285,7 +301,8 @@ main > section.feature {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 1rem 0 0 1rem;
+    padding: 2rem 0;
+    margin: 2rem;
     max-width: 800px;
 
     @include medium-breakpoint {
