@@ -20,84 +20,26 @@ body#home {
   main > section {
     display: flex;
     flex-direction: row;
-    margin: 4rem;
+    margin: 4rem auto;
     gap: 2rem;
 
     &[data-content="masthead"] {
       flex-direction: column;
       flex-basis: auto;
+      padding: 2rem;
+
+      h2 {
+        font-size: $h1;
+      }
 
       @include medium-breakpoint {
         flex-direction: row;
-      }
-    }
-
-    &.feature#stillfleet {
-      background: $stillfleet-background;
-
-      img {
-        overflow-x: hidden;
-        max-height: 500px;
-        width: auto;
-        flex-shrink: 0;
-        padding: 0;
-        object-fit: cover;
-        object-position: bottom;
-      }
-
-      article {
-        color: white;
-        h2 {
-
-        }
-      }
-    }
-
-    &.feature#blister-critters {
-      background: $blister_critters_cool_gradient;
-
-      article {
-        h2 {
-          color: $blister-critters-pink;
-        }
-      }
-      ul {
-        background: url('/assets/img/brands/blister_critters/stuff_background.png') no-repeat;
-        background-position: top center;
-        background-size: scale;
-        padding: 3rem;
-      }
-    }
-
-    &.feature#why-we-roll {
-      background: rgb(233,30,215);
-      background: linear-gradient(180deg, rgba(233,30,215,1) 0%, rgba(186,71,230,1) 48%, rgba(143,106,253,1) 100%);
-      color: white;
-
-      flex-direction: column;
-
-      @include medium-breakpoint {
-        flex-direction: row;
-      }
-      article h2 {
-          color: #fdff00;
-
-          @include medium-breakpoint {
-            margin: auto 2rem;  
-          }          
-        }
-    }
-
-    section[data-content="lede"] {
-      flex: 4;
-      @include xlarge-breakpoint {
-        flex-grow: 3;
       }
     }
 
     section.callouts {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex: 2;
       gap: 0.5rem;
 
@@ -108,6 +50,113 @@ body#home {
       @include xlarge-breakpoint {
         flex-direction: row;
         flex-shrink: 2;
+      }
+    }
+
+    &.feature#stillfleet {
+      background: linear-gradient(to bottom, $rich-black 0%, transparent 10%, transparent 100%), $stillfleet-background;
+      padding-top: 4rem !important;
+      padding-bottom: 4rem !important;
+
+      img {
+        overflow-x: hidden;
+        max-height: 500px;
+        width: auto;
+        flex-shrink: 0;
+        padding: 0;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 0 0 8px 8px;
+        align-self: auto;
+      }
+
+      article {
+        color: white;
+        h2 {
+
+        }
+        ul li > a.external {
+          background-color: black;
+          color: $stillfleet-red;
+
+          &:hover {
+            background-color: $stillfleet-red;
+            color: white;
+          }
+        }
+      }
+    }
+
+    &.feature#blister-critters {
+      background: url('/assets/img/brands/blister_critters/stuff_background2.png'), $blister_critters_cool_gradient;
+      background-attachment: fixed;
+      background-position: top center;
+
+      img {
+        align-self: flex-end;
+      }
+
+      article {
+        margin-bottom: 0;
+        h2 {
+          color: $blister-critters-pink;
+        }
+        p {
+          backdrop-filter: blur(10px) brightness(110%);
+          border-radius: 16px;
+          padding: 1rem 0.5rem;
+        }
+        a {
+          background-color: #32cc80;
+          color: #2230a1;
+          border-color: $school-bus-yellow;
+
+          &:hover {
+            background-color: $school-bus-yellow;
+            color: black;
+          }
+        }
+      }
+      ul {
+      }
+    }
+
+    &.feature#why-we-roll {
+      background: rgb(233,30,215);
+      background: linear-gradient(180deg, $rich-black 0%, rgba(233,30,215,1) 5%, rgba(186,71,230,1) 48%, rgba(143,106,253,1) 100%);
+      color: white;
+      background-attachment: fixed;
+
+      flex-direction: column;
+
+      img {
+        margin-right: 2rem;
+      }
+
+      a {
+        background-color: rgba(233,30,215,1);
+        color: #fdff00;
+        border-color: white;
+
+        &:hover {
+          background-color:  #fdff00;
+          color: rgba(143,106,253,1);
+        }
+      }
+      @include medium-breakpoint {
+        flex-direction: row;
+      }
+      article h2 {
+        color: #fdff00;
+        text-align: left;
+
+      }
+    }
+
+    section[data-content="lede"] {
+      flex: 4;
+      @include xlarge-breakpoint {
+        flex-grow: 3;
       }
     }
   }

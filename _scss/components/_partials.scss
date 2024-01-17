@@ -164,13 +164,13 @@ a.callout {
   flex-direction: column;
   justify-content: space-between;
   //min-width: 20px;
+  min-width: 300px;
   min-height: 300px;
   background-size: cover;
   background-position: center;
   flex: 1;
 
   @include small-breakpoint {
-
   }
   
   @include large-breakpoint {
@@ -193,7 +193,7 @@ a.callout {
   header {
     h1 { 
       width: auto;
-      font-size: $h3;
+      font-size: $h4;
       background: transparent; 
     }
   }
@@ -211,20 +211,26 @@ a.callout {
   footer {
     padding: 0.5rem 1rem;
     font-weight: bold;
+    text-align: right;
   }
 }
 
 //
 // feature
 //
-main > .feature {
+main > section.feature {
   display: flex !important;
   justify-content: space-around !important;
   flex-direction: column !important;
-  padding: 3rem auto;
+  margin: 0 !important;
+  padding: 2rem 2rem;
+
 
   @include medium-breakpoint {
-    flex-direction: row !important;    
+    flex-direction: row !important;
+  }
+  @include large-breakpoint {
+    padding: 2rem 3rem;
   }
   &:nth-child(odd) {
     img {
@@ -233,15 +239,22 @@ main > .feature {
     }
     article {
       order: 2;
+
+      h2 {
+        text-align: left;
+      }
     }
   }
   &:nth-child(even) {
+    article {
+      order: 1;
+      h2 {
+        text-align: left;
+      }
+    }
     img {
       order: 2;
       object-position: left;
-    }
-    article {
-      order: 1;
     }
   }
 
@@ -251,6 +264,7 @@ main > .feature {
     margin: 0.5rem auto 0;
     object-fit: scale-down;
     transition: 0.5s;
+    align-self: center;
 
     &.collapse {
       display: none;
@@ -270,14 +284,14 @@ main > .feature {
     flex-shrink: 1;
     display: flex;
     flex-direction: column;
-    margin: 2rem;
+    justify-content: flex-start;
+    margin: 1rem 0 0 1rem;
+    max-width: 800px;
 
     @include medium-breakpoint {
-      margin: 1rem 2rem;
     }
 
     @include large-breakpoint {
-      margin: 2rem;  
     }
     
 
@@ -285,14 +299,28 @@ main > .feature {
       font-family: 'sans_regular_heavy';
       font-size: $h1;
       text-align: center;
+      margin: 0;
 
       @include medium-breakpoint {
-        margin: auto 2rem;  
-      }          
+
+      }
+    }
+
+    a {
+      transition: 0.5s;
+
+      &:hover {
+        transition: 0.75s;
+      }
     }
 
     p {
 
+    }
+    ul.rowlist {
+      padding-left: 0;
+      padding-right: 0;
+      justify-content: center;
     }
   }
 }

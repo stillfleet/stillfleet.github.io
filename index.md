@@ -31,7 +31,7 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
     </p>
     <ul class="rowlist">
       <li><a href="" class="external drivethrurpg">Free Quickstart</a></li>
-      <li><a href="" class="external youtube">Watch actual play with Jenn De La Vega!</a></li>
+      <li><a href="" class="external youtube">Watch actual play with Jenn&nbsp;De&nbsp;La&nbsp;Vega!</a></li>
     </ul>
   </article>
 </section>

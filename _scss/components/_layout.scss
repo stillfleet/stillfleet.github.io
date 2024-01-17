@@ -24,7 +24,8 @@ main {
   & > section {
     &.full-width {
       display: block;
-      margin: 0 !important;
+      margin-left: 0;
+      margin-right: 0;
       padding: 0;
     }
 
@@ -54,7 +55,9 @@ ul.rowlist {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 a.stillfleet-logo {
