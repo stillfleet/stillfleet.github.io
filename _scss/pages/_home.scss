@@ -57,7 +57,7 @@ body#home {
           }
           header {
             h2 {
-              font-size: $h2;
+              font-size: $h1;
              color: $tephnian-red;
             }
           }
@@ -217,7 +217,7 @@ body#home {
         }
         p {
           border-radius: 16px;
-          padding: 1rem 0.5rem;
+          padding: 1rem 0.5rem 1rem 0;
 
           @include medium-breakpoint {
             padding-top: 0.5rem;

@@ -53,6 +53,11 @@ body[data-brand="blister_critters"] {
 // Accents 
 ///////////////
 
+h1[data-accent="blister_critters"] {
+  font-family: 'darumadrop-one', $header-font;
+  color: $blister_critters-pink;
+}
+
 [data-accent="blister_critters"] {
   &:hover, a:hover {
     background-color: $blister_critters_bg !important;  
