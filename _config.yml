@@ -38,6 +38,9 @@ plugins:
 # Build settings
 markdown: kramdown
 
+autoprefixer:
+  only_production: true
+
 relative_links:
   enabled:     true
   collections: true

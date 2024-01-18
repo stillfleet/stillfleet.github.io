@@ -1,18 +1,3 @@
-body[data-env="development"] {
-  border-top: 3px solid white;
-  @include small-breakpoint {
-    border-top: 3px solid yellow;
-  }
-  @include medium-breakpoint {
-    border-top: 3px solid orange;
-  }
-  @include large-breakpoint {
-    border-top: 3px solid red;
-  }
-  @include xlarge-breakpoint {
-    border-top: 3px solid purple;
-  }
-}
 body#home {
   display: flex;
   flex-direction: column;
@@ -24,46 +9,114 @@ body#home {
     gap: 2rem;
 
     &[data-content="masthead"] {
-      flex-direction: column;
+      flex-direction: row;
       flex-basis: auto;
       padding-right: 2rem;
       padding-left: 2rem;
       margin: 1rem auto;
 
-      h2 {
-        font-size: $h1;
-      }
 
       @include medium-breakpoint {
         flex-direction: row;
       }
 
-      section[data-content="lede"] {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        min-width: 200px;
-        margin: 2rem;
+      figure {
+        flex-grow: 1;
+        align-self: stretch;
+        background: url("/assets/img/brands/home-blooder-mouse-transparent.png") no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: inherit;
+        align-self: stretch;
+        min-width: 50%;
         transition: 0.5s;
-        flex-grow: 0;
+        display: none;
 
-        @include medium-breakpoint {
-        }
-
-        h2 {
-          font-size: $h2;
-        }
-        p {
-          font-weight: bold;
-          font-size: $h4;
+        @include large-breakpoint {
+          display: inline;
+          transition: 0.5s;
         }
       }
 
-      section[data-content="static-callout"] {
+      div {
+        flex-grow: 1;
+
+        section[data-content="lede"] {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-width: 200px;
+          transition: 0.5s;
+          flex-grow: 0;
+          flex: 4;
+
+          @include medium-breakpoint {
+          }
+          @include xlarge-breakpoint {
+            flex-grow: 3;
+          }
+          header {
+            h2 {
+              font-size: $h2;
+             color: $tephnian-red;
+            }
+          }
+          article {
+            margin: 0;
+            p {
+              font-weight: bold;
+              font-size: $h4;
+            }
+          }
+        }
+        section.callouts {
+          display: flex;
+          flex-direction: column;
+          flex: 2;
+          gap: 0.1rem;
+
+          @media only screen and (max-width: $mobile) {
+            a.callout {
+              &:first-of-type {
+                border-radius: 8px 8px 0 0;
+
+                header {
+                  border-radius: 8px 8px 0 0;
+                }
+                footer {
+                  border-radius: 0;
+                }
+              }
+              &:last-of-type {
+                border-radius: 0 0 8px 8px;
+                header {
+                  border-radius: 0;
+                }
+                footer {
+                  border-radius: 0 8px 8px;
+                }
+              }
+            }
+          }
+
+          @include small-breakpoint {
+            flex-direction: row;
+          }
+
+          @include xlarge-breakpoint {
+            flex-direction: row;
+            flex-shrink: 2;
+          }
+        }
+      }
+    }
+
+/*
+     section[data-content="static-callout"] {
         display: flex;
         flex-direction: row;
         align-items: center;
-        background: url("/assets/img/brands/home-blooder-mouse-transparent.png") no-repeat;
+
         background-size: contain;
         background-position: center;
         justify-content: space-between;
@@ -114,91 +167,35 @@ body#home {
         }
       }
     }
+*/
 
-
-    section.callouts {
-      display: flex;
-      flex-direction: column;
-      flex: 2;
-      gap: 0.5rem;
-
-      @include medium-breakpoint {
-        flex-direction: column;
-      }
-
-      @include xlarge-breakpoint {
-        flex-direction: row;
-        flex-shrink: 2;
-      }
-    }
-
-    &.feature#stillfleet {
-      background: linear-gradient(to bottom, $rich-black 0%, transparent 10%, transparent 100%), $stillfleet-background;
-      padding-top: 2rem !important;
-      padding-bottom: 2rem !important;
-
-      @include medium-breakpoint {
-        padding-top: 3rem !important;
-        padding-bottom: 3rem !important;
-      }
-
-      @include xlarge-breakpoint {
-        padding-top: 4rem !important;
-        padding-bottom: 4rem !important;
-      }
-
-      img {
-        overflow-x: hidden;
-        max-height: 500px;
-        width: auto;
-        flex-shrink: 0;
-        padding: 0;
-        object-fit: cover;
-        object-position: bottom;
-        border-radius: 0 0 8px 8px;
-        align-self: auto;
-      }
-
-      article {
-        color: white;
-
-        margin-top: 0;
-        margin-bottom: 0;
-
-        @include medium-breakpoint {
-          margin-top: 2rem !important;
-          margin-bottom: 2rem !important;
-        }
-
-        @include xlarge-breakpoint {
-        }
-        h2 {
-          margin-bottom: 1rem;
-        }
-        ul li > a.external {
-          background-color: black;
-          color: $stillfleet-red;
-
-          &:hover {
-            background-color: $stillfleet-red;
-            color: white;
-          }
-        }
-      }
-    }
 
     &.feature#blister-critters {
       background: url('/assets/img/brands/blister_critters/stuff_background2.png'), $blister_critters_cool_gradient;
       background-position: top center;
+      //background-attachment: fixed;
+      gap: 0;
+      padding-bottom: 1rem;
 
-      img {
-        align-self: flex-end;
+      figure {
+        background: url("/assets/img/brands/blister_critters/critter-scartail-flipped-transparent.png"), linear-gradient(120deg, transparent 0%, transparent 68%,black 100%) no-repeat;
+        background-position: center top;
+        background-size: cover;
+        height: inherit;
+        align-self: stretch;
+        min-width: 40%;
+        transition: 0.5s;
+        margin-top: 0;
+
+        @include large-breakpoint {
+          transition: 0.5s
+        }
       }
 
       article {
         margin-bottom: 0;
         padding: 0.75rem;
-        margin: 1.5 rem 1rem 1rem;
+        margin: 1.5 rem 0rem 1rem;
         backdrop-filter: blur(10px) brightness(110%);
         border-radius: 8px;
 
@@ -242,9 +239,65 @@ body#home {
       }
     }
 
+    &.feature#stillfleet {
+      background: linear-gradient(to bottom, $rich-black 0%, transparent 10%, transparent 100%), $stillfleet-background;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+
+      @include medium-breakpoint {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
+      }
+
+      @include xlarge-breakpoint {
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
+      }
+
+      figure {
+        background: url("/assets/img/brands/stillfleet/pepper-elf-transparent-reverse.png") no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: inherit;
+        align-self: stretch;
+        min-width: 40%;
+        transition: 0.5s;
+      }
+
+      article {
+        color: white;
+
+        margin-top: 0;
+        margin-bottom: 0;
+
+        @include medium-breakpoint {
+          margin-top: 2rem !important;
+          margin-bottom: 2rem !important;
+        }
+
+        @include xlarge-breakpoint {
+        }
+        h2 {
+          margin-bottom: 1rem;
+          color: $tephnian-red;
+        }
+        ul li > a.external {
+          background-color: black;
+          color: $stillfleet-red;
+
+          &:hover {
+            background-color: $stillfleet-red;
+            color: white;
+          }
+        }
+      }
+    }
+
     &.feature#why-we-roll {
       background: rgb(233,30,215);
-      background: linear-gradient(180deg, $rich-black 0%, rgba(233,30,215,1) 5%, rgba(186,71,230,1) 48%, rgba(143,106,253,1) 100%);
+      // background: url('/assets/img/third-party/d20-tiles.svg'), linear-gradient(180deg, $rich-black 0%, rgba(233,30,215,1) 5%, rgba(186,71,230,1) 48%, rgba(143,106,253,1) 100%);
+      background: url('/assets/img/third-party/wwr-d20-tesselated-bg.png'), linear-gradient(to bottom, $rich-black 0%, #b9529f 5%, #00aeef 100%);
+      background-size: auto;
       color: white;
       background-attachment: fixed;
       padding: 1rem;
@@ -254,11 +307,11 @@ body#home {
         padding: 2rem;
       }
 
-      img {
+      figure {
         margin-right: 2rem;
 
-        @include xlarge-breakpoint {
-          margin-right: auto;
+        img {
+
         }
       }
 
@@ -276,7 +329,8 @@ body#home {
         flex-direction: row;
       }
       article {
-        margin: 0;
+        padding: 0.75rem;
+
         @include medium-breakpoint {
           margin: 2rem;
         }
@@ -284,13 +338,6 @@ body#home {
           color: #fdff00;
           text-align: left;
         }
-      }
-    }
-
-    section[data-content="lede"] {
-      flex: 4;
-      @include xlarge-breakpoint {
-        flex-grow: 3;
       }
     }
   }

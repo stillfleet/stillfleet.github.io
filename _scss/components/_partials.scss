@@ -1,5 +1,5 @@
 //
-// _includes/components/credits.html
+// _includes/components/cover.html
 //
 
 a[data-include="cover"] {
@@ -43,6 +43,10 @@ figure.product {
   margin-left: 2em;
   margin-right: -4em;
   filter: drop-shadow(4px 4px 4px $rich-black);
+
+  img {
+    max-width: 500px;
+  }
 
   figcaption {
 
@@ -164,11 +168,32 @@ a.callout {
   flex-direction: column;
   justify-content: space-between;
   //min-width: 20px;
-  min-width: 300px;
+  min-width: 250px;
   min-height: 300px;
   background-size: cover;
   background-position: center;
   flex: 1;
+
+  &:first-of-type {
+    border-radius: 8px 0 0 8px;
+
+    header {
+      border-radius: 8px 0 0 0;
+    }
+    footer {
+      border-radius: 0 0 0 8px;
+    }
+  }
+  &:last-of-type {
+    border-radius: 0 8px 8px 0;
+    header {
+      border-radius: 0 8px 0 0;
+    }
+    footer {
+      border-radius: 0 0 8px 0;
+    }
+  }
+
 
   @include small-breakpoint {
   }
@@ -193,8 +218,11 @@ a.callout {
   header {
     h1 { 
       width: auto;
-      font-size: $h4;
+      font-size: $h2;
       background: transparent; 
+      &:empty {
+        display: none;
+      }
     }
   }
 
@@ -209,9 +237,15 @@ a.callout {
   }
 
   footer {
+    font-size: $h4;
+    height: auto;
     padding: 0.5rem 1rem;
     font-weight: bold;
     text-align: right;
+
+    @include small-breakpoint {
+
+    }
   }
 }
 
@@ -223,76 +257,50 @@ main > section.feature {
   justify-content: space-around !important;
   flex-direction: column !important;
   margin: 0 !important;
+  padding: 0 !important;
 
   @include medium-breakpoint {
     flex-direction: row !important;
   }
   @include large-breakpoint {
   }
-  &:nth-child(odd) {
-    img {
-      order: 1;
-      object-position: right;
-    }
-    article {
-      order: 2;
 
-      margin: 2rem;
-
-      @include medium-breakpoint {
-        margin: auto 2rem 2rem auto;
-      }
-
-      @include large-breakpoint {
-      }
-
-      h2 {
-        text-align: left;
-      }
-    }
-  }
-  &:nth-child(even) {
-    article {
-      order: 1;
-      margin: 2rem;
-
-      @include medium-breakpoint {
-        margin: auto 0 2rem 2rem;
-      }
-
-      @include large-breakpoint {
-      }
-
-      h2 {
-        text-align: left;
-        margin-bottom: 1rem;
-      }
-    }
-    img {
-      order: 2;
-      object-position: left;
-    }
-  }
-
-  img {
-    max-width: 100px;
-    max-height: 100px;
-    margin: 0.5rem auto 0;
-    object-fit: scale-down;
-    transition: 0.5s;
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-self: center;
+
+    margin: 0.5rem auto 0;
+    transition: 0.5s;
+
+
+    img {
+      object-fit: scale-down;
+      height: 100%;
+      width: 100%;
+    }
 
     &.collapse {
       display: none;
     }
 
+    @include small-breakpoint {
+    }
+
     @include medium-breakpoint {
       &.collapse {
-        display: inline;
+        display: flex;
       }
-      max-height: 400px;
-      max-width: 400px;
+
       padding: 0 0 0 2rem;
+    }
+
+    @include large-breakpoint {
+      &.collapse {
+        display: flex;
+      }
+
     }
 
   }
@@ -301,16 +309,25 @@ main > section.feature {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 2rem 0;
-    margin: 2rem;
-    max-width: 800px;
+    padding: 2rem !important;
+    margin: 0 auto;
+    width: 100%;
+
+    &.blurred-background {
+      backdrop-filter: blur(10px) brightness(110%);
+      @include medium-breakpoint {
+        border-radius: 8px;
+      }
+    }
 
     @include medium-breakpoint {
+      margin: 2rem;
     }
 
     @include large-breakpoint {
+      margin: 2rem;
     }
-    
+
 
     h2 {
       font-family: 'sans_regular_heavy';
@@ -338,6 +355,50 @@ main > section.feature {
       padding-left: 0;
       padding-right: 0;
       justify-content: center;
+    }
+  }
+
+  &:nth-child(odd) {
+    figure, img {
+      order: 1;
+      object-position: right;
+    }
+
+    article {
+      order: 2;
+
+      @include medium-breakpoint {
+        margin: auto 2rem 2rem auto;
+      }
+
+      @include large-breakpoint {
+      }
+
+      h2 {
+        text-align: left;
+      }
+    }
+  }
+  &:nth-child(even) {
+    article {
+      order: 1;
+
+      @include medium-breakpoint {
+        margin: auto 0 2rem 2rem;
+      }
+
+      @include large-breakpoint {
+      }
+
+      h2 {
+        text-align: left;
+        margin-bottom: 1rem;
+      }
+    }
+
+    figure, img {
+      order: 2;
+      object-position: left;
     }
   }
 }

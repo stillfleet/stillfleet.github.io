@@ -1,0 +1,167 @@
+/**
+ * Layout
+ */
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  & > header {
+    background-color: $rich-black;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+    a.stillfleet-logo {
+      margin: 0.5rem auto;
+      order: -1;
+
+      background-position: center !important;
+
+      @include medium-breakpoint {
+        background-position: left !important;
+        margin-left: 1rem;
+        width: 450px;
+      }
+    }
+
+    & > * {
+      flex: 1 1 auto;
+      width: 100%;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    @include medium-breakpoint {
+      flex-direction: row;
+      width: auto;
+      & > * {
+        width: auto;
+      }
+    }
+  }
+
+  main {
+    flex: 1 0 auto;
+
+    article {
+      margin: auto 1rem;
+
+      @include medium-breakpoint {
+        margin: auto 8rem;
+      }
+    }
+
+    & > section {
+      &.full-width {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+      }
+
+      &.half-width {
+        width: 50%;
+        display: block;
+        margin: 0 !important;
+        padding: 0;
+      }
+    }
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    gap: 0;
+    align-items: center;
+    bottom: 0;
+    height: 6rem;
+
+    text-align: center;
+    background-color: black;
+
+    @include small-breakpoint {
+
+    }
+
+    @include medium-breakpoint {
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      height: auto;
+      padding: 1rem 0 5rem;
+
+      text-align: left;
+    }
+
+    a.stillfleet-logo {
+      margin: 0.5rem auto auto;
+      opacity: 0.7;
+
+      @include large-breakpoint {
+        margin-left: 1rem;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+
+      h1 {
+        font-size: 0;
+      }
+    }
+
+    .copyright {
+      color: $fpo-gray;
+      flex-grow: 1;
+      line-height: 2rem;
+      margin: 0;
+      background-color: #000;
+      text-align: center;
+
+      @include medium-breakpoint {
+
+      }
+    }
+
+    .social {
+      width: 100%;
+      background-color: #000;
+      margin-top: 0rem;
+      flex-grow: 2;
+
+      @include medium-breakpoint {
+        flex-grow: 1;
+        width:calc(100% / 3);
+      }
+
+      ol {
+        display: flex;
+        justify-content: space-evenly;
+
+        li {
+          flex-direction: row;
+        }
+
+        a {
+          svg path {
+            fill: $fpo-gray;
+          }
+          &:hover {
+            svg path {
+              fill: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

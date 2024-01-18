@@ -5,19 +5,28 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
 ---
 
 <section data-content="masthead">
-  <section data-content="lede">
-    <h2>Be weird ☉ do crimes</h2>
-    <p>The Stillfleet Studio makes high-quality, mind-expanding, innovative, and replayable tabletop games with a focus on roleplaying.</p>
-  </section>
-  <section data-content="static-callout">
-    <a data-brand="stillfleet" href="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK">Try the infamous political superfuture sci-fi tour de force</a>
-    <a data-brand="blister_critters" href="https://play.blistercritters.com">Unleash your inner critter</a>
-  </section>
+  <figure class="collapse">
+  </figure>
+  <div>
+    <section data-content="lede">
+      <header>
+        <h1>Be weird ☉ do crimes</h1>
+      </header>
+      <article>
+        <p><em>The Stillfleet Studio</em> makes high-quality, mind-expanding, innovative, and replayable tabletop games with a focus on roleplaying.</p>
+      </article>
+    </section>
+    <section class="callouts">
+      {% include components/callout.html heading="" src="assets/img/brands/stillfleet/qadida-cover-art.jpg" cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" cta_text="Try the infamous political superfuture sci-fi tour de force" %}
+      {% include components/callout.html heading="" src="assets/img/brands/blister_critters/cover-mini.png" cta_url="https://play.blistercritters.com" cta_text="Unleash your inner critter!" %}
+    </section>
+  </div>
 </section>
 
 <section class="full-width feature" id="blister-critters">
-  <img class="collapse" src="/assets/img/brands/blister_critters/critter-scartail-flipped-transparent.png" />
-  <article>
+  <figure class="collapse">
+  </figure>
+  <article class="blurred-background">
     <h2>Burrow into your new favorite cartoon&mdash;starring&nbsp;you!</h2>
     <p>Discover your inner cartoon-self in <em>Blister Critters</em>—a TTRPG full of <strong>Saturday-morning</strong> action. In this innovative <strong>eco-apocalyptic</strong> game, you play as an animal who wields bizarre mutations to survive in a <strong>vast, cruel suburbia</strong> populated by fellow Critters and feral Beasts. The Grit System powering <em>Blister Critters</em> takes minutes to learn, and the Critter-specific rules focus on <strong>player agency</strong> and group discovery in the shadow of humanity—whether gnarly or zany in tone.
     </p>
@@ -29,7 +38,8 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
 </section>
 
 <section class="full-width feature" id="stillfleet">
-  <img class="collapse" src="/assets/img/brands/stillfleet/pepper-elf-transparent-reverse.png" />
+  <figure class="collapse"></figure>
+
   <article>
     <h2>Mine the void&mdash;or undermine the Co.</h2>
     <p><em>Stillfleet</em> is a politically charged TTRPG set far into the superfuture. Using the unique, highly flexible Grit System, players take on the role of <strong>voidminers</strong>—salvagers working for the venal Worshipful Company of Stillfleeters (<strong>the Co.</strong>) who explore ruined spacecraft and earth-like planets that have been cut off from Terra for centuries. The Co.’s headquarters, the alien space station nicknamed <strong>Spindle</strong>, brims with timespace gates called <strong>stiffworks</strong>—and with the vile secrets of the Co.’s directors…
@@ -42,9 +52,11 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
 </section>
 
 <section class="full-width feature" id="why-we-roll">
-  <img class="collapse" src="/assets/img/why-we-roll.png" />
+  <figure class="collapse">
+    <img src="/assets/img/third-party/wwr-logo-transparent.png" />
+  </figure>
 
-  <article>
+  <article class="blurred-background">
     <h2>Dive deep behind the GM screen</h2>
     <p>Hosted by <strong>Chris Pickett</strong> (the creator of <em>Danse Macabre</em>) and <strong>Wythe Marschall</strong> (the creator of <em>Stillfleet</em>), <em>Why We Roll</em> is fun and practical in tone, combining the banter of a shoot-the-breeze chat with a cerebral unboxing of specific TTRPG elements (plus a dash of actual play). Chris and Wythe take a curious and ecumenical approach to game design, inviting everyone at the table to consider why we roll.
 </p>

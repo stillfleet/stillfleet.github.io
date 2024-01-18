@@ -17,5 +17,15 @@ $stillfleet-pink: #ffecee;
 body[data-brand="stillfleet"] {
   color: $font-color;
   background: $stillfleet-background;
+  background-attachment: fixed;
   font-size: $body-font-size;
+
+  h1 {
+    font-family: 'citizen_bold';
+    color: $tephnian-red;
+  }
+  h2, h3, h4, h5, h6 {
+    font-family: $header-font;
+    color: white;
+  }
 }

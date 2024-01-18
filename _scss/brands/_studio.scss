@@ -40,13 +40,38 @@ $studio-background: url('/assets/img/paper-bg.gif') repeat black !default;
 $studio-font-color: $rich-black !default;
 $studio-font-family: $body-text-font, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif !default;
 
+body > header > a.stillfleet-logo,
+body > footer > a.stillfleet-logo {
+  font-family: 'citizen_bold' !important;
+  color: white !important;
+
+  min-width: 500px;
+  min-height: 73px;
+  background: transparent url('/assets/img/sfs-lockup-knockout-500w.png') no-repeat;
+  background-size: contain;
+  transition: 0.5s;
+
+  & > * {
+    text-indent: -9999rem;
+  }
+
+  @include medium-breakpoint {
+    transition: 0.5s;
+  }
+}
+
 body[data-brand="studio"] {
   color: $studio-font-color;
   background: $studio-background;
   font-size: $body-font-size;
   font-family: $studio-font-family;
 
-  h1, h2 {
+  h1 {
     font-family: 'citizen_bold';
+    color: $tephnian-red;
+  }
+  h2, h3, h4, h5, h6 {
+    font-family: $header-font;
+    color: black;
   }
 }
