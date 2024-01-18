@@ -199,11 +199,14 @@ body#home {
 
       article {
         margin-bottom: 0;
+        padding-top: 1rem;
+        margin-top: 1rem;
+        backdrop-filter: blur(10px) brightness(110%);
+
         h2 {
           color: $blister-critters-pink;
         }
         p {
-          backdrop-filter: blur(10px) brightness(110%);
           border-radius: 16px;
           padding: 1rem 0.5rem;
         }
