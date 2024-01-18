@@ -49,8 +49,8 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
     <p>Hosted by <strong>Chris Pickett</strong> (the creator of <em>Danse Macabre</em>) and <strong>Wythe Marschall</strong> (the creator of <em>Stillfleet</em>), <em>Why We Roll</em> is fun and practical in tone, combining the banter of a shoot-the-breeze chat with a cerebral unboxing of specific TTRPG elements (plus a dash of actual play). Chris and Wythe take a curious and ecumenical approach to game design, inviting everyone at the table to consider why we roll.
 </p>
     <ul class="rowlist">
-      <li><a href="https://podcasts.apple.com/us/podcast/why-we-roll/id1710405585" class="external apple-podcasts">Listen on Apple Podcasts</a></li>
       <li><a href="https://open.spotify.com/show/4S4FWpv9ptMUybjewdIDsX?si=233c7ac0cb5c4055" class="external spotify">Listen on Spotify</a></li>
+      <li><a href="https://podcasts.apple.com/us/podcast/why-we-roll/id1710405585" class="external apple-podcasts">Listen on Apple Podcasts</a></li>
     </ul>
   </article>
 </section>
