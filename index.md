@@ -18,7 +18,7 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
 <section class="full-width feature" id="blister-critters">
   <img class="collapse" src="/assets/img/brands/blister_critters/critter-scartail-flipped-transparent.png" />
   <article>
-    <h2>Burrow into your new favorite cartoon &mdash; starring&nbsp;you!</h2>
+    <h2>Burrow into your new favorite cartoon&mdash;starring&nbsp;you!</h2>
     <p>Discover your inner cartoon-self in <em>Blister Critters</em>—a TTRPG full of <strong>Saturday-morning</strong> action. In this innovative <strong>eco-apocalyptic</strong> game, you play as an animal who wields bizarre mutations to survive in a <strong>vast, cruel suburbia</strong> populated by fellow Critters and feral Beasts. The Grit System powering <em>Blister Critters</em> takes minutes to learn, and the Critter-specific rules focus on <strong>player agency</strong> and group discovery in the shadow of humanity—whether gnarly or zany in tone.
     </p>
     <ul class="rowlist">
@@ -31,7 +31,7 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
 <section class="full-width feature" id="stillfleet">
   <img class="collapse" src="/assets/img/brands/stillfleet/pepper-elf-transparent-reverse.png" />
   <article>
-    <h2>Mine the void &mdash; or undermine the Co.</h2>
+    <h2>Mine the void&mdash;or undermine the Co.</h2>
     <p><em>Stillfleet</em> is a politically charged TTRPG set far into the superfuture. Using the unique, highly flexible Grit System, players take on the role of <strong>voidminers</strong>—salvagers working for the venal Worshipful Company of Stillfleeters (<strong>the Co.</strong>) who explore ruined spacecraft and earth-like planets that have been cut off from Terra for centuries. The Co.’s headquarters, the alien space station nicknamed <strong>Spindle</strong>, brims with timespace gates called <strong>stiffworks</strong>—and with the vile secrets of the Co.’s directors…
     </p>
     <ul class="rowlist">

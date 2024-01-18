@@ -6,40 +6,67 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-header {
-  flex-shrink: 0;
-}
-main {
-  flex: 1 0 auto;
 
-  article {
-    margin: auto 1rem;
+  & > header {
+    flex-shrink: 0;
+    h1 {
+      margin: 0 auto;
+      padding: 0.25rem 0 0;
+      width: auto;
+      align-self: center;
+      height: 75px;
 
-    @include medium-breakpoint {
-      margin: auto 8rem;
-    }  
-  }
+      a.stillfleet-logo {
+        height: 100%;
+        width: 500px;
+        display: inline-block;
+        text-indent: -9999rem;
+        background: url('/assets/img/sfs-lockup-knockout.png') no-repeat;
+        background-size: contain;
+        transition: 0.5s;
 
-  & > section {
-    &.full-width {
-      display: block;
-      margin-left: 0;
-      margin-right: 0;
-      padding: 0;
-    }
+        @include medium-breakpoint {
+          margin-left: 1rem;
+          width: 450px;
+        }
 
-    &.half-width {
-      width: 50%;
-      display: block;
-      margin: 0 !important;
-      padding: 0;
+      }
     }
   }
+
+  main {
+    flex: 1 0 auto;
+
+    article {
+      margin: auto 1rem;
+
+      @include medium-breakpoint {
+        margin: auto 8rem;
+      }
+    }
+
+    & > section {
+      &.full-width {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+      }
+
+      &.half-width {
+        width: 50%;
+        display: block;
+        margin: 0 !important;
+        padding: 0;
+      }
+    }
+  }
+  footer {
+    flex-shrink: 0;
+  }
 }
-footer {
-  flex-shrink: 0;
-}
+
+
 
 ul.button-list {
   list-style: none;
@@ -60,11 +87,3 @@ ul.rowlist {
   flex-wrap: wrap;
 }
 
-a.stillfleet-logo {
-  height: 100%;
-  width: 300px;
-  display: inline-block;
-  text-indent: -9999rem;
-  background: url('/assets/img/sf-logo-white.png') no-repeat;
-  background-size: contain;
-}
