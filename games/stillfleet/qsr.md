@@ -1,6 +1,6 @@
 ---
 layout: brands/stillfleet-product
-title: Quick Start Rules
+title: Quickstart Rules
 cover: assets/img/brands/stillfleet/qsr-cover.jpg
 sku: QSRV2
 version: Version 2.0 ☉ 2023

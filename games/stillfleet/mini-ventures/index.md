@@ -1,7 +1,7 @@
 ---
 layout: page
 brand: stillfleet
-title: Mini-ventures
+title: Mini-Ventures
 ---
 
 {% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
