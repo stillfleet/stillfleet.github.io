@@ -1,14 +1,22 @@
 {% if include.cta_url contains "http" %}
-  {% assign url = {{ include.cta_url }} %}
+  {% assign url = include.cta_url %}
 {% else %}
-  {% assign url = link {{ include.cta_url }} %}
+  {% assign url = link include.cta_url %}
 {% endif %}
 
-<a href="{{ url }}" class="callout" style="background-image: url('{{ include.src }}')">
+<a href="{{ url }}"
+   class="callout"
+   style="background-image: url('{{ include.src }}');">
+  {% if include.heading %}
   <header>
-    <h1>{{ include.heading }}</h1>
+    <h1>
+      {{ include.heading }}
+    </h1>
   </header>
-  <p>{{ include.text }}</p>
+  {% endif %}
+  <p>
+    {{ include.text }}
+  </p>
   <footer>
     {{ include.cta_text }}
   </footer>

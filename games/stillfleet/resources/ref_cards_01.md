@@ -1,7 +1,7 @@
 ---
 layout: brands/stillfleet-resources
 title: Archaetech & Encounters
-heading: REF001 ☉ Archaetech & Encounters
+heading: Cards Vol. 1 ☉ Archaetech & Encounters
 cover: assets/img/brands/stillfleet/ref001-cover.png
 sku: REF001
 version: Version 1.0 ☉ August, 2022

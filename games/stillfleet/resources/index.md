@@ -8,6 +8,16 @@ keywords: stillfleet character sheet, stillfleet resources, stillfleet tools, st
 
 This page offers resources for playing Stillfleet, including character sheets, random generators, and more.
 
+<section class="half-width">
+{%
+  include components/callout.html
+    heading="☉ STRINGS"
+    src="/assets/img/brands/stillfleet/voidminers-cropped-strings-callout.png"
+    cta_url="https://strings.stillfleet.com"
+    cta_text="Character Generator / Random Content Creator"
+%}
+</section>
+
 ## Accessories
 
 {% assign resources = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-resources'" %}

@@ -1,7 +1,7 @@
 ---
 layout: brands/stillfleet-resources
 title: HULKRAWL!
-heading: REF002 ☉ HULKRAWL!
+heading: Cards Vol. 2 ☉ HULKRAWL
 cover: assets/img/brands/stillfleet/ref002-cover.png
 sku: REF002
 version: Version 1.0 ☉ August, 2023

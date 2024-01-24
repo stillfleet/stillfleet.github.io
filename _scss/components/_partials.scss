@@ -163,45 +163,40 @@ nav[data-role="internal-nav"] {
 // _includes/components/callout.html
 //
 
+.callouts {
+  .callout {
+    &:first-of-type {
+      border-radius: 8px 0 0 8px;
+
+      header {
+        border-radius: 8px 0 0 0;
+      }
+      footer {
+        border-radius: 0 0 0 8px;
+      }
+    }
+    &:last-of-type {
+      border-radius: 0 8px 8px 0;
+      header {
+        border-radius: 0 8px 0 0;
+      }
+      footer {
+        border-radius: 0 0 8px 0;
+      }
+    }
+  }
+}
+
 a.callout {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  //min-width: 20px;
   min-width: 250px;
   min-height: 300px;
   background-size: cover;
   background-position: center;
   flex: 1;
-
-  &:first-of-type {
-    border-radius: 8px 0 0 8px;
-
-    header {
-      border-radius: 8px 0 0 0;
-    }
-    footer {
-      border-radius: 0 0 0 8px;
-    }
-  }
-  &:last-of-type {
-    border-radius: 0 8px 8px 0;
-    header {
-      border-radius: 0 8px 0 0;
-    }
-    footer {
-      border-radius: 0 0 8px 0;
-    }
-  }
-
-
-  @include small-breakpoint {
-  }
-  
-  @include large-breakpoint {
-   //min-height: 250px;
-   // max-height: 350px;
-  }
+  width: 100%;
 
   &:hover {
     text-decoration: none;
@@ -214,9 +209,13 @@ a.callout {
     backdrop-filter: blur(4px) brightness(30%);
     flex-grow: 0;
 
+    &:empty {
+      display: none;
+    }
   }
   header {
     h1 { 
+      padding: 0 1rem;
       width: auto;
       font-size: $h2;
       background: transparent; 
@@ -237,7 +236,7 @@ a.callout {
   }
 
   footer {
-    font-size: $h4;
+    font-size: $h5;
     height: auto;
     padding: 0.5rem 1rem;
     font-weight: bold;

@@ -1,6 +1,6 @@
 ---
 layout: brands/stillfleet-product
-title: Core Rulebook
+title: The Stillfleet Core Rulebook
 cover: assets/img/brands/stillfleet/crb-cover.jpg
 sku: CRBV1
 version: Version 1.0 ☉ 2022

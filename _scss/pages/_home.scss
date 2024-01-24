@@ -111,65 +111,6 @@ body#home {
       }
     }
 
-/*
-     section[data-content="static-callout"] {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        background-size: contain;
-        background-position: center;
-        justify-content: space-between;
-        flex: 3 0 auto;
-        min-width: 400px;
-        min-height: 400px;
-        transition: 0.5s;
-
-        @include small-breakpoint {
-          min-width: 500px;
-          min-height: 500px;
-          transition: 0.5s;
-        }
-
-
-        @include xlarge-breakpoint {
-          justify-content: space-around;
-        }
-
-        a {
-          max-width: 125px;
-          background-color: white;
-          color: $tephnian-red;
-          padding: 1rem;
-          border-radius: 8px;
-          font-weight: bold;
-          transition: 0.5s;
-
-          &:hover {
-            background-color: $tephnian-red;
-            color: white;
-
-            transition: 0.5s;
-            opacity: 0.7;
-            text-decoration: none;
-          }
-
-          &[data-brand="stillfleet"] {
-            align-self: flex-start;
-          }
-          &[data-brand="blister_critters"] {
-            align-self: center;
-            margin-bottom: 8em;
-          }
-        }
-        img {
-          max-height: 500px;
-        }
-      }
-    }
-*/
-
-
     &.feature#blister-critters {
       background: url('/assets/img/brands/blister_critters/stuff_background2.png'), $blister_critters_cool_gradient;
       background-position: top center;

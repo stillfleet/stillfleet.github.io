@@ -59,19 +59,58 @@ html, body {
       }
     }
 
-    & > section {
+    section {
       &.full-width {
-        display: block;
+        width: 100%;
+        display: flex;
+        align-self: stretch;
+        justify-content: space-around;
         margin-left: 0;
         margin-right: 0;
         padding: 0;
+
+        @include xlarge-breakpoint {
+          &.pull-left {
+            justify-content: flex-start;
+          }
+          &.pull-right {
+            justify-content: flex-end;
+          }
+        }
       }
 
       &.half-width {
-        width: 50%;
+        width: 100%;
         display: block;
-        margin: 0 !important;
+        margin: 0 auto !important;
         padding: 0;
+        transition: 0.5s;
+
+        @include small-breakpoint {
+          max-width: 350px;
+          transition: 0.5s;
+        }
+
+        @include medium-breakpoint {
+          width: 50%;
+          margin-left: 4rem;
+          transition: 0.5s;
+          margin-top: 2rem;
+          margin-bottom: 2rem;
+          float: right;
+
+          &.pull-left {
+            float: left !important;
+          }
+          &.pull-right {
+            float: right !important;
+          }
+        }
+        @include xlarge-breakpoint {
+          max-width: 400px;
+          margin-right: 20% !important;
+          transition: 0.5s;
+        }
       }
     }
   }

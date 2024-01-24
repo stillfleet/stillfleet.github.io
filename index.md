@@ -17,8 +17,8 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
       </article>
     </section>
     <section class="callouts">
-      {% include components/callout.html heading="" src="assets/img/brands/stillfleet/qadida-cover-art.jpg" cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" cta_text="Try the infamous political superfuture sci-fi tour de force" %}
-      {% include components/callout.html heading="" src="assets/img/brands/blister_critters/cover-mini.png" cta_url="https://play.blistercritters.com" cta_text="Unleash your inner critter!" %}
+      {% include components/callout.html src="/assets/img/brands/stillfleet/qadida-cover-art.jpg" cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" cta_text="Try the infamous political superfuture sci-fi tour de force" %}
+      {% include components/callout.html src="/assets/img/brands/blister_critters/cover-mini.png" cta_url="https://play.blistercritters.com" cta_text="Unleash your inner critter!" %}
     </section>
   </div>
 </section>
