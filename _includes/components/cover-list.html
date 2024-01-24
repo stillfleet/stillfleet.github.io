@@ -1,0 +1,8 @@
+{% if include.id %}
+{% assign id = include.id %}
+{% endif %}
+<ul id="{{ include.id }}" class="covers">
+  {% for page in include.pages %}
+    <li>{% include components/cover.html page=page %}</li>
+  {% endfor %}
+</ul>

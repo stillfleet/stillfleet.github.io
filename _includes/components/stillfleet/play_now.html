@@ -1,3 +1,6 @@
-<p data-include="play-now">
-  To get playing right now, you can grab the <a href="{% link games/stillfleet/qsr.md %}">Stillfleet Quickstart Rules</a> or the <a href="{% link games/stillfleet/crb.md %}">Stillfleet Core Rulebook</a> and randomize a playable character over on <a href="https://strings.stillfleet.com">STRINGS</a>.
-</p>
+<fieldset data-brand="stillfleet" id="play-now">
+  <legend>Start playing now!</legend>
+  {% include components/purchase.html url="https://stillfleet.itch.io/quickstart/purchase" text="Stillfleet Quickstart Rules" %}
+  {% include components/purchase.html url="https://stillfleet.itch.io/stillfleet-core-rulebook/purchase" text="Stillfleet Core Rulebook" %}
+  <a class="external stillfleet" href="https://strings.stillfleet.com/voidminers/recruitr/new">Generate a Character on STRINGS</a>
+</aside>

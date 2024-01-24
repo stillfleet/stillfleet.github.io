@@ -26,12 +26,36 @@ If you're a fan of Spire or Blades in the Dark looking for a fresh take on some 
 - unforgettable locations and NPCs in and around the domed/divided city
 - at least full (ad)venture to pull your table into webs of intrigue right away
 
-## Hear it live
+## Watch a live-play 5-part series set in Qadida
 
-If you like live play, watch the 5-part double-venture (featuring 2 opposed teams of spies) set on Qadida.
+Stillfleet studio, Qadida author Ian Derk, and esteemed guests do a Spy vs. Spy espionage-filled venture, split into 5 parts. The "Free Qadida" team's mission is to prevent an assassination of an important political figure, *Yellow Tent Shaver*, defending against the "Worshipful Qadida" team, set out to perform the assassination.
 
-1. [Free Qadida opener](https://www.youtube.com/watch?v=hZDylMoW7_w)
-2. [Worshipful Qadida opener](https://www.youtube.com/watch?v=K9RXVrVgbgE)
-3. [(FQ) Yellow Tent Shaver](https://www.youtube.com/watch?v=uGXv6FJMbsM)
-4. [(WQ) The hit](https://www.youtube.com/watch?v=GA4_C8d3Ces)
-5. [(Both) The End?!](https://www.youtube.com/watch?v=x7IWiIbP_i0)
+The sessions alternate teams, sequentially, and were almost entirely improvised with minimal coordination by the GMs between sessions. The final fifth episode brings both teams together into a grisly deathmatch in *The Span* of Qadida, where the outcome was completely determined by player decisions!
+
+Cliff-hangers abound! Witness the glory of public transportation and food festivals and secret police!
+
+<ul class="rowlist">
+  <li>
+    <a class="external youtube" href="https://www.youtube.com/watch?v=hZDylMoW7_w">Free Qadida opener</a>
+  </li>
+  <li>
+    <a class="external youtube" href="https://www.youtube.com/watch?v=K9RXVrVgbgE">Worshipful Qadida opener</a>
+  </li>
+  <li>
+    <a class="external youtube" href="https://www.youtube.com/watch?v=uGXv6FJMbsM">(FQ) Yellow Tent Shaver</a>
+  </li>
+  <li>
+    <a class="external youtube" href="https://www.youtube.com/watch?v=GA4_C8d3Ces">(WQ) The Hit</a>
+  </li>
+  <li>
+    <a class="external youtube" href="https://www.youtube.com/watch?v=x7IWiIbP_i0">(Both) The End?!</a>
+  </li>
+</ul>
+
+## Get this gazetteer
+
+<ul class="rowlist">
+  <li>
+    {% include components/purchase.html url="https://stillfleet.itch.io/qadida/purchase" text="Itch" %}
+  </li>
+</ul>

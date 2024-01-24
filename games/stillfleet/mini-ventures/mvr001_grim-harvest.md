@@ -31,10 +31,10 @@ Check out "Grim Harvest" for:
 
 All in only 9 pages!
 
-<ul class="button-list">
+## Get this mini-venture
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/grim-harvest/purchase" class="external itchio">
-      Download Grim Harvest from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/grim-harvest/purchase" text="Itch" %}
   </li>
 </ul>

@@ -30,16 +30,12 @@ This pulp-tastic, politically charged, eco-horror venture (playable scenario) is
 
 ***The Rain Thieves* features 100 pages of new rules, settings, encounters, archaetech, maps, speculative ecology, political fronts, and excerpts from a gastro-tourism guidebook for wetans (giant bugs).**
 
-<ul class="button-list">
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/the-rain-thieves/purchase" class="external itchio">
-      Download The Sleeper in the Sky from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/the-rain-thieves/purchase" text="Itch" %}
   </li>
   <li>
-    <a href="https://preview.drivethrurpg.com/en/product/421103/the-rain-thieves-ven002" class="external drivethrurpg">
-      Download The Rain Thieves from Itch
-    </a>
+    {% include components/purchase.html url="https://preview.drivethrurpg.com/en/product/421103/the-rain-thieves-ven002" text="DriveThruRPG" %}
   </li>
-  
 </ul>

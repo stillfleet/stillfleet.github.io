@@ -26,15 +26,13 @@ This module consists of background information about the culture that produced t
 
 Any number of 1st-level PCs should be able to survive this venture and level up—if they don’t try to fight everything on the ship.
 
-<ul class="button-list">
+## Get this venture
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/sleeper" class="external itchio">
-      Download The Sleeper in the Sky from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/sleeper" text="Itch" %}
   </li>
   <li>
-    <a href="https://www.drivethrurpg.com/product/346559/Stillfleet-Venture-001--The-Sleeper-in-the-Sky" class="external drivethrurpg">
-      Download The Sleeper in the Sky from DriveThruRPG
-    </a>
+    {% include components/purchase.html url="https://www.drivethrurpg.com/product/346559/Stillfleet-Venture-001--The-Sleeper-in-the-Sky" text="DriveThruRPG" %}
   </li>  
 </ul>

@@ -31,10 +31,11 @@ Whether or not your group intends to run a spy-themed campaign in the domed city
 - A timeline of the Worshipful Company's involvement on Qadida
 - Bombs, hidden agendas, lies, and other spycraft
 
-<ul class="button-list">
+
+## Get this mini-venture
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/around-the-dome/purchase" class="external itchio">
-      Download Around the Dome from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/around-the-dome/purchase" text="Itch" %}
   </li>
 </ul>

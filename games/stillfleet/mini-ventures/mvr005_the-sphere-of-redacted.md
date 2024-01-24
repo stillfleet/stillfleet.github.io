@@ -36,10 +36,11 @@ This mini-venture features:
 - Maps for Kakudun and Graafa
 - Forbidden Snakeman lore!
 
-<ul class="button-list">
+
+## Get this mini-venture
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/sphere-of-redacted/purchase" class="external itchio">
-      Download The Sphere of [REDACTED] from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/sphere-of-redacted/purchase" text="Itch" %}
   </li>
 </ul>

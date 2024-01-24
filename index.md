@@ -17,7 +17,7 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
       </article>
     </section>
     <section class="callouts">
-      {% include components/callout.html src="/assets/img/brands/stillfleet/qadida-cover-art.jpg" cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" cta_text="Try the infamous political superfuture sci-fi tour de force" %}
+      {% include components/callout.html src="/assets/img/brands/stillfleet/qsr-cover.jpg" cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" cta_text="Try the infamous political superfuture sci-fi tour de force" %}
       {% include components/callout.html src="/assets/img/brands/blister_critters/cover-mini.png" cta_url="https://play.blistercritters.com" cta_text="Unleash your inner critter!" %}
     </section>
   </div>
@@ -31,8 +31,8 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
     <p>Discover your inner cartoon-self in <em>Blister Critters</em>—a TTRPG full of <strong>Saturday-morning</strong> action. In this innovative <strong>eco-apocalyptic</strong> game, you play as an animal who wields bizarre mutations to survive in a <strong>vast, cruel suburbia</strong> populated by fellow Critters and feral Beasts. The Grit System powering <em>Blister Critters</em> takes minutes to learn, and the Critter-specific rules focus on <strong>player agency</strong> and group discovery in the shadow of humanity—whether gnarly or zany in tone.
     </p>
     <ul class="rowlist">
-      <li><a href="" class="external drivethrurpg">Free Quickstart</a></li>
-      <li><a href="" class="external youtube">Watch actual play with Jenn&nbsp;De&nbsp;La&nbsp;Vega!</a></li>
+      <li><a href="https://preview.drivethrurpg.com/en/product/463235/blister-critters-quickstart" class="external drivethrurpg">Free Quickstart</a></li>
+      <li><a href="https://www.youtube.com/watch?v=_dXVu_7wUz0" class="external youtube">Watch actual play with Jenn&nbsp;De&nbsp;La&nbsp;Vega!</a></li>
     </ul>
   </article>
 </section>
@@ -45,8 +45,8 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
     <p><em>Stillfleet</em> is a politically charged TTRPG set far into the superfuture. Using the unique, highly flexible Grit System, players take on the role of <strong>voidminers</strong>—salvagers working for the venal Worshipful Company of Stillfleeters (<strong>the Co.</strong>) who explore ruined spacecraft and earth-like planets that have been cut off from Terra for centuries. The Co.’s headquarters, the alien space station nicknamed <strong>Spindle</strong>, brims with timespace gates called <strong>stiffworks</strong>—and with the vile secrets of the Co.’s directors…
     </p>
     <ul class="rowlist">
-        <li><a href="" class="external drivethrurpg">Get the full rules</a></li>
-        <li><a href="" class="external floatcity">Listen to epic actual play</a></li>
+        <li><a href="https://stillfleet.itch.io/stillfleet-core-rulebook/purchase" class="external itchio">Get the full rules</a></li>
+        <li><a href="https://funcity.ventures/category/float-city/" class="external floatcity">Listen to epic actual play</a></li>
     </ul>
   </article>
 </section>

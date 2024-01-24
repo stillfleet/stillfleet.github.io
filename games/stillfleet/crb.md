@@ -5,8 +5,7 @@ cover: assets/img/brands/stillfleet/crb-cover.jpg
 sku: CRBV1
 version: Version 1.0 ☉ 2022
 copyright: 2022 Stillfleet Studio
-shop:
-  - https://stillfleet.itch.io/stillfleet-core-rulebook/purchase
+play-now: false
 credits:
   - Writing by Wythe Marschall 
   - Art by Ethan Gould
@@ -42,3 +41,11 @@ As heard on the real-play podcast Fun City, the game uses simple rules that take
 Play as a tech-hacking banshee, a peacemaking witness, a reality-warping tremulant, a giant bug, a strong AI trapped in a flash drive, a talking cactus, a void elf from the Dyson-sphere-enclosed Wytch Planet, Tnín... The choices are yours. The cosmos of Stillfleet is hilarious and horrifying. The struggles, all too real.
 
 Voidminer—what will you do to resist the temptation of power? To liberate the provincials? To survive?
+
+### Buy the Core Rules PDF and start playing Stillfleet today!
+
+<ul class="button-list">
+  <li>
+    {% include components/purchase.html url="https://stillfleet.itch.io/stillfleet-core-rulebook/purchase" text="Download the Stillfleet Core Rulebook from Itch" %}
+  </li>
+</ul>

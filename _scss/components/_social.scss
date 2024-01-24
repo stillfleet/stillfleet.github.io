@@ -64,58 +64,14 @@
   margin: 0;
   color: black;
   border: 0.5px solid #666;
+  transition: 0.25s;
 
   &:hover {
     text-decoration: none;
+    transition: 0.5s;
+    background-size: 5rem;
+    background-position: -2.25rem;
   }
 
-  &.apple-podcasts {
-    background: url('/assets/img/third-party/apple-podcasts.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;
-  }
-  &.drivethrurpg {
-    background: url('/assets/img/third-party/drivethrurpg.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;    
-  }
-  &.itchio {
-    background: url('/assets/img/third-party/itchio.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;    
-  }
-  &.kickstarter {
-    background: url('/assets/img/third-party/kickstarter.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;    
-  }
-  &.patreon {
-    background: url('/assets/img/third-party/patreon.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;
-  }
-
-  &.simplecast {
-    background: url('/assets/img/third-party/simplecast.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;
-  }
-  &.spotify {
-    background: url('/assets/img/third-party/spotify.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;    
-  }
-  &.youtube {
-    background: url('/assets/img/third-party/youtube.png') no-repeat white;
-    background-position: 0.5rem;
-    background-size: 2rem;
-    padding-left: 3rem;
-  }
+  @include social-icons;
 }

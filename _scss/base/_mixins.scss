@@ -25,3 +25,44 @@
     @content;
   }
 }
+
+@mixin social-icons {
+  & {
+    background-position: 0.5rem;
+    background-size: 2rem;
+    padding-left: 3rem;
+    background-repeat: no-repeat;
+  }
+
+  &.stillfleet {
+    background-image: url('/assets/img/third-party/stillfleet.png');
+  }
+
+  &.apple-podcasts {
+    background-image: url('/assets/img/third-party/apple-podcasts.png');
+  }
+  &.drivethrurpg {
+    background-image: url('/assets/img/third-party/drivethrurpg.png');
+  }
+  &.itchio {
+    background-image: url('/assets/img/third-party/itchio.png');
+  }
+  &.kickstarter {
+    background-image: url('/assets/img/third-party/kickstarter.png');
+  }
+  &.patreon {
+    background-image: url('/assets/img/third-party/patreon.png');
+  }
+  &.floatcity {
+    background-image: url('/assets/img/third-party/float-city.png');
+  }
+  &.simplecast {
+    background-image: url('/assets/img/third-party/simplecast.png');
+  }
+  &.spotify {
+    background-image: url('/assets/img/third-party/spotify.png');
+  }
+  &.youtube {
+    background-image: url('/assets/img/third-party/youtube.png');
+  }
+}

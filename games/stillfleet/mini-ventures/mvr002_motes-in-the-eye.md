@@ -33,10 +33,10 @@ Thanks to Stephen Aubrey and Jedd Cole for their thorough edits.
 
 And thanks to all of our playtesters, both of "Motes" and *The Rain Thieves*!
 
-<ul class="button-list">
+## Get this mini-venture
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/motes-in-the-eye/purchase" class="external itchio">
-      Download Motes in the Eye from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/motes-in-the-eye/purchase" text="Itch" %}
   </li>
 </ul>

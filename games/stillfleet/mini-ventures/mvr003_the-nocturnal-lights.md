@@ -27,10 +27,11 @@ Interesting bits contained in this short playable scenario:
 - "Wolves"
 - Space agriculture
 
-<ul class="button-list">
+
+## Get this mini-venture
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/nocturnal-lights/purchase" class="external itchio">
-      Download Nocturnal Lights from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/nocturnal-lights/purchase" text="Itch" %}
   </li>
 </ul>

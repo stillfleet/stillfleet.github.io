@@ -22,11 +22,7 @@ This page offers resources for playing Stillfleet, including character sheets, r
 
 {% assign resources = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-resources'" %}
 
-<ul id="resources" class="covers">
-  {% for page in resources %}
-    <li>{% include components/cover.html page=page %}</li>
-  {% endfor %}
-</ul>
+{% include components/cover-list.html pages=resources %}
 
 ## Character sheets
 

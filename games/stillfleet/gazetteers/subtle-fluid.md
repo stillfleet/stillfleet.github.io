@@ -4,6 +4,7 @@ title: Subtle Fluid
 heading: "The blooder: nanotechnology for Stillfleet & other sci-fi RPGs"
 cover: assets/img/brands/stillfleet/subtle-fluid-cover.jpg
 keywords: subtle fluid, blooder, nanotech rpg, nanotech game, the blood rpg, stillfleet class, stillfleet ventures, nanofluidics, nanotech, nanotechnology, nanorobots, nanobots, nanobio rpg, wetware rpg
+published: false
 ---
 
 *Subtle Fluid* offers 37 pages of rules, art by Ethan Gould, and hooks about nanotechnology—collected into a single zine, immaculately designed by Erich Lazar—that will add dangerous spice to your games of *Stillfleet*, or any other sci-fi RPG.

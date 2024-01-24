@@ -7,9 +7,7 @@ version: Version 2.0 ☉ 2023
 copyright: 2023 Stillfleet Studio
 heading: Join the Worshipful Company of Stillfleeters! Tour the void! Try to survive!
 keywords: quickstart, quickstart rules, stillfleet quickstart, stillfleet intro, stillfleet pregens, pregenerated characters
-shop:
-  "itchio": https://stillfleet.itch.io/quickstart/purchase
-  "drivethrurpg": https://www.drivethrurpg.com/product/345671/Stillfleet--Quickstart-Rules
+play-now: false
 credits:
   - Writing – Wythe Marschall
   - Art – Ethan Gould
@@ -37,13 +35,9 @@ This Quickstart contains 42 pages of rules, entire classes, gear (sample weapons
 
 <ul class="button-list">
   <li>
-    <a href="https://stillfleet.itch.io/quickstart" class="external itchio">
-      Download the Quickstart Rules from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/quickstart/purchase" text="Download the Quickstart Rules from Itch" %}
   </li>
   <li>
-    <a href="https://www.drivethrurpg.com/product/345671/Stillfleet--Quickstart-Rules" class="external drivethrurpg">
-      Download the Quickstart Rules from DriveThruRPG
-    </a>
+    {% include components/purchase.html url="https://www.drivethrurpg.com/product/345671/Stillfleet--Quickstart-Rules" text="Download the Quickstart Rules from DriveThruRPG" %}
   </li>
 </ul>

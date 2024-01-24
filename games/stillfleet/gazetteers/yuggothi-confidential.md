@@ -4,6 +4,7 @@ title: Yuggothi Confidential
 heading: A GM-less/all-GM game about giant crabs from Pluto
 cover: assets/img/brands/stillfleet/yuggothi-cover.jpg
 keywords: yuggothi confidential, science horror, lovecraftian horror, lovecraftian, lovecraft, mi-go, mi-go game, collaborative rpg, sci-fi rpg, gmless, gmless rpg, gm-less rpg, all-gm rpg, yuggoth, wythe marschall, ethan gould
+published: false
 ---
 
 > Have you ever wondered what it's like to be one aspect of a mycelial network? Do you enjoy "flipped dungeons" where you play as the villains? 

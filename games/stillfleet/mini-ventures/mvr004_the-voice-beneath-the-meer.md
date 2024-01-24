@@ -34,10 +34,11 @@ Other content to enjoy:
 - Some haunted forest locations
 - Random moon generator
 
-<ul class="button-list">
+
+## Get this mini-venture
+
+<ul class="rowlist">
   <li>
-    <a href="https://stillfleet.itch.io/voice-beneath-the-meer/purchase" class="external itchio">
-      Download The Voice Beneath the Meer from Itch
-    </a>
+    {% include components/purchase.html url="https://stillfleet.itch.io/voice-beneath-the-meer/purchase" text="Itch" %}
   </li>
 </ul>

@@ -10,7 +10,8 @@ layout: product
   {% assign url = item[1] %}
 {% endfor %}
 
-
-{% include components/stillfleet/play_now.html %}
+{% if page.play-now or layout.play-now %}
+  {% include components/stillfleet/play_now.html %}
+{% endif %}
 
 

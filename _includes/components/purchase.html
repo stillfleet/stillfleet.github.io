@@ -4,8 +4,12 @@
   {% assign text = "Buy now" %}  
 {% endif %}
 
-{% if include.url %}
-  <a href="{{ include.url }}" class="external {{ include.vendor }}">
-    {{ text }}
-  </a>
+{% if include.url contains 'drivethrurpg' %}
+  {% assign vendor = 'drivethrurpg' %}
+{% elsif include.url contains 'itch.io' %}
+  {% assign vendor = 'itchio' %}
+{% else %}
+  {% assign vendor = 'unknown' %}
 {% endif %}
+
+<a href="{{ include.url }}" class="external purchase {{ vendor }}">{{ include.text }}</a>
