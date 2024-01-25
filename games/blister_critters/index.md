@@ -43,3 +43,13 @@ The *Blister Critters Quickstart* contains everything you need to play. But reme
 <a href="https://www.kickstarter.com/projects/wythe/blister-critters" class="external kickstarter">Get notified when the campaign goes live on Kickstarter!</a>
 
 And if you're digging the game, [consider leaving us a nice blurb to use in telling others about it](https://forms.gle/w7FKfooBswDtzhwQ6). Thanks!
+
+
+<ul class="rowlist">
+  <li>
+    <a class="external youtube" href="https://www.youtube.com/watch?v=_dXVu_7wUz0">Actual Play with Jenn De La Vega</a>
+  </li>
+    <li>
+    <a class="external youtube" href="https://www.youtube.com/watch?v=zQvmUP3amQA">The Weekly Scroll (Interview)</a>
+  </li>
+</ul>
