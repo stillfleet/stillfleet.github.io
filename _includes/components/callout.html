@@ -7,17 +7,17 @@
 <a href="{{ url }}"
    class="callout"
    style="background-image: url('{{ include.src }}');">
-  {% if include.heading %}
-  <header>
-    <h1>
+   <aside>
+    {% if include.heading %}
+    <header>
       {{ include.heading }}
-    </h1>
-  </header>
-  {% endif %}
-  <p>
-    {{ include.text }}
-  </p>
-  <footer>
-    {{ include.cta_text }}
-  </footer>
+    </header>
+    {% endif %}
+    <p>
+      {{ include.text }}
+    </p>
+    <footer>
+      {{ include.cta_text }}
+    </footer>
+  </aside>
 </a>

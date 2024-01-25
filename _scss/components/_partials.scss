@@ -245,9 +245,8 @@ nav[data-role="internal-nav"] {
 }
 
 a.callout {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: inline-block;
+
   min-width: 250px;
   min-height: 300px;
   background-size: cover;
@@ -255,6 +254,7 @@ a.callout {
   flex: 1;
   width: 100%;
   transition: 2s;
+  padding: 0;
 
   &:hover {
     text-decoration: none;
@@ -263,47 +263,57 @@ a.callout {
     transition: 6s;
   }
 
-  header, footer {
-    background-color: transparent;
-    display: block;
-    backdrop-filter: blur(4px) brightness(30%);
-    flex-grow: 0;
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: inherit;
+    min-height: inherit;
 
-    &:empty {
-      display: none;
-    }
-  }
-  header {
-    h1 { 
-      padding: 0 1rem;
-      width: auto;
-      font-size: $h2;
-      background: transparent; 
+    header, footer {
+      background-color: transparent;
+      display: block;
+      backdrop-filter: blur(4px) brightness(30%);
+      flex-grow: 0;
+
       &:empty {
         display: none;
       }
     }
-  }
+    header {
+      padding: 0 1rem;
+      width: auto;
+      font-size: $h2;
+      background: transparent;
+      &:empty {
+        display: none;
+      }
+    }
 
-  p {
-    display: none;
-    flex-shrink: 0;
+    p {
+      flex-shrink: 0;
+      flex-grow: 2;
 
-    @include medium-breakpoint {
-      display: block;
-      flex-shrink: 1;
-    }  
-  }
+      &:empty {
+        display: none;
+      }
 
-  footer {
-    font-size: $h5;
-    height: auto;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    text-align: right;
+      @include medium-breakpoint {
+        display: block;
+        flex-shrink: 1;
+      }
+    }
 
-    @include small-breakpoint {
+    footer {
+      font-size: $h5;
+      height: auto;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      text-align: right;
 
+      @include small-breakpoint {
+
+      }
     }
   }
 }
