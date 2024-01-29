@@ -19,7 +19,7 @@ We are pro-union, queer-friendly, anti-fascist, and decolonial. We believe that,
 
 ## The team
 
-**Wythe Marschall (writer, lead game designer)** is an experienced writer, science communicator, and game designer. He created *Stillfleet* and the Stillfleet Studio to blend two lifelong obsessions, Leftist politics and TTRPGs. You can reach him on [Twitter](https://twitter.com/hollowearths).
+**Wythe Marschall (writer, lead game designer)** is an experienced writer, science communicator, and game designer. He created *Stillfleet* and the Stillfleet Studio to blend two lifelong obsessions, Leftist politics and TTRPGs. You can reach him on [Twitter](https://twitter.com/stillfleet).
 
 **Ethan Gould(ini) (art director, lead artist, game designer)** is an artist and writer, born and raised in New York. He is chuffed that Stillfleet stokes his passion for creating hot bureaucratic aliens, nonbinary mech astronaut fashion, and moss-covered infrastructure. Find him at [@spectralhouse](https://www.instagram.com/spectralhouse/) wherever fine internets are sold.
 
