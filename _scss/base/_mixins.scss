@@ -33,34 +33,50 @@
     padding-left: 3rem;
     background-repeat: no-repeat;
   }
-
-  &.stillfleet {
-    background-image: url('/assets/img/third-party/stillfleet.png');
-  }
-
   &.apple-podcasts {
     background-image: url('/assets/img/third-party/apple-podcasts.png');
+  }
+  &.discord {
+    background-image: url('/assets/img/third-party/discord.png');
+    &.dark {
+      background-image: url('/assets/img/third-party/discord-dark.png');
+    }
   }
   &.drivethrurpg {
     background-image: url('/assets/img/third-party/drivethrurpg.png');
   }
   &.itchio {
     background-image: url('/assets/img/third-party/itchio.png');
+    &.dark {
+      background-image: url('/assets/img/third-party/itchio-dark.png');
+    }
   }
   &.kickstarter {
     background-image: url('/assets/img/third-party/kickstarter.png');
   }
   &.patreon {
     background-image: url('/assets/img/third-party/patreon.png');
+    &.dark {
+      background-image: url('/assets/img/third-party/patreon-dark.png');
+    }
   }
   &.floatcity {
     background-image: url('/assets/img/third-party/float-city.png');
   }
   &.simplecast {
     background-image: url('/assets/img/third-party/simplecast.png');
+    &.dark {
+      background-image: url('/assets/img/third-party/simplecast-dark.png');
+    }
   }
   &.spotify {
     background-image: url('/assets/img/third-party/spotify.png');
+  }
+  &.stillfleet {
+    background-image: url('/assets/img/third-party/stillfleet.png');
+    &.dark {
+      background-image: url('/assets/img/third-party/stillfleet-dark.png');
+    }
   }
   &.youtube {
     background-image: url('/assets/img/third-party/youtube.png');

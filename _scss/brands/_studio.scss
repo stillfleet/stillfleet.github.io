@@ -74,4 +74,8 @@ body[data-brand="studio"] {
     font-family: $header-font;
     color: black;
   }
+
+  blockquote {
+    border-left-color: $rich-black;
+  }
 }

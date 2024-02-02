@@ -1,0 +1,59 @@
+body#rules[data-brand="stillfleet"] {
+  dl.difficulties {
+    dt, dd {
+      color: $rich-black;
+
+      &.five {
+        background-color: #616161;
+      }
+      &.six {
+        background-color: #00a863;
+      }
+      &.seven {
+        background-color: #26b57b;
+      }
+      &.nine {
+        background-color: #72cfa9;
+      }
+      &.twelve {
+        background-color: #e5f6ef;
+      }
+    }
+  }
+  dl.scores {
+    width: 80%;
+    margin: 0 auto 0 0;
+    dt {
+      background-color: $tephnian-red;
+      font-family: $brand-font;
+      font-size: 1.3rem;
+      font-weight: bold;
+      border-bottom: 1px solid white;
+      padding: 0.2rem 0.5rem;
+    }
+    dd {
+      border-bottom: 1px solid white;
+      padding: 0.2rem 1rem;
+    }
+  }
+
+  section#books {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin: 0 auto 0 0;
+    max-width: 1000px;
+
+    aside {
+      flex: 1 1 auto;
+
+      a[data-include="cover"] {
+        float: right;
+        width: auto;
+
+
+      }
+    }
+  }
+}

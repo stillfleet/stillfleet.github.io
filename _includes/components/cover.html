@@ -1,6 +1,13 @@
+{% if include.text %}
+{% assign text = include.text %}
+{% else %}
+{% assign text = include.page.title %}
+{% endif %}
 <a data-include="cover" href="{%- link {{ include.page.path }} -%}" title="{{ include.page.title }}">
-  <figure>
-    <img src="/{{ include.page.cover }}" alt="cover" />
-    <figcaption>{{ include.page.title }}</figcaption>
-  </figure>
+<figure>
+<img src="/{{ include.page.cover }}" alt="{{ include.page.title }} cover">
+{% if text != '' %}
+<figcaption>{{ text }}</figcaption>
+{% endif %}
+</figure>
 </a>

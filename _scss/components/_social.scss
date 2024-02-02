@@ -56,7 +56,7 @@
   }
 }
 
-.external {
+.external, .internal {
   @extend %buttons;
   display: inline-block;
   background-color: white;
@@ -67,11 +67,33 @@
   transition: 0.25s;
 
   &:hover {
-    text-decoration: none;
     transition: 0.5s;
+    text-decoration: none;
+  }
+}
+.external {
+  @include social-icons;
+
+  &:hover {
     background-size: 5rem;
     background-position: -2.25rem;
   }
+  &.dark {
+    color: white;
+    background-color: $rich-black;
 
-  @include social-icons;
+    &:hover {
+      background-color: $tephnian-red;
+    }
+  }
+}
+
+.internal {
+  background-color: $rich-black;
+  color: white;
+
+  &:hover {
+    background-color: $tephnian-red;
+    color: white;
+  }
 }

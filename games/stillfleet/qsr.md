@@ -17,19 +17,18 @@ credits:
   - Web design/app development – Aaron Hill
 ---
 
-> Stillfleet is a new tabletop RPG about exploring ruined spacecraft—hulks—and habitable earth-like planets, cut off from contact with Terra for decades or centuries—rocks.
+> *Stillfleet* is a tabletop RPG about exploring ruined spacecraft—hulks—and habitable earth-like planets, cut off from contact with Terra for decades or centuries—rocks.
 
-This Quickstart contains 42 pages of rules, entire classes, gear (sample weapons, armor, comms), aliens (6 encounters with full stats), settings, random tables, and a venture hook, as well as a separate document with 9 Pregenerated Characters—different species and classes.
+This *Quickstart* contains 42 pages of rules, entire classes, gear (sample weapons, armor, comms), aliens (6 encounters with full stats), settings, random tables, and a venture hook, as well as a separate document with 9 pregenerated characters—all different species and classes.
 
 ### What’s inside:
 
 - Core rules
 - Introduction to the game cosmos
-- Sample fauna
+- Sample xenofauna (full statblocks)
 - Sample archaetech items
-- Eight different, fully playable pregenerated characters, with portraits
+- Nine different, fully playable pregenerated characters, with portraits
 - Amazing illustrations by Ethan Gould
-
 
 ### Pay what you want to start playing Stillfleet today!
 
@@ -40,4 +39,9 @@ This Quickstart contains 42 pages of rules, entire classes, gear (sample weapons
   <li>
     {% include components/purchase.html url="https://www.drivethrurpg.com/product/345671/Stillfleet--Quickstart-Rules" text="Download the Quickstart Rules from DriveThruRPG" %}
   </li>
+  <li>
+    <a href="https://strings.stillfleet.com/voidminers/recruitr" class="stillfleet dark external">Generate a character with STRINGS</a>
+  </li>
 </ul>
+
+![mi-go, by Ethan Gould](/assets/img/brands/stillfleet/mi-go.png)

@@ -51,11 +51,57 @@ html, body {
   main {
     flex: 1 0 auto;
 
+    header {
+      margin: auto 1rem;
+      @include medium-breakpoint {
+        margin: auto 8rem;
+      }
+    }
+
     article {
       margin: auto 1rem;
 
       @include medium-breakpoint {
         margin: auto 8rem;
+      }
+
+      &#page {
+
+      }
+
+      &#page-with-inlay {
+        display: flex;
+        flex-direction: row;
+
+        aside {
+          flex-shrink: 0;
+          margin: 2rem;
+
+          ul, ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+
+            li {
+              margin: 1rem;
+            }
+          }
+        }
+      }
+
+      .inlay {
+        display: none;
+
+        @include medium-breakpoint {
+          display: inline-block;
+          width: 50%;
+          margin-left: 2rem;
+          min-width: 300px;
+          max-width: 600px;
+          float: right;
+        }
       }
     }
 

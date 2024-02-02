@@ -10,15 +10,18 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
   <div>
     <section data-content="lede">
       <header>
-        <h1>Be weird ☉ do crimes</h1>
+        <h2>Be weird ☉ do crimes</h2>
       </header>
       <article>
         <p><em>The Stillfleet Studio</em> makes high-quality, mind-expanding, innovative, and replayable tabletop games with a focus on roleplaying.</p>
       </article>
     </section>
     <section class="callouts">
-      {% include components/callout.html src="/assets/img/brands/stillfleet/qsr-cover.jpg" cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" cta_text="Try the infamous political superfuture sci-fi tour de force" %}
-      {% include components/callout.html src="/assets/img/brands/blister_critters/cover-mini.png" cta_url="https://play.blistercritters.com" cta_text="Unleash your inner critter!" %}
+      
+      {% include components/callout.html src="/assets/img/brands/stillfleet/qsr-cover.jpg" cta_url="https://www.drivethrurpg.com/product/391384/Stillfleet--Quickstart-Rules-PRINT-BOOK" cta_text="Try the political superfuture sci-fi tour de force" %}
+
+      {% include components/callout.html src="/assets/img/brands/blister_critters/cover.jpg" cta_url="https://play.blistercritters.com" cta_text="Unleash your inner Critter!" %}
+
     </section>
   </div>
 </section>
@@ -45,7 +48,7 @@ keywords: stillfleet, rpg, ttrpg, osr, osr rpg, sci-fi, science fiction, sci-fi 
     <p><em>Stillfleet</em> is a politically charged TTRPG set far into the superfuture. Using the unique, highly flexible Grit System, players take on the role of <strong>voidminers</strong>—salvagers working for the venal Worshipful Company of Stillfleeters (<strong>the Co.</strong>) who explore ruined spacecraft and earth-like planets that have been cut off from Terra for centuries. The Co.’s headquarters, the alien space station nicknamed <strong>Spindle</strong>, brims with timespace gates called <strong>stiffworks</strong>—and with the vile secrets of the Co.’s directors…
     </p>
     <ul class="rowlist">
-        <li><a href="https://stillfleet.itch.io/stillfleet-core-rulebook/purchase" class="external itchio">Get the full rules</a></li>
+        <li><a href="{% link games/stillfleet/crb.md %}" class="internal">Learn more</a></li>
         <li><a href="https://funcity.ventures/category/float-city/" class="external floatcity">Listen to epic actual play</a></li>
     </ul>
   </article>

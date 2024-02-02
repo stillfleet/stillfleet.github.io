@@ -56,16 +56,18 @@ body#home {
             flex-grow: 3;
           }
           header {
+            width: 100%;
             h2 {
               font-size: $h1;
-             color: $tephnian-red;
+              color: $tephnian-red;
+              font-family: $studio-brand-font;
+              text-align: left;
             }
           }
           article {
             margin: 0;
             p {
               font-weight: bold;
-              font-size: $h4;
             }
           }
         }

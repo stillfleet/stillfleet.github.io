@@ -4,20 +4,12 @@
   {% assign url = link include.cta_url %}
 {% endif %}
 
-<a href="{{ url }}"
-   class="callout"
-   style="background-image: url('{{ include.src }}');">
-   <aside>
+<a href="{{ url }}" class="callout" style="background-image: url('{{ include.src }}');">
+  <aside>
     {% if include.heading %}
-    <header>
-      {{ include.heading }}
-    </header>
+      <header>{{ include.heading }}</header>
     {% endif %}
-    <p>
-      {{ include.text }}
-    </p>
-    <footer>
-      {{ include.cta_text }}
-    </footer>
+    <p>{{ include.text }}&nbsp;</p>
+    <footer>{{ include.cta_text }}</footer>
   </aside>
 </a>

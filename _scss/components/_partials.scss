@@ -71,6 +71,52 @@ ul.covers {
 }
 
 //
+// _includes/components/product-link.html
+//
+
+figure {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 8px;
+  align-self: stretch;
+
+  max-width: 125px;
+
+  @include medium-breakpoint {
+    max-width: 200px;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  a[data-include="product-link"] {
+    &:hover {
+      background-color: rgba(0,0,0,0.4);
+      color: $white;
+      text-decoration: none;
+    }
+    width: 100%;
+  }
+  img {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  figcaption {
+    height: 100%;
+    flex-grow: 2;
+    flex-shrink: 0;
+    font-size: 1.3rem;
+    text-align: center;
+    @include medium-breakpoint {
+
+    }
+  }
+}
+
+//
 // _includes/components/product.html
 //
 
@@ -305,7 +351,7 @@ a.callout {
     }
 
     footer {
-      font-size: $h5;
+      font-size: 1rem;
       height: auto;
       padding: 0.5rem 1rem;
       font-weight: bold;

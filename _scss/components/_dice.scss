@@ -1,0 +1,563 @@
+// Unadorned
+.unfolded-dice {
+  .face-1 {
+    fill: #141414;
+  }
+
+  .face-2 {
+    fill: #272727;
+  }
+
+  .face-3 {
+    fill: #3a3a3a;
+  }
+
+  .face-4 {
+    fill: #4e4e4f;
+  }
+
+  .face-5 {
+    fill: #616262;
+  }
+
+  .face-6 {
+    fill: #00a863;
+  }
+
+  .face-7 {
+    fill: #25b67b;
+  }
+
+  .face-8 {
+    fill: #54be92;
+  }
+
+  .face-9 {
+    fill: #77c8a7;
+  }
+
+  .face-10 {
+    fill: #9dd5be;
+  }
+
+  .face-11 {
+    fill: #c1e4d5;
+  }
+
+  .face-12 {
+    fill: #e7f4ee;
+  }
+  &.check-5 {
+    .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+      fill: $electric-yellow;
+    }
+  }
+  &.check-6 {
+    .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+      fill: $electric-yellow;
+    }
+  }
+  &.check-7 {
+    .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+      fill: $electric-yellow;
+    }
+  }
+  &.check-9 {
+    .face-9, .face-10, .face-11, .face-12 {
+      fill: $electric-yellow;
+    }
+  }
+  &.check-12 {
+    .face-12 {
+      fill: $electric-yellow;
+    }
+  }
+
+  &.boost-3 {
+    &.check-5 {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+      fill: $electric-yellow;
+    }
+    &.check-7 {
+      .face-4, .face-5, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    &.check-9 {
+      .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    &.check-12 {
+      .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+  }
+
+  &.boost-6 {
+    .face-1 {
+      fill: $tephnian-red;
+    }
+    &.check-5 {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+      fill: $electric-yellow;
+    }
+    &.check-7 {
+      .face-2, .face-3, .face-4, .face-5, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    &.check-9 {
+      .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    &.check-12 {
+      .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+  }
+
+  &.boost-9 {
+    .face-1 {
+      fill: $tephnian-red;
+    }
+    &.check-5 {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+      fill: $electric-yellow;
+    }
+    &.check-7 {
+      .face-2, .face-3, .face-4, .face-5, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    &.check-9 {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+    &.check-12 {
+      .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $electric-yellow;
+      }
+    }
+  }
+  path {
+    stroke: #fff;
+    stroke-miterlimit: 10;
+  }
+}
+
+// Very adorned
+$clean-success: #00a863;
+$boost-3-success: darken($electric-yellow, 10%);
+$boost-6-success: darken($electric-yellow, 10%);
+$boost-9-success: darken($electric-yellow, 10%);
+$fail: $rich-black;
+$crit-fail: $tephnian-red;
+
+$difficulty-5: #616161;
+$difficulty-6: #00a863;
+$difficulty-7: #26b57b;
+$difficulty-8: #26b57b;
+$difficulty-9: #72cfa9;
+$difficulty-10: #95d6bf;
+$difficulty-11: #b5e6df;
+$difficulty-12: #e5f6ef;
+
+$crit-fail-pulse: crit-fail 5s infinite;
+$clean-pulse: clean 10s infinite;
+$boosted-pulse: boosted 2s infinite;
+
+@keyframes crit-fail {
+  0%, 100% {
+    fill: $crit-fail;
+  }
+  50% {
+    fill: darken($crit-fail, 20%);
+  }
+}
+@keyframes clean {
+  0%, 100% {
+    stroke: white;
+    stroke-width: 2px;
+  }
+  50% {
+    stroke-width: 0;
+  }
+}
+@keyframes boosted {
+  0%, 100% {
+    stroke: white;
+    stroke-width: 4px;
+  }
+  50% {
+    stroke: white;
+    stroke-width: 1px;
+  }
+}
+
+form.dice-sliders {
+  .unfolded-dice .face-1 {
+    fill: $crit-fail;
+    animation: $crit-fail-pulse;
+  }
+  input[type="range"] + label {
+    margin-top: 0;
+  }
+  input[name="boost"][data-value="0"] {
+    & ~ label[for="boost"] {
+      color: transparent;
+    }
+    & ~ label[for="boost"]::before {
+      content: "Unboosted";
+      color: white;
+    }
+  }
+  input[name="boost"][data-value="3"] {
+    & ~ label[for="boost"]::after {
+      content: " +3 (burn 3 grit)";
+    }
+  }
+  input[name="boost"][data-value="6"] {
+    & ~ label[for="boost"]::after {
+      content: " +6 (burn 6 grit)";
+    }
+  }
+  input[name="boost"][data-value="9"] {
+    & ~ label[for="boost"]::after {
+      content: " +9 (burn 9 grit)";
+    }
+  }
+
+  input[name="difficulty"][data-value="5"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "Easy (5+)";
+      color: white;
+    }
+    // Unboosted
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4 {
+        fill: $fail;
+      }
+      .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $difficulty-5;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice,
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice,
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-2, .face-3, .face-4 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+  }
+
+  input[name="difficulty"][data-value="6"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "Standard (6+)";
+      color: white;
+    }
+    // Unboosted
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4, .face-5 {
+        fill: $fail;
+      }
+      .face-6, .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        animation: $clean-pulse;
+        fill: $difficulty-6;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice {
+      .face-3, .face-4, .face-5 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice,
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-2 {
+        fill: $boost-6-success;
+        animation: $boosted-pulse;
+      }
+      .face-3, .face-4, .face-5 {
+        fill: $boost-3-success;
+      }
+    }
+  }
+  input[name="difficulty"][data-value="7"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "Difficult (7+)";
+      color: white;
+    }
+    // Unboosted
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4, .face-5, .face-6 {
+        fill: $fail;
+      }
+      .face-7, .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $difficulty-7;
+        animation: $clean-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice {
+      .face-4, .face-5, .face-6 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice,
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-2, .face-3 {
+        fill: $boost-6-success;
+        animation: $boosted-pulse;
+      }
+      .face-4, .face-5, .face-6 {
+        fill: $boost-3-success;
+      }
+    }
+  }
+  input[name="difficulty"][data-value="8"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "More difficult (8+)";
+      color: white;
+    }
+    // Unboosted
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7 {
+        fill: $fail;
+      }
+      .face-8, .face-9, .face-10, .face-11, .face-12 {
+        fill: $difficulty-8;
+        animation: $clean-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice {
+      .face-5, .face-6, .face-7 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice,
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-2, .face-3, .face-4 {
+        fill: $boost-6-success;
+        animation: $boosted-pulse;
+      }
+      .face-5, .face-6, .face-7 {
+        fill: $boost-3-success;
+      }
+    }
+  }
+  input[name="difficulty"][data-value="9"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "Very difficult (9+)";
+      color: white;
+    }
+    // Unboosted
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8 {
+        fill: $fail;
+      }
+      .face-9, .face-10, .face-11, .face-12 {
+        fill: $difficulty-9;
+        animation: $clean-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice {
+      .face-6, .face-7, .face-8 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice {
+      .face-3, .face-4, .face-5 {
+        fill: $boost-6-success;
+        animation: $boosted-pulse;
+      }
+      .face-6, .face-7, .face-8 {
+        fill: $boost-3-success;
+      }
+    }
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-2 {
+        fill: $boost-9-success;
+        animation: $boosted-pulse;
+      }
+      .face-3, .face-4, .face-5 {
+        fill: $boost-6-success;
+      }
+      .face-6, .face-7, .face-8 {
+        fill: $boost-3-success;
+      }
+    }
+  }
+  input[name="difficulty"][data-value="10"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "Extremely difficult (10+)";
+      color: white;
+    }
+    // Unboosted
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9 {
+        fill: $fail;
+      }
+      .face-10, .face-11, .face-12 {
+        fill: $difficulty-10;
+        animation: $clean-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice {
+      .face-7, .face-8, .face-9 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice {
+      .face-4, .face-5, .face-6 {
+        fill: $boost-6-success;
+        animation: $boosted-pulse;
+      }
+      .face-7, .face-8, .face-9 {
+        fill: $boost-3-success;
+      }
+    }
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-2, .face-3 {
+        fill: $boost-9-success;
+        animation: $boosted-pulse;
+      }
+      .face-4, .face-5, .face-6 {
+        fill: $boost-6-success;
+      }
+      .face-7, .face-8, .face-9 {
+        fill: $boost-3-success;
+      }
+    }
+  }
+  input[name="difficulty"][data-value="11"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "Near impossible (11+)";
+      color: white;
+    }
+    // Unboosted
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10 {
+        fill: $fail;
+      }
+      .face-11, .face-12 {
+        fill: $difficulty-11;
+        animation: $clean-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice {
+      .face-8, .face-9, .face-10 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice {
+      .face-5, .face-6, .face-7 {
+        fill: $boost-6-success;
+        animation: $boosted-pulse;
+      }
+      .face-8, .face-9, .face-10 {
+        fill: $boost-3-success;
+      }
+    }
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-2, .face-3, .face-4 {
+        fill: $boost-9-success;
+        animation: $boosted-pulse;
+      }
+      .face-5, .face-6, .face-7 {
+        fill: $boost-6-success;
+      }
+      .face-8, .face-9, .face-10 {
+        fill: $boost-3-success;
+      }
+    }
+  }
+  input[name="difficulty"][data-value="12"] {
+    & ~ label[for="difficulty"] {
+      color: transparent;
+    }
+    & ~ label[for="difficulty"]::before {
+      content: "\"Impossible\" (12+)";
+      color: white;
+    }
+    & ~ .unfolded-dice {
+      .face-2, .face-3, .face-4, .face-5, .face-6, .face-7, .face-8, .face-9, .face-10, .face-11 {
+        fill: $fail;
+      }
+      .face-12 {
+        fill: $difficulty-12;
+        animation: $clean-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="3"] ~ .unfolded-dice {
+      .face-9, .face-10, .face-11 {
+        fill: $boost-3-success;
+        animation: $boosted-pulse;
+      }
+    }
+    & ~ input[name="boost"][data-value="6"] ~ .unfolded-dice {
+      .face-6, .face-7, .face-8 {
+        fill: $boost-6-success;
+        animation: $boosted-pulse;
+      }
+      .face-9, .face-10, .face-11 {
+        fill: $boost-3-success;
+      }
+    }
+    & ~ input[name="boost"][data-value="9"] ~ .unfolded-dice {
+      .face-3, .face-4, .face-5 {
+        fill: $boost-9-success;
+        animation: $boosted-pulse;
+      }
+      .face-6, .face-7, .face-8 {
+        fill: $boost-6-success;
+      }
+      .face-9, .face-10, .face-11 {
+        fill: $boost-3-success;
+      }
+    }
+  }
+}
