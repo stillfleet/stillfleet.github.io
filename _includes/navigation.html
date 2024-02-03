@@ -15,7 +15,8 @@
           <input type="checkbox" id="sm-stillfleet">
           <ul class="sub-menu">
             <li><a href="/games/stillfleet/rules.html">Core Rules
-            {% assign rulebooks = site.pages | where_exp: "page", "page.name == 'qsr.md' or page.name == 'crb.md'" | reverse %}
+            {% assign rulebooks = site.pages | where_exp: "page", "page.name == 'qsr.md' or page.name == 'crb.md'" %}
+            {% assign rulebooks = rulebooks | reverse %}
             <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-rules">▶</label>
             </a>
             <input type="checkbox" id="sm-stillfleet-rules">
