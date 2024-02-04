@@ -54,15 +54,19 @@ html, body {
     header {
       margin: auto 1rem;
       @include medium-breakpoint {
-        margin: auto 8rem;
+        margin: auto 4rem;
       }
     }
 
     article {
       margin: auto 1rem;
 
+      img {
+        max-width: 100%;
+      }
+
       @include medium-breakpoint {
-        margin: auto 8rem;
+        margin: auto 4rem;
       }
 
       &#page {
@@ -160,7 +164,7 @@ html, body {
       }
     }
   }
-  footer {
+  & > footer {
     display: flex;
     flex-direction: row;
     flex-shrink: 0;

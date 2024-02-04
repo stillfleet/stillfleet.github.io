@@ -1,12 +1,13 @@
 ---
 layout: page
 brand: stillfleet
+heading: Digital and physical resources
 title: Resources
 heading: Track your voidguilders in style
 keywords: stillfleet character sheet, stillfleet resources, stillfleet tools, stillfleet extras
 ---
 
-This page offers resources for playing Stillfleet, including character sheets, random generators, and more.
+To support players and GMs using the Grit System, we’re developing digital and physical tools, starting with our web app, STRINGS. You can use STRINGS to generate random characters, archaetech, aliens, names, and more—all for free.
 
 <section class="half-width">
 {%

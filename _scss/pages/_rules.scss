@@ -37,23 +37,13 @@ body#rules[data-brand="stillfleet"] {
     }
   }
 
-  section#books {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    margin: 0 auto 0 0;
-    max-width: 1000px;
-
-    aside {
-      flex: 1 1 auto;
-
-      a[data-include="cover"] {
-        float: right;
-        width: auto;
-
-
-      }
+  .product-card {
+    background-color: $rich-black;
+    color: white;
+    margin-right: 1rem;
+    @include large-breakpoint {
+      min-height: 450px;  
     }
+    
   }
 }

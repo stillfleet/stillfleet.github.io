@@ -28,4 +28,22 @@ body[data-brand="stillfleet"] {
     font-family: $header-font;
     color: white;
   }
+
+  fieldset {
+    border: 1px solid $tephnian-red;
+    legend {
+      color: $tephnian-red;
+    }
+  }
+
+  #get-the-venture, #get-the-mini-venture {
+    clear: right;
+  }
+  
+  .product-cards {
+    .product-card {
+      background-color: $rich-black;
+      color: white;
+    }
+  }
 }

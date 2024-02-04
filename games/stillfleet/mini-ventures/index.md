@@ -6,13 +6,19 @@ title: Mini-Ventures
 
 {% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
 
+> Explore the full range of playable stories for Stillfleet by different creators
+
 ## Ready to run
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui do
+Each mini-venture is a high-quality, 10–12-page, standalone supplement for Stillfleet or any Grit System game. A mini-venture is a playable story, and it can also include a gazetteer focusing more on a setting, a mini-game, a new set of rules for the Grit System, a series of maps or items or pre-gens, and so on.
 
-lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+Check out the range of mini-ventures we’ve published to date, and become a patron to support the development of new stories and collaborations!
 
-lorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+<a href="https://www.patreon.com/stillfleet?fan_landing=true" class="external patreon dark">Become a patron</a>
+
+Have an idea for your own mini-venture? Join us on Discord and let us know!
+
+<a href="http://discord.stillfleet.com/" class="external discord dark">Discord</a>
 
 <ul id="miniventures" class="covers">
   {% for page in miniventures %}

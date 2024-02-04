@@ -3,59 +3,28 @@ layout: brands/stillfleet-gazetteers
 title: Qadida
 heading: A new espionage-themed setting + new rules...
 cover: assets/img/brands/stillfleet/gaz001-cover.jpg
+order: 1
 ---
 
-Take Stillfleet and the Grit System into a world of intrigue, assassination, and warfare that is quiet, cold, and high-stakes for the entire network of worlds exploited by the Worshipful Company of Stillfleeters.
+> Take *Stillfleet* and the Grit System into a world of intrigue, assassination, and warfare that is quiet, cold, and high-stakes for the entire network of worlds exploited by the Worshipful Company of Stillfleeters.
 
-What happens when a rival organization—the anarchic Honourable Company—finally takes power from the Worshipful Company? Can half of a domed city on a dwarf planet survive alone? Is Free Qadida slipping into authoritarianism, or is that just more Worshipful Co. propaganda? Find out by reserving your copy of Qadida!
+What happens when a rival organization—the anarchic Honourable Company—finally takes power from the Worshipful Company? Can half of a domed city on a dwarf planet survive alone? Is Free Qadida slipping into authoritarianism, or is that just more Worshipful Co. propaganda? Find out in Qadida: *Spy Planet*! (Successfully backed on Kickstarter in the summer of 2023!)
 
-This book of at least 100 pages features an in-world introduction to the domed/divided dwarf planet, new rules, in-depth backgrounds on the two halves of the dome (Co.-controlled Worshipful Qadida and anarcho-socialist Free Qadida), a special format-busting section on the hell science-haunted demilitarized zone called The Span (think Roadside Picnic/Stalker), a full-length espionage-filled venture, and dozens of new encounter blocks.
+This 170-page book features an in-world introduction to the domed/divided dwarf planet, new rules, in-depth backgrounds on the two halves of the dome (Co.-controlled Worshipful Qadida and anarcho-socialist Free Qadida), a special format-busting section on the hell science-haunted demilitarized zone called The Span (think *Roadside Picnic/Stalker*), and two full-length espionage-filled ventures with new encounter blocks.
 
-Illustrated with characteristic lush abandon by Ethan Gouldini, Qadida lovingly yanks the Grit System into the Venn-diagrammed genres of detective fiction, environmental horror, and cold-war intrigue.
+Illustrated with characteristic lush abandon by Ethan Gouldini, *Qadida* lovingly yanks the Grit System into the Venn-diagrammed genres of detective fiction, environmental horror, and cold-war intrigue. If you’re looking for a fresh take on these themes, *Qadida* will scratch your itch and enhance your games. Get it today—but don’t tell the Man a damn thing. 😎
 
-If you're a fan of Spire or Blades in the Dark looking for a fresh take on some familiar themes, this will scratch your itch while introducing you to a kickass new game. Get it today—but don’t tell the Man a damn thing. 😎
+Thanks to all of [our Kickstarter backers](https://www.kickstarter.com/projects/wythe/qadida-a-spy-filled-stillfleet-gazetteer/) in 2023! We couldn’t have written or published this book without your support and input.
 
-### Qadida features
-
-- 4 new playable classes of spy-themed voidminer
-- a new playable species—unhumans [possibly with more species to come!]
-- an entire new advanced powers list—espionage
-- dozens of factions
-- city-based random encounters, including police checkpoints
-- new market tech and wondrous archaetech
-- unforgettable locations and NPCs in and around the domed/divided city
-- at least full (ad)venture to pull your table into webs of intrigue right away
-
-## Watch a live-play 5-part series set in Qadida
-
-Stillfleet studio, Qadida author Ian Derk, and esteemed guests do a Spy vs. Spy espionage-filled venture, split into 5 parts. The "Free Qadida" team's mission is to prevent an assassination of an important political figure, *Yellow Tent Shaver*, defending against the "Worshipful Qadida" team, set out to perform the assassination.
-
-The sessions alternate teams, sequentially, and were almost entirely improvised with minimal coordination by the GMs between sessions. The final fifth episode brings both teams together into a grisly deathmatch in *The Span* of Qadida, where the outcome was completely determined by player decisions!
-
-Cliff-hangers abound! Witness the glory of public transportation and food festivals and secret police!
-
-<ul class="rowlist">
-  <li>
-    <a class="external youtube" href="https://www.youtube.com/watch?v=hZDylMoW7_w">Free Qadida opener</a>
-  </li>
-  <li>
-    <a class="external youtube" href="https://www.youtube.com/watch?v=K9RXVrVgbgE">Worshipful Qadida opener</a>
-  </li>
-  <li>
-    <a class="external youtube" href="https://www.youtube.com/watch?v=uGXv6FJMbsM">(FQ) Yellow Tent Shaver</a>
-  </li>
-  <li>
-    <a class="external youtube" href="https://www.youtube.com/watch?v=GA4_C8d3Ces">(WQ) The Hit</a>
-  </li>
-  <li>
-    <a class="external youtube" href="https://www.youtube.com/watch?v=x7IWiIbP_i0">(Both) The End?!</a>
-  </li>
-</ul>
+![mongrel seraat, by Ethan Gould](/assets/img/brands/stillfleet/mongrel-seraat.jpg)
 
 ## Get this gazetteer
 
 <ul class="rowlist">
   <li>
-    {% include components/purchase.html url="https://stillfleet.itch.io/qadida/purchase" text="Itch" %}
+    {% include components/purchase.html url="https://stillfleet.itch.io/qadida/purchase" text="Itch" class="dark" %}
+  </li>
+  <li>
+    {% include components/purchase.html url="https://preview.drivethrurpg.com/en/product/468671/Qadida--an-espionagethemed-Stillfleet-gazetteer" text="DriveThruRPG" class="dark" %}
   </li>
 </ul>

@@ -7,9 +7,9 @@ sku: REF002
 version: Version 1.0 ☉ August, 2023
 copyright: 2023 Stillfleet Studio
 credits:
-  - By Wythe Marschall, Aaron H, Stephen Aubrey, Ethan Gould
-  - Art by Ethan Gould
-  - Design by Kae
+  Writing: Wythe Marschall, Aaron H, Stephen Aubrey, Ethan Gould
+  Art: Ethan Gould
+  Design: Kae
 ---
 
 This deck of at least 52 fully illustrated Stillfleet reference cards will consist of modular, detail-rich rooms within a techno-horrific hulk—a derelict spacecraft of Late Tephnian design, brimming with valuable and dangerous secrets (and perhaps a nanite-reanimated walker or mad AI or two)…

@@ -3,17 +3,35 @@ layout: brands/stillfleet-product
 title: The Stillfleet Core Rulebook
 cover: assets/img/brands/stillfleet/crb-cover.jpg
 sku: CRBV1
+order: 2
 version: Version 1.0 ☉ 2022
 copyright: 2022 Stillfleet Studio
 play-now: false
 credits:
-  - Writing by Wythe Marschall 
-  - Art by Ethan Gould
-  - Design by Erich Lazar
-  - Layout by Erich Lazar and Sunaree Paiwong
-  - Editing by Stephen Aubrey
-  - Digital tools by Aaron H.
-  - Additional art by Amanda Lee Franck, Anthony Grasso, Hodag, Aibrahim Zx, Hyperdrive Fleet, Masami Kiyono, Gabriela Lopes Tores, Kimberly Diestro/Orange Arcana, Erich Lazar, and Wythe Marschall 
+  Writing: 
+  - Wythe Marschall 
+  Art: 
+  - Ethan Gould
+  Design: 
+  - Erich Lazar
+  Layout: 
+  - Erich Lazar
+  - Sunaree Paiwong
+  Editing: 
+  - Stephen Aubrey
+  Digital tools: 
+  - Aaron H.
+  Additional art:
+  - Amanda Lee Franck
+  - Anthony Grasso
+  - Hodag
+  - Aibrahim Zx
+  - Hyperdrive Fleet
+  - Masami Kiyono
+  - Gabriela Lopes Tores
+  - Kimberly Diestro/Orange Arcana
+  - Erich Lazar
+  - Wythe Marschall 
 ---
 
 > Uniquely flexible mechanics. An unforgettable game cosmos. Politically charged cosmic fantasy at its weirdest.
@@ -44,13 +62,17 @@ Voidminer—what will you do to resist the temptation of power? To liberate the 
 
 ### Buy the Core Rules PDF and start playing Stillfleet today!
 
-<ul class="button-list">
+<ul class="rowlist">
   <li>
-    {% include components/purchase.html url="https://stillfleet.itch.io/stillfleet-core-rulebook/purchase" text="Download the Stillfleet Core Rulebook from Itch" %}
+    {% include components/purchase.html url="https://stillfleet.itch.io/stillfleet-core-rulebook/purchase" text="Itch" class="dark" %}
   </li>
   <li>
-    {% include components/purchase.html url="https://preview.drivethrurpg.com/en/product/421102/The-Stillfleet-Core-Rulebook--CRB001" text="Download the Stillfleet Core Rulebook from DTRPG" %}
+    {% include components/purchase.html url="https://preview.drivethrurpg.com/en/product/421102/The-Stillfleet-Core-Rulebook--CRB001" text="DriveThruRPG" class="dark" %}
   </li>
+</ul>
+
+<fieldset><legend>Start playing now</legend>
+  <ul class="rowlist">
   <li>
     <a href="https://strings.stillfleet.com/voidminers/recruitr" class="external dark stillfleet">Generate a character with STRINGS</a>
   </li>
@@ -58,3 +80,5 @@ Voidminer—what will you do to resist the temptation of power? To liberate the 
     <a href="https://funcity.ventures/category/float-city/" class="external dark floatcity">Listen to epic actual play</a>
   </li>
 </ul>
+</fieldset>
+

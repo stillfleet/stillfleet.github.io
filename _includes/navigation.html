@@ -49,11 +49,14 @@
               </ul>
             </li>
             <li><a href="/games/stillfleet/gazetteers/">Gazetteers
+{% assign gazetteers = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-gazetteers'" %}              
                 <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-gazetteers">▶</label>
               </a>
               <input type="checkbox" id="sm-stillfleet-gazetteers">
               <ul class="sub-menu">
-                <li><a href="{% link games/stillfleet/gazetteers/qadida.md %}">Qadida</a></li>
+                {% for gazetteer in gazetteers %}
+                  <li><a href="{{ miniventure.url }}">{{ gazetteer.title }}</a></li>
+                {% endfor %}
               </ul>
             </li>
             <li><a href="/games/stillfleet/resources/">Resources

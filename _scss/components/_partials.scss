@@ -71,10 +71,103 @@ ul.covers {
 }
 
 //
+// _includes/components/product-card.html
+//
+
+section.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+a.product-card {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  flex-direction: column;
+
+  @include small-breakpoint {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  @include medium-breakpoint {
+    
+    flex-direction: row;
+  }
+  @include large-breakpoint {
+    width: calc( (100% / 2) - 20px );
+  }
+  text-decoration: none;
+  display: flex;
+
+  color: $rich-black;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  figure {
+    overflow-y: hidden;
+    height: 100px;
+    background-size: contain;
+    background-position: -15%;
+
+    @include small-breakpoint {
+      background-repeat: no-repeat;
+      min-width: 200px;
+      background-size: contain;
+      background-position: right;
+      height: auto;
+    }
+
+    @include large-breakpoint {
+      background-size: contain;
+      background-position: left 2.5rem;
+      min-width: 150px;
+    }
+
+    img {
+      margin-top: 2.5rem;
+      object-position: center;
+
+      @include medium-breakpoint {
+        margin-top: 0;
+      }
+    }
+
+  }
+
+  article {
+    margin: 0;
+    min-height: 225px;
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 1rem;
+
+    header {
+      margin: 0;
+      font-size: $h5;
+      color: $tephnian-red;
+    }
+    p {
+      margin: 0;
+    } 
+  }
+}
+section.product-cards .product-card {
+  float: none;
+}
+
+//
 // _includes/components/product-link.html
 //
 
-figure {
+figure[data-include="product-link"] {
   display: flex;
   flex-direction: row;
   gap: 2rem;
@@ -91,7 +184,7 @@ figure {
     gap: 1rem;
     flex-direction: column;
   }
-  a[data-include="product-link"] {
+  a {
     &:hover {
       background-color: rgba(0,0,0,0.4);
       color: $white;
@@ -137,7 +230,7 @@ figure.product {
 }
 
 //
-// _includes/components/play-now.html
+// _includes/components/play_now.html
 //
 
 #play-now {
@@ -159,7 +252,6 @@ figure.product {
     legend {
       font-family: $brand-font;
       color: $tephnian-red;
-      font-size: $h3;
     }
   }
 }
@@ -199,17 +291,21 @@ footer#credits {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0 0 0 1em;
-    padding: 0;
 
     li {
       list-style: none;
-      width: 50%;
+      margin: 0 1rem;
 
       cite {
-
-      }    
+        &::before {
+          content: ', '
+        }
+        &:first-of-type::before {
+          content: '';
+        }
+      }
     }
   }
 }
@@ -219,16 +315,8 @@ footer#credits {
 //
 
 a.purchase {
-  background-color: rgba(251,14,58,0.1);
-  border-radius: 4px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
-  transition: 0.25s;
 
   &:hover {
-    transition: 0.75s;
-    background-color: $tephnian-red;
   }
 }
 //

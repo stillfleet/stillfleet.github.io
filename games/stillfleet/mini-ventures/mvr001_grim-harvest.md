@@ -1,40 +1,46 @@
 ---
 layout: brands/stillfleet-miniventure
 title: Grim Harvest
-heading: MVR001 ☉ Grim Harvest
 shop: https://stillfleet.itch.io/grim-harvest/purchase
 cover: assets/img/brands/stillfleet/mvr001-cover.jpg
 sku: MVR001
 version: Version 1.0 ☉ August, 2022
 copyright: 2022–23 Stillfleet Studio and Hyperdrive Fleet
 credits:
-  - By Wythe Marschall
-  - Art by Peku for [Hyperdrive Fleet](https://www.hyperdrivefleet.com/)
-  - Design by Erich Lazar
-  - Additional art by Ethan Gould
-  - Edited by Stephen Aubrey
+  Writing: Wythe Marschall
+  Art: Peku for Czepeku Sci-Fi
+  Design: Erich Lazar
+  Additional art: Ethan Gould
+  Edited: Stephen Aubrey
 ---
 
-For the first Stillfleet mini-venture, we were lucky to collaborate with the amazing hulk-designers over at Hyperdrive Fleet—the sci-fi-themed, high-quality battle-map Patreon from the minds and digital pens of Czepeku.
+> It’s the end of the world, unless you can take control of the husk gnome ship’s HEME-REAPER…
 
-The venture is a struggle to avert a doomsday, already in progress, brought on by the planet-mining of the astrobrutalist husk gnomes. The voidminers must board the ship—The Scythe Compiling—and find a way to stop the diminutive cyborgs before an entire province-world is deconstructed.
+For the first *Stillfleet* mini-venture, we were lucky to collaborate with the amazing For the first Stillfleet mini-venture, we were lucky to collaborate with the amazing hulk-designers over at Czepeku Sci-Fi—the sci-fi-themed, high-quality battle-map Patreon from the minds and digital pens of Czepeku.
 
-Check out "Grim Harvest" for:
+The venture is a struggle to avert a doomsday, already in progress, brought on by the planet-mining of the astrobrutalist husk gnomes. The voidminers must board the ship—*The Scythe Compiling*—and find a way to stop the diminutive cyborgs before an entire province-world is deconstructed.
 
-- Expectedly terrifying husk-gnome factoids ("lore")
+Check out “Grim Harvest” for:
+
+- Expectedly terrifying husk-gnome factoids (“lore”)
 - Memorably strange random husk gnome archaetech
-- Interloping void elf "documentarians"
+- Interloping void elf “documentarians”
 - An AI chimera
 - Rival husk-gnome factions
 - 2 full encounter blocks
-- An *epic* plot!
+- New art by Peku and Ethan Gould
+- An epic plot!
 
 All in only 9 pages!
 
-## Get this mini-venture
+
+### Get the venture
 
 <ul class="rowlist">
   <li>
-    {% include components/purchase.html url="https://stillfleet.itch.io/grim-harvest/purchase" text="Itch" %}
+    {% include components/purchase.html url="https://stillfleet.itch.io/grim-harvest/purchase" text="Itch" class="dark" %}
+  </li>
+  <li>
+    <a href="https://www.patreon.com/stillfleet?fan_landing=true" class="external patreon dark">Become a patron</a>
   </li>
 </ul>

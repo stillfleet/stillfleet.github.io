@@ -17,7 +17,7 @@ For uncontested rolls, a result of 6 or higher is a success on a roll of normal 
 
 ### Uncontested check difficulties
 
-<dl class="tight difficulties">
+<dl class="grid tight difficulties">
   <dt class="five">5+</dt>
   <dd class="five">Easy</dd>
 
@@ -46,7 +46,7 @@ To make a player character (PC), AKA a voidminer, you must first choose a class 
 
 This means that you either have no scores so low that you cannot succeed in a normal challenge without help, or that you have one low score and one extra d8 (which succeeds unaided on a 6, 7, or 8). The scores you assign, after choosing class and species, are these:
 
-<dl class="tight scores">
+<dl class="grid tight scores">
   <dt>COM</dt>
   <dd><strong>combat</strong><br/>
   use when rolling to attack or grapple</dd>
@@ -67,26 +67,8 @@ This means that you either have no scores so low that you cannot succeed in a no
 
 Your voidminer’s mind and body are represented by these 5 primary scores and by 2 secondary or derived scores (your “pool”): health and grit.
 
-<section id="books">
 
-<aside>
-  {% assign qsr = site.pages | find_exp: "page", "page.path == 'games/stillfleet/qsr.md'" %}
-  {% include components/cover.html page=qsr text="" %}
 
-  <div>
-    <h3>The Stillfleet Quickstart Rules</h3>
-    <p>The free <em>Stillfleet Quickstart Rules</em> contains 42 pages of rules, entire classes, gear (sample weapons, armor, comms), aliens (6 encounters with full stats), settings, random tables, and a venture hook, as well as a separate document with 9 Pregenerated Characters—different species and classes.</p>
-    <a class="internal" href="{% link games/stillfleet/qsr.md %}">Read more</a>
-  </div>
-</aside>
+{% include components/product-cards/qsr.html %}
+{% include components/product-cards/crb.html %}
 
-<aside>
-  {% assign crb = site.pages | find_exp: "page", "page.path == 'games/stillfleet/crb.md'" %}
-  {% include components/cover.html page=crb text="" %}
-  <div>
-    <h3>The Stillfleet Core Rulebook</h3>
-    <p>The <em>Stillfleet Core Rulebook</em> builds on the simple rules of the Quickstart, expanding the game with extremely fun character options and rich lore. (To the tune of 352 professionally designed pages!) The complete rules include 10 classes of Co. voidminer, 22 playable sapient species, hundreds of advanced powers, nanotech "blooder" powers, deeply Weird hell science powers, over 20 full encounters, and so much more.</p>
-    <a class="internal" href="{% link games/stillfleet/crb.md %}">Read more</a>
-  </div>
-</aside>
-</section>

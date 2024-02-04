@@ -16,3 +16,41 @@ ul.rowlist {
   gap: 1rem;
   flex-wrap: wrap;
 }
+
+dl.grid {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: none;
+
+  @include small-breakpoint {
+    grid-template-columns: 33% auto;
+  }
+
+
+  dt, dd {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    grid-column: 3;
+  }
+
+  dt {
+    font-weight: 600;
+    @include small-breakpoint {
+      grid-column: 1;
+    }
+  }
+  dd {
+    @include small-breakpoint {
+      grid-column: 2;
+    }
+  }
+
+  &.tight dt {
+    @include small-breakpoint {
+      text-align: right;
+      padding-right: 1rem;
+    }
+  }
+}

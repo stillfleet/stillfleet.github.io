@@ -6,7 +6,10 @@
   </section>
   <ul>
     {% for citation in include.citations %}
-      <li><cite>{{ citation }}</cite></li>
+      <li>
+        <strong>{{ citation[0] }}</strong> by 
+        {% for name in citation[1] %}<cite>{{ name }}</cite>{% endfor %}
+      </li>
     {% endfor %}
   </ul>
 </footer>

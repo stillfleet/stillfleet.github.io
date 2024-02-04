@@ -12,4 +12,4 @@
   {% assign vendor = 'unknown' %}
 {% endif %}
 
-<a href="{{ include.url }}" class="external purchase {{ vendor }}">{{ include.text }}</a>
+<a href="{{ include.url }}" class="external purchase {{ vendor }} {{ include.class }}">{{ include.text }}</a>
