@@ -1,7 +1,7 @@
 ---
 layout: brands/stillfleet-miniventure
 title: The Sphere of [REDACTED]
-cover: assets/img/brands/stillfleet/mvr005-cover.jpg
+inlay: assets/img/brands/stillfleet/mvr005-cover.jpg
 sku: MVR005
 slug: mvr005
 version: Version 1.0 ☉ April, 2023

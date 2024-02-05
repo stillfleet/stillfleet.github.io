@@ -78,28 +78,6 @@ html, body {
 
       }
 
-      &#page-with-inlay {
-        display: flex;
-        flex-direction: row;
-
-        aside {
-          flex-shrink: 0;
-          margin: 2rem;
-
-          ul, ol {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-
-            li {
-              margin: 1rem;
-            }
-          }
-        }
-      }
-
       .inlay {
         display: none;
 

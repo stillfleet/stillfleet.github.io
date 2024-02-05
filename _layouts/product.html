@@ -1,55 +1,9 @@
 ---
-layout: default
+layout: two-col
 brand: studio
 body_class: product
 footer: 
 credits:
 ---
 
-<section class="product-content" data-page-slug="{{ page.slug }}">
-
-  <article id="product">
-    {% if page.heading %}
-      {% assign heading_text = page.heading %}
-    {% else %}
-      {% assign heading_text = page.title %}
-    {% endif %}
-
-    {% if page.heading_image %}
-      <h1 data-page-slug="{{ page.slug }}" style="background: url('{{ page.heading_image }}') no-repeat; background-size: contain; background-position: center; height: 300px; text-indent: -9999em;">
-        {{ heading_text }}
-      </h1>
-    {% else %}
-      <h1 data-page-slug="{{ page.slug }}">{{ heading_text }}</h1>
-    {% endif %}
-
-    {{ content }}
-
-  </article>
-
-  {% if page.cover %}
-  <figure data-page-slug="{{ page.slug }}" class="product" style="background-image: url('/{{ page.cover }}');">
-    {% if page.caption %}
-      <figcaption class="screen-reader-text">{{ page.title }}</figcaption>
-    {% endif %}
-  </figure>
-  {% endif %}
-
-</section>
-
-{% if page.footer %}
-  {% include {{ page.footer }} %}
-{% elsif layout.footer and page.footer != false %}
-  {% include {{ layout.footer }} %}
-{% endif %}
-
-
-{% assign product_line = site.pages | where: "layout", page.layout %}
-
-{% if product_line %}
-  {% include components/internal_nav.html current=page all=product_line %}
-{% endif %}
-
-{% if page.credits %}
-  {% include components/credits.html title=page.title version=page.version copyright=page.copyright citations=page.credits %}
-{% endif %}
+{{ content }}

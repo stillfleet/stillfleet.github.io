@@ -1,7 +1,7 @@
 ---
 layout: brands/stillfleet-miniventure
 title: The Voice Beneath the Meer
-cover: assets/img/brands/stillfleet/mvr004-cover.jpg
+inlay: assets/img/brands/stillfleet/mvr004-cover.jpg
 sku: MVR004
 slug: mvr004
 version: Version 1.0 ☉ February, 2023

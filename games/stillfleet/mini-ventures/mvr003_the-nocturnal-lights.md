@@ -1,7 +1,7 @@
 ---
 layout: brands/stillfleet-miniventure
 title: The Nocturnal Lights
-cover: assets/img/brands/stillfleet/mvr003-cover.jpg
+inlay: assets/img/brands/stillfleet/mvr003-cover.jpg
 sku: MVR003
 shop: https://stillfleet.itch.io/nocturnal-lights/purchase
 version: Version 1.0 ☉ October, 2022

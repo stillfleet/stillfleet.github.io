@@ -1,0 +1,52 @@
+---
+layout: default
+brand: studio
+footer: 
+---
+
+<section class="two-col" data-page-slug="{{ page.slug }}">
+
+  <article>
+    {% if page.heading %}
+      {% assign heading_text = page.heading %}
+    {% else %}
+      {% assign heading_text = page.title %}
+    {% endif %}
+
+    {% if page.heading_image %}
+      <h1 data-page-slug="{{ page.slug }}" style="background: url('{{ page.heading_image }}') no-repeat; background-size: contain; background-position: center; height: 300px; text-indent: -9999em;">
+        {{ heading_text }}
+      </h1>
+    {% else %}
+      <h1 data-page-slug="{{ page.slug }}">{{ heading_text }}</h1>
+    {% endif %}
+
+    {{ content }}
+
+  </article>
+
+  {% if page.inlay %}
+  <figure data-page-slug="{{ page.slug }}" style="background-image: url('/{{ page.inlay }}');">
+    {% if page.caption %}
+      <figcaption class="screen-reader-text">{{ page.title }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endif %}
+
+</section>
+
+{% if page.footer %}
+  {% include {{ page.footer }} %}
+{% elsif layout.footer and page.footer != false %}
+  {% include {{ layout.footer }} %}
+{% endif %}
+
+{% assign internal_nav = site.pages | where: "layout", page.layout %}
+
+{% if internal_nav %}
+  {% include components/internal_nav.html current=page all=internal_nav %}
+{% endif %}
+
+{% if page.credits %}
+  {% include components/credits.html title=page.title version=page.version copyright=page.copyright citations=page.credits %}
+{% endif %}
