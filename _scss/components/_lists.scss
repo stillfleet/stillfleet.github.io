@@ -38,7 +38,7 @@ dl.grid {
   grid-template-columns: none;
 
   @include small-breakpoint {
-    grid-template-columns: 33% auto;
+    grid-template-columns: 20% auto;
   }
 
 
@@ -57,7 +57,7 @@ dl.grid {
   }
   dd {
     @include small-breakpoint {
-      grid-column: 2;
+      grid-column: 4;
     }
   }
 

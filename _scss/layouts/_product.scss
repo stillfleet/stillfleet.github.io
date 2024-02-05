@@ -60,7 +60,7 @@ main {
         height: 400px;
       }
       &[data-page-slug="qsr"] {
-        background-position: left -250px;
+        background-position: left -150px;
         height: 200px;
       }
       &[data-page-slug="crb"] {
@@ -87,10 +87,12 @@ main {
     @include medium-breakpoint {
       flex-direction: row;
       gap: 2rem;
+      margin-right: 2rem;
 
       article {
         order: 1;
         margin: 0 0 0 4rem;
+        padding-right: 4rem;
         width: 55%;
 
         h1 {
@@ -100,11 +102,13 @@ main {
 
       & > figure {
         order: 2;
-        max-width: 35%;
+        max-width: 45%;
         margin-top: 4rem;
-        margin-left: 0rem;
+        margin-left: -4rem;
         height: auto !important;
-        background-position: 4rem top !important;
+        background-size: contain;
+        background-position: 0rem top !important;
+        padding-right: 4rem;
       }
     }
 
@@ -115,7 +119,7 @@ main {
         margin-top: 4rem;
         margin-left: 0rem;
         height: auto !important;
-        background-position: 4rem top !important;
+        background-position: 0rem top !important;
       }
     }
   }
