@@ -17,8 +17,22 @@ ul.rowlist {
   flex-wrap: wrap;
 }
 
+dl.vertical-pairs {
+  margin: 2rem 0;
+
+  dt, dd {
+    display: block;
+  }
+  dt {
+    font-size: $h5;
+  }
+  dd {
+    text-indent: 1rem;
+  }
+}
+
 dl.grid {
-  margin: 0;
+  margin: 2rem 0;
   padding: 0;
   display: grid;
   grid-template-columns: none;
