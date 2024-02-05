@@ -145,6 +145,12 @@ blockquote {
   }
 }
 
+iframe { // youtube embeds
+  width: 100%;
+  max-width: 560px;
+  
+}
+
 // Code block styling
 pre {
   border: 0;

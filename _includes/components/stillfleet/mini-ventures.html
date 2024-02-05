@@ -1,0 +1,7 @@
+{% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
+
+<ul id="miniventures" class="covers">
+  {% for page in miniventures %}
+    <li>{% include components/cover.html page=page %}</li>
+  {% endfor %}
+</ul>

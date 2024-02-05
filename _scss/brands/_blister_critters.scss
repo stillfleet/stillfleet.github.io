@@ -43,6 +43,11 @@ body[data-brand="blister_critters"] {
     } 
   }
   
+  &#bc-index {
+    .product-card {
+      width: 100%;
+    }
+  }
 
   h1 {
     font-family: 'darumadrop-one', $header-font;

@@ -1,5 +1,5 @@
-<a href="{{ include.href }}" class="product-card">
-  <figure style="background-image: url('{{ include.src }}');">
+<a href="{{ include.href }}" class="product-card" style="{{ include.style }}">
+  <figure data-slug="{{ include.slug }}" style="background-image: url('{{ include.src }}');">
   </figure>
   <article>
     <header>{{ include.title }}</header>

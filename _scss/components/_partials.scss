@@ -112,21 +112,40 @@ a.product-card {
 
   figure {
     overflow-y: hidden;
-    height: 100px;
-    background-size: contain;
-    background-position: -15%;
+    height: 125px;
+    background-repeat: no-repeat;
+
+    &[data-slug="qsr"] {
+      background-size: cover;
+      background-position: center -210px;
+    }
+    &[data-slug="crb"] {
+      background-size: cover;
+      background-position: center -180px;
+    }
+    &[data-slug="ven002"] {
+      background-size: cover;
+      background-position: center -200px;
+    }
+    &[data-slug="qadida"] {
+      background-size: cover;
+      background-position: center -270px;
+    }
+    &[data-slug="bc-qsr"] {
+      background-size: cover;
+      background-position: center -200px;
+    }
 
     @include small-breakpoint {
       background-repeat: no-repeat;
       min-width: 200px;
-      background-size: contain;
-      background-position: right;
+      background-size: contain !important;
+      background-position: right !important;
       height: auto;
     }
 
     @include large-breakpoint {
-      background-size: contain;
-      background-position: left 2.5rem;
+      background-position: left 2.5rem !important;
       min-width: 150px;
     }
 

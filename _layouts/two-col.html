@@ -43,7 +43,7 @@ footer:
 
 {% assign internal_nav = site.pages | where: "layout", page.layout %}
 
-{% if internal_nav %}
+{%- if false and internal_nav %}
   {% include components/internal_nav.html current=page all=internal_nav %}
 {% endif %}
 

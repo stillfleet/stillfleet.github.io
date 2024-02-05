@@ -1,10 +1,9 @@
 ---
-layout: page
+layout: two-col
 brand: stillfleet
 title: Mini-Ventures
+footer: components/stillfleet/mini-ventures.html
 ---
-
-{% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
 
 > Explore the full range of playable stories for Stillfleet by different creators
 
@@ -20,8 +19,3 @@ Have an idea for your own mini-venture? Join us on Discord and let us know!
 
 <a href="http://discord.stillfleet.com/" class="external discord dark">Discord</a>
 
-<ul id="miniventures" class="covers">
-  {% for page in miniventures %}
-    <li>{% include components/cover.html page=page %}</li>
-  {% endfor %}
-</ul>

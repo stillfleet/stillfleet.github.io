@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: two-col
 brand: stillfleet
 heading: Digital and physical resources
 title: Resources
 heading: Track your voidguilders in style
 keywords: stillfleet character sheet, stillfleet resources, stillfleet tools, stillfleet extras
+footer: components/stillfleet/play_now.html
 ---
 
 <blockquote>Randomize a character. Randomize an alien. Randomize an unforgettable story.</blockquote>
@@ -38,6 +39,3 @@ STRINGS is created by the official Stillfleet Studio banshee, Aaron H., and supp
 {% assign resources = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-resources'" %}
 
 {% include components/cover-list.html pages=resources %}
-
-
-{% include components/stillfleet/play_now.html %}
