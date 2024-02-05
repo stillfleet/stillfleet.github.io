@@ -6,6 +6,7 @@ sku: MVR003
 shop: https://stillfleet.itch.io/nocturnal-lights/purchase
 version: Version 1.0 ☉ October, 2022
 copyright: 2022–23 Stillfleet Studio
+slug: mvr003
 credits:
   Writing: Stephen Aubrey
   With additional writing: Wythe Marschall

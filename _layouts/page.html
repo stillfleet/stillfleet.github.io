@@ -4,10 +4,17 @@ layout: default
 
 <article id="page">
   {% if page.heading %}
-    <h1>{{ page.heading }}</h1>
+    {% assign heading_text = page.heading %}
   {% else %}
-    <h1>{{ page.title }}</h1>
+    {% assign heading_text = page.title %}
   {% endif %}
 
+  {% if page.heading_image %}
+    <h1 data-page-slug="{{ page.slug }}" style="background: url('{{ page.heading_image }}') no-repeat; background-size: contain; background-position: center; height: 300px; text-indent: -9999em;">
+      {{ heading_text }}
+    </h1>
+  {% else %}
+    <h1 data-page-slug="{{ page.slug }}">{{ heading_text }}</h1>
+  {% endif %}
   {{content}}
 </article>

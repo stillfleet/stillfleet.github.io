@@ -1,6 +1,7 @@
 ---
 brand: stillfleet
 layout: product
+footer: components/stillfleet/play_now.html
 ---
 
 {{ content }}
@@ -10,8 +11,5 @@ layout: product
   {% assign url = item[1] %}
 {% endfor %}
 
-{% if page.play-now or layout.play-now %}
-  {% include components/stillfleet/play_now.html %}
-{% endif %}
 
 

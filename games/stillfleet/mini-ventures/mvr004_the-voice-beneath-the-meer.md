@@ -1,9 +1,9 @@
 ---
 layout: brands/stillfleet-miniventure
 title: The Voice Beneath the Meer
-heading: MVR004 ☉ The Voice Beneath the Meer
 cover: assets/img/brands/stillfleet/mvr004-cover.jpg
 sku: MVR004
+slug: mvr004
 version: Version 1.0 ☉ February, 2023
 copyright: 2022–23 Stillfleet Studio
 shop: https://stillfleet.itch.io/voice-beneath-the-meer/purchase

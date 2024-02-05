@@ -104,5 +104,5 @@
 {% assign slug = layout.slug %}
 {% endif %}
 
-<body id="{{ slug }}" data-brand="{{ brand }}" data-env={{ jekyll.environment }}>
+<body id="{{ slug }}" class="{{ layout.body_class }}" data-brand="{{ brand }}" data-layout="{{ page.layout }}" data-env={{ jekyll.environment }}>
    {%- include header.html -%}

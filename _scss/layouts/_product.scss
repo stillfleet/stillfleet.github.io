@@ -1,0 +1,124 @@
+body.product main {
+  & > section.product-content {
+    display: flex;
+    flex-direction: column;
+
+    article {
+      order: 2;
+      width: auto;
+      margin: 2rem 4rem;
+
+      h1 {
+        display: none;
+
+        &[data-page-slug="mvr004"] {
+          display: block;
+        }
+        &[data-page-slug="mvr006"] {
+          display: block;  
+        }
+      }
+    }
+
+    figure {
+      order: 1;
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      display: block;
+      
+      background-repeat: no-repeat;
+      filter: drop-shadow(4px 4px 4px $rich-black);
+
+      /* Page specific background shifting to focus on the title */
+      &[data-page-slug="mvr001"] {
+        background-position: left 0px;
+        height: 300px;
+      }
+      &[data-page-slug="mvr002"] {
+        background-position: left -100px;
+        height: 500px;
+      }
+      &[data-page-slug="mvr003"] {
+        background-position: left -460px;
+      }
+      &[data-page-slug="mvr004"] {
+        background-position: left -260px;
+      }
+      &[data-page-slug="mvr005"] {
+        background-position: left 0px;
+      }
+      &[data-page-slug="mvr006"] {
+        background-position: left -350px;
+        height: 300px;
+      }
+      &[data-page-slug="mvr007"] {
+        background-position: left -600px;
+        height: 400px;
+      }
+      &[data-page-slug="qsr"] {
+        background-position: left -250px;
+        height: 200px;
+      }
+      &[data-page-slug="crb"] {
+        background-position: left -235px;
+        height: 190px;
+      }
+      &[data-page-slug="ven001"] {
+        background-position: left -50px;
+        height: 450px;
+      }
+      &[data-page-slug="ven002"] {
+        background-position: left -10px;
+        height: 350px;
+      }
+      &[data-page-slug="bc-box"] {
+        background-size: contain;
+      }
+    }
+
+    @include medium-breakpoint {
+      flex-direction: row;
+      gap: 2rem;
+
+      article {
+        order: 1;
+        margin: 0 0 0 4rem;
+        width: 55%;
+
+        h1 {
+          display: block;
+        }
+      }
+
+      figure {
+        order: 2;
+        max-width: 35%;
+        margin-top: 4rem;
+        margin-left: 0rem;
+        height: auto !important;
+        background-position: 4rem top !important;
+      }
+    }
+
+    @include large-breakpoint {
+      figure {
+        order: 2;
+        max-width: 45%;
+        margin-top: 4rem;
+        margin-left: 0rem;
+        height: auto !important;
+        background-position: 4rem top !important;
+      }
+    }
+  }
+  figure[data-include="critter-footer"] {
+    width: 100%;
+    height: 500px;
+    max-height: 100%;
+    margin-bottom: -2rem;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+  }
+}

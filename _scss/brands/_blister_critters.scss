@@ -35,7 +35,14 @@ body[data-brand="blister_critters"] {
 
   blockquote {
     border-left-color: $blister-critters-pink;
+  } 
+
+  figure.quote {
+    figcaption {
+      color: $blister-critters-pink;
+    } 
   }
+  
 
   h1 {
     font-family: 'darumadrop-one', $header-font;
@@ -52,46 +59,74 @@ body[data-brand="blister_critters"] {
 
   ul li, dl dd, dl dt {
     &.🐢 {
+      list-style: none;
       &::before {
         content: '🐢';
         padding-right: 1rem;
       }
     }
-    &.🐓::before {
-      content: '🐓';
-      padding-right: 1rem;
+    &.🐓 { 
+      list-style: none;
+      &::before {
+        content: '🐓';
+        padding-right: 1rem;
+      }
     }
-    &.🦀::before {
-      content: '🦀';
-      padding-right: 1rem;
+    &.🦀 {
+      list-style: none;
+      &::before {
+        content: '🦀';
+        padding-right: 1rem;
+      }
     }
-    &.🦨::before {
-      content: '🦨';
-      padding-right: 1rem;
+    &.🦨 { 
+      list-style: none;
+      &::before {
+        content: '🦨';
+        padding-right: 1rem;
+      }
     }
-    &.🐞::before {
-      content: '🐞';
-      padding-right: 1rem;
+    &.🐞 { 
+      list-style: none;
+      &::before {
+        content: '🐞';
+        padding-right: 1rem;
+      } 
     }
-    &.🐴::before {
-      content: '🐴';
-      padding-right: 1rem;
+    &.🐴 {
+      list-style: none;
+      &::before {
+        content: '🐴';
+        padding-right: 1rem;
+      }
     }
-    &.🐷::before {
-      content: '🐷';
-      padding-right: 1rem;
+    &.🐷 {
+      list-style: none;
+      &::before {
+        content: '🐷';
+        padding-right: 1rem;
+      }
     }
-    &.🐼::before {
-      content: '🐼';
-      padding-right: 1rem;
+    &.🐼 {
+      list-style: none;
+      &::before {
+        content: '🐼';
+        padding-right: 1rem;
+      }
     }
-    &.🐸::before {
-      content: '🐸';
-      padding-right: 1rem;
+    &.🐸 {
+      list-style: none;
+      &::before {
+        content: '🐸';
+        padding-right: 1rem;
+      }
     }
-    &.🐯::before {
-      content: '🐯';
-      padding-right: 1rem;
+    &.🐯 {
+      list-style: none;
+      &::before {
+        content: '🐯';
+        padding-right: 1rem;
+      }
     }
   }
 }

@@ -4,6 +4,7 @@ title: Grim Harvest
 shop: https://stillfleet.itch.io/grim-harvest/purchase
 cover: assets/img/brands/stillfleet/mvr001-cover.jpg
 sku: MVR001
+slug: mvr001
 version: Version 1.0 ☉ August, 2022
 copyright: 2022–23 Stillfleet Studio and Hyperdrive Fleet
 credits:

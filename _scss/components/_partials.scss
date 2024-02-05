@@ -210,26 +210,6 @@ figure[data-include="product-link"] {
 }
 
 //
-// _includes/components/product.html
-//
-
-figure.product {
-  float: right;
-  max-width: 50%;
-  margin-left: 2em;
-  margin-right: -4em;
-  filter: drop-shadow(4px 4px 4px $rich-black);
-
-  img {
-    max-width: 500px;
-  }
-
-  figcaption {
-
-  }
-}
-
-//
 // _includes/components/play_now.html
 //
 
@@ -238,8 +218,7 @@ figure.product {
 
   }
 
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 2rem 4rem;
   display: flex;
   justify-content: space-around;
   flex-direction: row;

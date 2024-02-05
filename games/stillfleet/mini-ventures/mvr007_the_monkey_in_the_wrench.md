@@ -3,6 +3,7 @@ layout: brands/stillfleet-miniventure
 title: The Monkey in the Wrench
 cover: assets/img/brands/stillfleet/mvr007-cover.jpg
 sku: MVR007
+slug: mvr007
 shop: https://stillfleet.itch.io/monkey/purchase
 version: Version 1.0 ☉ January, 2024
 copyright: 2023–24 Stillfleet Studio
