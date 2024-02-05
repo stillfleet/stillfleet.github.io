@@ -1,5 +1,7 @@
 body#rules[data-brand="stillfleet"] {
   dl.difficulties {
+    max-width: 400px;
+    margin: 0 auto 0 0;
     dt, dd {
       color: $rich-black;
 
@@ -21,8 +23,10 @@ body#rules[data-brand="stillfleet"] {
     }
   }
   dl.scores {
+    width: 450px;
+    max-width: 450px;
+    margin: 2rem 0;
 
-    margin: 2rem auto 2rem 0;
     dt {
       background-color: $tephnian-red;
       font-family: $brand-font;
@@ -30,9 +34,12 @@ body#rules[data-brand="stillfleet"] {
       font-weight: bold;
       border-bottom: 1px solid white;
       padding: 0.2rem 0.5rem;
-      width: 100px;
+      width: 75px;
+      text-align: center;
+      vertical-align: middle;
     }
     dd {
+      width: 375px;
       border-bottom: 1px solid white;
       padding: 0.2rem 1rem;
     }
