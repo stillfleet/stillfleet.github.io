@@ -20,6 +20,11 @@ main {
         &[data-page-slug="bc-box"] {
           display: block;
         }
+        &[data-page-slug="bc-index"] {
+          display: block;
+          margin: 0;
+          padding: 0;
+        }
       }
     }
 
@@ -75,6 +80,13 @@ main {
         background-position: left -10px;
         height: 350px;
       }
+      &[data-page-slug="bc-index"] {
+        order: 2;
+        width: auto;
+        height: 550px;
+        background-size: contain;
+        margin: 2rem 2rem 4rem 2rem;
+      }
       &[data-page-slug="bc-qsr"] {
         background-position: left -10px;
         height: 300px;
@@ -97,6 +109,7 @@ main {
 
         h1 {
           display: block;
+          margin: initial;
         }
       }
 
@@ -109,6 +122,11 @@ main {
         background-size: contain;
         background-position: 0rem top !important;
         padding-right: 4rem;
+        width: 100%;
+
+        &[data-page-slug="bc-index"] {
+          width: 100%;
+        }
       }
     }
 

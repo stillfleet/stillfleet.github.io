@@ -62,75 +62,135 @@ body[data-brand="blister_critters"] {
     color: white;
   }
 
+  ul.emoji, dl.emoji {
+    margin: 2rem 0;
+    padding: 0;
+    li, dl, dt {
+      list-style: none;
+      padding-left: 1rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+
   ul li, dl dd, dl dt {
     &.🐢 {
-      list-style: none;
-      &::before {
-        content: '🐢';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐢';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐢';
+        }
       }
     }
     &.🐓 { 
-      list-style: none;
-      &::before {
-        content: '🐓';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐓';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐓';
+        }
       }
     }
     &.🦀 {
-      list-style: none;
-      &::before {
-        content: '🦀';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🦀';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🦀';
+        }
       }
     }
-    &.🦨 { 
-      list-style: none;
-      &::before {
-        content: '🦨';
-        padding-right: 1rem;
+    &.🦨 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🦨';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🦨';
+        }
       }
     }
     &.🐞 { 
-      list-style: none;
-      &::before {
-        content: '🐞';
-        padding-right: 1rem;
-      } 
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐞';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐞';
+        }
+      }
     }
     &.🐴 {
-      list-style: none;
-      &::before {
-        content: '🐴';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐴';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐴';
+        }
       }
     }
     &.🐷 {
-      list-style: none;
-      &::before {
-        content: '🐷';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐷';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐷';
+        }
       }
     }
     &.🐼 {
-      list-style: none;
-      &::before {
-        content: '🐼';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐼';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐼';
+        }
       }
     }
     &.🐸 {
-      list-style: none;
-      &::before {
-        content: '🐸';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐸';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐸';
+        }
       }
     }
     &.🐯 {
-      list-style: none;
-      &::before {
-        content: '🐯';
-        padding-right: 1rem;
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐯';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐯';
+        }
       }
     }
   }
