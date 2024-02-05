@@ -15,7 +15,7 @@
           <input type="checkbox" id="sm-stillfleet">
           <ul class="sub-menu">
             <li><a href="/games/stillfleet/rules.html">Core Rules
-            {% assign rulebooks = site.pages | where_exp: "page", "page.name == 'qsr.md' or page.name == 'crb.md'" %}
+            {% assign rulebooks = site.pages | where_exp: "page", "page.name == 'qsr.html' or page.name == 'crb.html'" %}
             {% assign rulebooks = rulebooks | reverse %}
             <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-rules">▶</label>
             </a>
@@ -63,8 +63,8 @@
               <label title="Toggle Drop-down" class="drop-icon" for="sm-stillfleet-resources">▶</label></a>
               <input type="checkbox" id="sm-stillfleet-resources">
               <ul class="sub-menu">
-                <li><a href="{% link games/stillfleet/resources/ref_cards_01.md %}">Cards ☉ Archaetech & Encounters</a></li>
-                <li><a href="{% link games/stillfleet/resources/ref_cards_02.md %}">Cards ☉ HULKRAWL</a></li>
+                <li><a href="{% link games/stillfleet/resources/ref_cards_01.html %}">Cards ☉ Archaetech & Encounters</a></li>
+                <li><a href="{% link games/stillfleet/resources/ref_cards_02.html %}">Cards ☉ HULKRAWL</a></li>
               </ul>
             </li>
           </ul>

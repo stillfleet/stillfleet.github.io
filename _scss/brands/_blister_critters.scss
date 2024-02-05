@@ -45,6 +45,55 @@ body[data-brand="blister_critters"] {
     font-family: $header-font;
     color: $rich-black;
   }
+
+  #credits {
+    color: white;
+  }
+
+  ul li, dl dd, dl dt {
+    &.🐢 {
+      &::before {
+        content: '🐢';
+        padding-right: 1rem;
+      }
+    }
+    &.🐓::before {
+      content: '🐓';
+      padding-right: 1rem;
+    }
+    &.🦀::before {
+      content: '🦀';
+      padding-right: 1rem;
+    }
+    &.🦨::before {
+      content: '🦨';
+      padding-right: 1rem;
+    }
+    &.🐞::before {
+      content: '🐞';
+      padding-right: 1rem;
+    }
+    &.🐴::before {
+      content: '🐴';
+      padding-right: 1rem;
+    }
+    &.🐷::before {
+      content: '🐷';
+      padding-right: 1rem;
+    }
+    &.🐼::before {
+      content: '🐼';
+      padding-right: 1rem;
+    }
+    &.🐸::before {
+      content: '🐸';
+      padding-right: 1rem;
+    }
+    &.🐯::before {
+      content: '🐯';
+      padding-right: 1rem;
+    }
+  }
 }
 
 

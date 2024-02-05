@@ -1,0 +1,43 @@
+---
+layout: page
+brand: stillfleet
+heading: Digital and physical resources
+title: Resources
+heading: Track your voidguilders in style
+keywords: stillfleet character sheet, stillfleet resources, stillfleet tools, stillfleet extras
+---
+
+<blockquote>Randomize a character. Randomize an alien. Randomize an unforgettable story.</blockquote>
+
+<p>To support players and GMs using the Grit System, we’re developing digital and physical tools, starting with the official <em>Stillfleet</em> web app, STRINGS, as well as colorful, functionality-focused card decks to help GMs bring excitement to their games.</p>
+
+<p>You can use STRINGS to generate random characters, archaetech, aliens, names, and more—all for free.</p>
+
+<ul class="rowlist">
+  <li>
+  <a href="https://strings.stillfleet.com/voidminers/recruitr/" class="external stillfleet dark">Generate a character with STRINGS</a>
+</li>
+<li>
+<a href="https://strings.stillfleet.com/" class="external stillfleet dark">Check out all of STRINGS</a>
+</li>
+</ul>
+
+<p>
+STRINGS is created by the official Stillfleet Studio banshee, Aaron H., and supported entirely by Patreon.</p>
+
+<a href="https://www.patreon.com/stillfleet?fan_landing=true" class="external patreon dark">Become a patron</a>
+
+<h2>Character sheets</h2>
+
+<ul>
+  <li><a href="https://drive.google.com/file/d/1sa6h5wkxnUks_WCBpWtJUNbUImoankKj/view?usp=share_link">Official Stillfleet character sheet (PDF)</a></li>
+  <li><a href="https://docs.google.com/spreadsheets/d/1OzZYszTHojXA0k_b9QCFQlsc4dPyVjLU_6KaEnAzy9w/edit?usp=sharing">Spreadsheet-based Stillfleet character sheet</a></li>
+</ul>
+
+
+{% assign resources = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-resources'" %}
+
+{% include components/cover-list.html pages=resources %}
+
+
+{% include components/stillfleet/play_now.html %}
