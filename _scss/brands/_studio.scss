@@ -45,7 +45,6 @@ body > footer > a.stillfleet-logo {
   font-family: 'citizen_bold' !important;
   color: white !important;
 
-  min-width: 500px;
   min-height: 73px;
   background: transparent url('/assets/img/sfs-lockup-knockout-500w.png') no-repeat;
   background-size: contain;
@@ -56,6 +55,7 @@ body > footer > a.stillfleet-logo {
   }
 
   @include medium-breakpoint {
+    min-width: 500px;
     transition: 0.5s;
   }
 }
