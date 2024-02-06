@@ -17,7 +17,7 @@ credits:
 
 > It’s the end of the world, unless you can take control of the husk gnome ship’s HEME-REAPER…
 
-For the first *Stillfleet* mini-venture, we were lucky to collaborate with the amazing For the first Stillfleet mini-venture, we were lucky to collaborate with the amazing hulk-designers over at Czepeku Sci-Fi—the sci-fi-themed, high-quality battle-map Patreon from the minds and digital pens of Czepeku.
+For the first *Stillfleet* mini-venture, we were lucky to collaborate with the amazing hulk-designers over at Czepeku Sci-Fi—the sci-fi-themed, high-quality battle-map Patreon from the minds and digital pens of Czepeku.
 
 The venture is a struggle to avert a doomsday, already in progress, brought on by the planet-mining of the astrobrutalist husk gnomes. The voidminers must board the ship—*The Scythe Compiling*—and find a way to stop the diminutive cyborgs before an entire province-world is deconstructed.
 

@@ -47,14 +47,4 @@ body#rules[data-brand="stillfleet"] {
       border-bottom: 0;
     }
   }
-
-  .product-card {
-    background-color: $rich-black;
-    color: white;
-    margin-right: 1rem;
-    @include large-breakpoint {
-      min-height: 300px;  
-    }
-    
-  }
 }

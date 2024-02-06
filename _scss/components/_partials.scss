@@ -235,7 +235,8 @@ figure[data-include="product-link"] {
 
 #play-now {
   legend {
-
+    font-family: $brand-font;
+    color: $tephnian-red;
   }
 
   margin: 2rem 4rem;
@@ -244,15 +245,7 @@ figure[data-include="product-link"] {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;
-
-  &[data-brand="stillfleet"] {
-    border: 4px double darken($tephnian-red, 30%);
-
-    legend {
-      font-family: $brand-font;
-      color: $tephnian-red;
-    }
-  }
+  border: 4px double darken($tephnian-red, 30%);
 }
 
 
