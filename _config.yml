@@ -50,6 +50,16 @@ sass:
   sass_dir: _scss
   style: :compressed
 
+
+assets:
+  compress:
+    css:  sass
+    js:   uglifier
+  autoprefixer:
+    browsers: ["last 5 versions","> 5%","IE 9"]
+  plugins:
+    css: { autoprefixer: {}}
+
 # google_analytics: 
 
 # Exclude from processing.
