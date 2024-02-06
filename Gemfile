@@ -10,7 +10,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3.2"
 gem "webrick" # No longer included in ruby 3.x
 
-gem "execjs", "~> 2"
+gem "execjs", "< 2.8"
 gem 'autoprefixer-rails'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
