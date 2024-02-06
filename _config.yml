@@ -33,7 +33,7 @@ twitter_username: stillfleet
 
 plugins:
   - jekyll-feed
-  - jekyll-autoprefixer
+#  - jekyll-autoprefixer
 
 # Build settings
 markdown: kramdown
@@ -51,14 +51,14 @@ sass:
   style: :compressed
 
 
-assets:
-  compress:
-    css:  sass
-    js:   uglifier
-  autoprefixer:
-    browsers: ["last 5 versions","> 5%","IE 9"]
-  plugins:
-    css: { autoprefixer: {}}
+#assets:
+#  compress:
+#    css:  sass
+#    js:   uglifier
+#  autoprefixer:
+#    browsers: ["last 5 versions","> 5%","IE 9"]
+#  plugins:
+#    css: { autoprefixer: {}}
 
 # google_analytics: 
 
