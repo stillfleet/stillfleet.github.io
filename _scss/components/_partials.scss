@@ -80,6 +80,16 @@ section.product-cards {
   justify-content: space-between;
   gap: 1rem;
   margin: 4rem;
+
+  &.wide {
+    margin: 0;
+    width: 100%;
+    flex-direction: column;
+
+    a.product-card {
+      width: 100%;
+    }
+  }
 }
 
 a.product-card {
