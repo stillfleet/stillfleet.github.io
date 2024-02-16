@@ -57,3 +57,135 @@ dl.grid {
     padding-right: 1rem;
   }
 }
+
+ul.emoji, dl.emoji {
+  margin: 1rem;
+  padding: 0;
+
+  li, dd, dt {
+    list-style: none;
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+
+    &.🐢 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐢';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐢';
+        }
+      }
+    }
+    &.🐓 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐓';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐓';
+        }
+      }
+    }
+    &.🦀 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🦀';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🦀';
+        }
+      }
+    }
+    &.🦨 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🦨';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🦨';
+        }
+      }
+    }
+    &.🐞 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐞';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐞';
+        }
+      }
+    }
+    &.🐴 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐴';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐴';
+        }
+      }
+    }
+    &.🐷 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐷';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐷';
+        }
+      }
+    }
+    &.🐼 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐼';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐼';
+        }
+      }
+    }
+    &.🐸 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐸';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐸';
+        }
+      }
+    }
+    &.🐯 {
+      @supports selector(::marker) {
+        &::marker {
+          content: '🐯';
+        }
+      }
+      @supports not selector(::marker) {
+        &::before {
+          content: '🐯';
+        }
+      }
+    }
+  }
+}
