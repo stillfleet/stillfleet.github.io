@@ -22,9 +22,29 @@ body#rules[data-brand="stillfleet"] {
       }
     }
   }
+  form.dice-sliders {
+    max-height: 525px;
+
+    svg {
+      max-height: 400px;
+    }
+  }
+  div.dice {
+    margin: 1rem auto;
+    display: flex;
+    max-width: 100%;
+
+    &.horizontal {
+      flex-direction: row;
+    }
+
+    img {
+      width: 20%;
+    }
+  }
+
   dl.scores {
-    width: 450px;
-    max-width: 450px;
+    max-width: 500px;
     margin: 2rem 0;
 
     dt {
@@ -34,12 +54,14 @@ body#rules[data-brand="stillfleet"] {
       font-weight: bold;
       border-bottom: 1px solid white;
       padding: 0.2rem 0.5rem;
-      width: 75px;
+      width: 25%;
+      max-width: 75px;
       text-align: center;
       vertical-align: middle;
     }
     dd {
-      width: 375px;
+      width: 75%;
+      max-width: 425px;
       border-bottom: 1px solid white;
       padding: 0.2rem 1rem;
     }

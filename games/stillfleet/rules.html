@@ -1,82 +1,114 @@
 ---
-layout: two-col
+layout: page
 brand: stillfleet
 title: Rulebooks
 slug: rules
 heading: New to the game? Learn the basics and download the free Quickstart
 ---
 
-<h2>Beating 6</h2>
+<div class="stacking-row">
 
-<p>In the Grit System, your scores are different dice types. The basic mechanic of *Stillfleet* is to roll a single score (a single die) and try to get a 6 or higher. The type of die you roll depends on what you’re trying to do. Contested rolls are won by the higher result. Ties go to the initiator of the action.</p>
+  <div class="cell">
+    <h2>Beating 6</h2>
 
-<p>For uncontested rolls, a result of 6 or higher is a success on a roll of normal difficulty. And when one or more people help you do something, you get a +1 to your roll.</p>
+    <p>In the Grit System, your scores are different dice types. The basic mechanic of *Stillfleet* is to roll a single score (a single die) and try to get a 6 or higher. The type of die you roll depends on what you’re trying to do. Contested rolls are won by the higher result. Ties go to the initiator of the action.</p>
 
-<!--
-{% include components/unfolded-dice.html %}
--->
+    <p>For uncontested rolls, a result of 6 or higher is a success on a roll of normal difficulty. And when one or more people help you do something, you get a +1 to your roll.</p>
 
-<h3>Uncontested check difficulties</h3>
+    <h3>Uncontested check difficulties</h3>
 
-<dl class="grid tight difficulties">
-  <dt class="five">5+</dt>
-  <dd class="five">Easy</dd>
+    <dl class="grid tight difficulties">
+      <dt class="five">5+</dt>
+      <dd class="five">Easy</dd>
 
-  <dt class="six">6+</dt>
-  <dd class="six">Standard</dd>
+      <dt class="six">6+</dt>
+      <dd class="six">Standard</dd>
 
-  <dt class="seven">7+</dt>
-  <dd class="seven">Difficult</dd>
+      <dt class="seven">7+</dt>
+      <dd class="seven">Difficult</dd>
 
-  <dt class="nine">9+</dt>
-  <dd class="nine">Very difficult</dd>
+      <dt class="nine">9+</dt>
+      <dd class="nine">Very difficult</dd>
 
-  <dt class="twelve">12+</dt>
-  <dd class="twelve">"Impossible"</dd>
-</dl>
+      <dt class="twelve">12+</dt>
+      <dd class="twelve">"Impossible"</dd>
+    </dl>
+  </div>
 
-<h3>Boosting checks</h3>
+  <div class="cell">
+    <h3>Boosting checks</h3>
+    <p>You can also boost your rolls by burning grit (GRT): you can burn (use up) 3, 6, or 9 GRT to add +3, +6, or +9 to any check.</p>
+    <p>A 1 is always a failure, even when boosted.</p>
 
-<p>You can also boost your rolls by burning grit (GRT): you can burn (use up) 3, 6, or 9 GRT to add +3, +6, or +9 to any check.</p>
+    {% include components/unfolded-dice.html %}
+  </div>
+</div>
 
-<h2>Assigning scores</h2>
+<div class="stacking-row">
+  <div class="cell">
+    <h2>Assigning scores</h2>
 
-<p>To make a player character (PC), AKA a voidminer, you must first choose a class and a species and then assign 5 die types to your 5 core scores. Here are your options. Either distribute:</p>
+    <p>To make a player character (PC), AKA a voidminer, you must first choose a class and a species and then assign 5 die types to your 5 core scores. Here are your options.</p>
 
-<pre>
-/// d12, d10, d8, d6, d6 ///
-           or
-/// d12, d10, d8, d8, d4 ///
-</pre>
+    <p>Either distribute:</p>
 
-<p>This means that you either have no scores so low that you cannot succeed in a normal challenge without help, or that you have one low score and one extra d8 (which succeeds unaided on a 6, 7, or 8). The scores you assign, after choosing class and species, are these:</p>
+    <div class="dice horizontal">
+      <img alt="d12" class="dice" src="/assets/img/dice/d12.svg" />
+      <img alt="d10" class="dice" src="/assets/img/dice/d10.svg" />
+      <img alt="d8" class="dice" src="/assets/img/dice/d8.svg" />
+      <img alt="d6" class="dice" src="/assets/img/dice/d6.svg" />
+      <img alt="d6" class="dice" src="/assets/img/dice/d6.svg" />
+    </div>
+    <hr class="divider" data-content="OR">
+    <div class="dice horizontal">
+      <img alt="d12" class="dice" src="/assets/img/dice/d12.svg" />
+      <img alt="d10" class="dice" src="/assets/img/dice/d10.svg" />
+      <img alt="d8" class="dice" src="/assets/img/dice/d8.svg" />
+      <img alt="d8" class="dice" src="/assets/img/dice/d8.svg" />
+      <img alt="d4" class="dice" src="/assets/img/dice/d4.svg" />
+    </div>
+    
+    <p>This means that you either have no scores so low that you cannot succeed in a normal challenge without help, or that you have one low score and one extra d8 (which succeeds unaided on a 6, 7, or 8).</p>
 
-<p><a href="https://strings.stillfleet.com/voidminers/recruitr" class="external stillfleet dark">Generate a character with STRINGS</a></p>
+    <p>Your voidminer’s mind and body are represented by these 5 primary scores and by 2 secondary or derived scores (your “pool”): <strong>health</strong> and <strong>grit</strong>.</p>
+  </div>
+  <div class="cell">
+    <h3>Defining scores</h3>
+  <p>The scores you assign, after choosing class and species, are these:</p>
 
-<dl class="grid tight scores">
-  <dt>COM</dt>
-  <dd><strong>combat</strong><br/>
-  use when rolling to attack or grapple</dd>
-  <dt>MOV </dt>
-  <dd><strong>movement</strong><br/>
-  use when rolling to drive/pilot, dodge, initiate, parry, run, or sneak</dd>
-  <dt>REA</dt>
-  <dd><strong>reason</strong><br/>
-  use when rolling to heal, know, make/repair, use technology (e.g., tack a stiffworks), or use a Weird power</dd>
-  <dt>WIL</dt>
-  <dd><strong>will</strong><br/>
-  use when rolling to empathize, perceive, resist other (resist seduction, mind control, etc.), or resist world (resist explosions, falling rocks, poison, etc.)</dd>
-  <dt>CHA</dt>
-  <dd><strong>charm</strong><br/>
-  use when rolling to control, negotiate, or seduce</dd>
-</dl>
+  <dl class="grid tight scores">
+    <dt>COM</dt>
+    <dd><strong>combat</strong><br/>
+    use when rolling to attack or grapple</dd>
+    <dt>MOV </dt>
+    <dd><strong>movement</strong><br/>
+    use when rolling to drive/pilot, dodge, initiate, parry, run, or sneak</dd>
+    <dt>REA</dt>
+    <dd><strong>reason</strong><br/>
+    use when rolling to heal, know, make/repair, use technology (e.g., tack a stiffworks), or use a Weird power</dd>
+    <dt>WIL</dt>
+    <dd><strong>willpower</strong><br/>
+    use when rolling to empathize, perceive, resist other (resist seduction, mind control, etc.), or resist world (resist explosions, falling rocks, poison, etc.)</dd>
+    <dt>CHA</dt>
+    <dd><strong>charm</strong><br/>
+    use when rolling to control, negotiate, or seduce</dd>
+  </dl>
+  </div>
+</div>
 
+<div class="stacking-row">
+  <div class="cell">
+    <h2>Get started</h2>
+    <p>Our team has created a character generator to randomly create playable level-1 characters you can use to start playing today.</p>
+  </div>
 
-<p>Your voidminer’s mind and body are represented by these 5 primary scores and by 2 secondary or derived scores (your “pool”): health and grit.</p>
+  <div class="cell">
+    <a href="https://strings.stillfleet.com/voidminers/recruitr" class="top-room external stillfleet dark">Generate a character with STRINGS</a>
+  </div>
+</div>
 
+<section class="product-cards">
+  {% include components/product-cards/qsr.html class="" %}
 
-<section class="product-cards wide">
-  {% include components/product-cards/qsr.html class="wide" %}
-
-  {% include components/product-cards/crb.html %}  
+  {% include components/product-cards/crb.html class="" %}  
 </section>
