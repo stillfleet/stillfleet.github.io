@@ -1,0 +1,60 @@
+{% assign rulebooks = site.pages | where_exp: "page", "page.name == 'qsr.html' or page.name == 'crb.html'" %}
+{% assign rulebooks = rulebooks | reverse %}
+{% assign ventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-venture'" %}
+{% assign miniventures = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-miniventure'" %}
+{% assign gazetteers = site.pages | where_exp: "page", "page.layout == 'brands/stillfleet-gazetteers'" %}              
+
+<nav id="megamenu">
+  <details>
+    <summary><a href="/games/index.html">Games</a></summary>
+    <div>
+      <section>
+        <header>
+          <h2><a href="/games/stillfleet/">Stillfleet</a></h2>
+        </header>
+        <ul>
+          <li><a href="/games/stillfleet/rules.html">Core Rules</a></li>
+          {% for rulebook in rulebooks %}
+            <li><a href="{{ rulebook.url }}">{{ rulebook.title }}</a></li>
+          {% endfor %}
+
+          <li style="margin-top: 1rem;"><h4><a href="/games/stillfleet/gazetteers/">Gazetteers</a></h4></li>
+          {% for gazetteer in gazetteers %}
+            <li><a href="{{ gazetteer.url }}">{{ gazetteer.title }}</a></li>
+          {% endfor %}
+        </ul>
+
+        <ul>
+          <li><h4><a href="{% link games/stillfleet/ventures/index.html %}">Ventures</a></h4></li>
+          {% for venture in ventures %}
+            <li><a href="{{ venture.url }}">{{ venture.title }}</a></li>
+          {% endfor %}
+
+          <li style="margin-top: 1rem;"><h4><a href="/games/stillfleet/resources/">Resources</a></h4></li>
+          <li><a href="{% link games/stillfleet/resources/ref_cards_01.html %}">Cards ☉ Archaetech & Encounters</a></li>
+          <li><a href="{% link games/stillfleet/resources/ref_cards_02.html %}">Cards ☉ HULKRAWL</a></li>
+        </ul>
+        
+        <ul>
+          <li><h4><a href="{% link games/stillfleet/mini-ventures/index.html %}">Mini-Ventures</a></h4></li>
+          {% for miniventure in miniventures %}
+            <li><a href="{{ miniventure.url }}">{{ miniventure.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </section>    
+      
+      <section>
+        <header>
+          <h2><a href="/games/blister_critters/">Blister Critters</a></h2>
+        </header>
+        <ul>
+          <li><a href="{% link games/blister_critters/quickstart.html %}">Quickstart</a></li>
+          <li><a href="{% link games/blister_critters/boxed_set.html %}">Boxed Set</a></li>
+        </ul>
+      </section>
+    </div>
+  </details>
+
+  <a href="/about.html">About</a>
+  <a href="/press.html">Press</a>
+</nav>
