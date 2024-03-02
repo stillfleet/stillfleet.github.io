@@ -95,7 +95,6 @@ section.product-cards {
 a.product-card {
   float: left;
   width: 100%;
-  padding: 10px;
   flex-direction: column;
 
   @include small-breakpoint {
@@ -104,8 +103,7 @@ a.product-card {
   }
 
   @include medium-breakpoint {
-    
-    flex-direction: row;
+    flex-direction: column;
   }
   @include large-breakpoint {
     width: calc( (100% / 2) - 20px );
@@ -115,17 +113,12 @@ a.product-card {
 
   color: $rich-black;
   margin-bottom: 1rem;
-  padding: 1rem;
 
   &:hover {
     text-decoration: none;
   }
 
   figure {
-    overflow-y: hidden;
-    height: 125px;
-    background-repeat: no-repeat;
-
     &[data-slug="qsr"] {
       background-size: cover;
       background-position: center -210px;
@@ -142,9 +135,9 @@ a.product-card {
       background-size: cover;
       background-position: center -270px;
     }
-    &[data-slug="bc-qsr"] {
-      background-size: cover;
-      background-position: center -200px;
+    
+    img {
+      width: 100%;
     }
 
     @include small-breakpoint {
@@ -168,16 +161,14 @@ a.product-card {
         margin-top: 0;
       }
     }
-
   }
 
   article {
-    margin: 0;
+    margin: 0 !important;
     min-height: 225px;
     display: flex;
     flex-direction: column;
-
-    padding-left: 1rem;
+    width: auto !important;
 
     header {
       margin: 0;
