@@ -1,12 +1,6 @@
 <a href="{{ include.href }}" class="product-card {{ include.class }}" style="{{ include.style }}">
-  <picture data-slug="{{ include.slug }}">
-    {% assign srcsets = include.srcset | split(' ') %}
-    {% assign medias = include.sizes | split(' ') %}
-    {% for srcset in srcsets %}
-    <source srcset="{{ include.srcset }}" media="{{ sizes[forloop.index] }}" />
-    {% endfor %}
-    <img src="{{ include.src }}" />
-  </picture>
+  <figure data-slug="{{ include.slug }}" style="background-image: url('{{ include.src }}');">
+  </figure>
   <article>
     <header>{{ include.title }}</header>
     <p>{{ include.text }}</p>

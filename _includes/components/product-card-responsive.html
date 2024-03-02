@@ -1,0 +1,14 @@
+<a href="{{ include.href }}" class="product-card {{ include.class }}" style="{{ include.style }}">
+  <picture data-slug="{{ include.slug }}">
+    {% assign srcsets = include.srcset | split: ","" %}
+    {% assign medias = include.sizes | split: "," %}
+    {% for srcset in srcsets %}
+    <source srcset="{{ srcset }}" media="{{ medias[forloop.index0] }}" />
+    {% endfor %}
+    <img src="{{ include.src }}" />
+  </picture>
+  <article>
+    <header>{{ include.title }}</header>
+    <p>{{ include.text }}</p>
+  </article>
+</a>
