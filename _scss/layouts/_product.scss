@@ -25,6 +25,9 @@ main {
           margin: 0;
           padding: 0;
         }
+        &[data-page-slug="why-we-roll"] {
+          display: block;
+        }
       }
     }
 
@@ -95,6 +98,15 @@ main {
         order: 2;
         max-width: 500px;
         margin: 0 auto 4rem auto;
+      }
+      &[data-page-slug="why-we-roll"] {
+        order: 2;
+        background-position: left -500px;
+        height: 200px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4rem;
       }
     }
 
