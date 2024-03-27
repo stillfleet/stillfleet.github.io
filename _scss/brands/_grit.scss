@@ -1,0 +1,37 @@
+body[data-brand="grit"] {
+  color: $rich-black;
+
+  pre {
+    color: $rich-black;
+  }
+
+  strong + em, em + strong {
+    color: red;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  blockquote {
+    background-color: $success;
+    border: 0;
+    font-size: 1.1rem;
+    padding: 1rem;
+
+    &.optional {
+      background-color: lighten($stillfleet-rose, 15);
+    }
+  }
+
+  h1 {
+    font-size: calc($h1 * 1.5);
+  }
+  h2 {
+    font-size: calc($h2 * 1.5);
+  }
+  h3 {
+    color: $stillfleet-rose;
+  }
+  h4 {
+    color: $rich-black;
+  }
+}
