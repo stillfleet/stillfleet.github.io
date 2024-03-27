@@ -31,6 +31,8 @@ twitter_username: stillfleet
 # Build settings
 # theme: minima
 
+plugins_dir: ./_plugins
+
 plugins:
   - jekyll-feed
 #  - jekyll-autoprefixer
