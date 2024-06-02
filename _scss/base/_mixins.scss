@@ -36,6 +36,12 @@
   &.apple-podcasts {
     background-image: url('/assets/img/third-party/apple-podcasts.png');
   }
+  &.default {
+    background-image: url('/assets/img/third-party/default.png');
+    &.dark {
+      background-image: url('/assets/img/third-party/default-dark.png');
+    }
+  }
   &.discord {
     background-image: url('/assets/img/third-party/discord.png');
     &.dark {
