@@ -1,0 +1,25 @@
+//==============================================================================
+// Brand Colors
+//==============================================================================
+
+$sk-black: #000000;
+$bone-white: #F9F6EE;
+
+$font-color: $bone-white;
+
+body[data-brand="the_sometimes_kingdom"] {
+  color: $font-color;
+  background: $sk-black;
+  background-attachment: fixed;
+  font-size: $body-font-size;
+
+  h1 {
+  }
+  h2, h3, h4, h5, h6 {
+  }
+
+  fieldset {
+    legend {
+    }
+  }
+}
