@@ -1,0 +1,42 @@
+//==============================================================================
+// Brand Colors
+//==============================================================================
+
+$metal-gray: #d6d6d6;
+$metal-gray-dark: #828282;
+$rh-green-pastel: #73aaa5;
+$rh-rust: #8e2c2d;
+$rh-blue: #0078ad;
+$rh-basil: #c6d472;
+$rh-ancho: #bb4345;
+$rh-juniper: #594779;
+
+body[data-brand="robot_hospital"] {
+  background: linear-gradient(180deg, $metal-gray 0%, $metal-gray-dark 3%, $metal-gray 8%, white 33%, $metal-gray 85%, $metal-gray-dark 100%) no-repeat;
+  background-attachment: fixed;
+  //background-color: $metal-gray;
+  font-size: $body-font-size;
+  color: darken($metal-gray-dark, 18%);
+
+  blockquote {
+    border-left-color: $rh-basil;
+    color: $rh-juniper;
+  }
+
+  code {
+    color: $rh-ancho;
+  }
+
+  h1 {
+  }
+  h2, h3, h4, h5, h6 {
+  }
+
+  aside {
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, $tephnian-red 0%, $rh-ancho 5%, $rh-ancho 100%) no-repeat;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
