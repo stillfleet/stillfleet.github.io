@@ -1,11 +1,9 @@
-# Contributing
-To view your changes locally:
-1. Install Ruby
-2. Install Jekyll and bundler
-3. Run `bundle install`
-4. Run `bundle exec jekyll serve`
-5. Nav to the server address it prints out (should be `http://127.0.0.1:4000/`)
+# Stillfleet.com static site
 
-If you have trouble, Jekyll's docs have good instructions for installing everything.
+This repository contains the Jekyll static site code for [stillfleet.com](https://stillfleet.com).
 
-Worth noting that the serve command watches for file changes, so you shouldn't need to take any build steps after making a change, just refresh your browser.
+- See a problem? [Open an issue!](https://github.com/stillfleet/stillfleet.github.io/issues/new/choose).
+
+## Contributing
+
+Please see the [CONTRIBUTING](CONTRIBUTING.md) doc for instructions on how to set this repo up locally and add contributions.
