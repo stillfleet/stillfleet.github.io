@@ -46,7 +46,9 @@
             }
           }
         } 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           svg {
             filter: drop-shadow(5px 3px 3px $fpo-gray);
           }  
@@ -66,7 +68,9 @@
   border: 0.5px solid #666;
   transition: 0.25s;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     transition: 0.5s;
     text-decoration: none;
   }
@@ -74,7 +78,9 @@
 .external {
   @include social-icons;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     background-size: 5rem;
     background-position: -2.25rem;
   }
@@ -82,7 +88,9 @@
     color: white;
     background-color: $rich-black;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       background-color: $tephnian-red;
     }
   }
@@ -92,7 +100,9 @@
   background-color: $rich-black;
   color: white;
 
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     background-color: $tephnian-red;
     color: white;
   }

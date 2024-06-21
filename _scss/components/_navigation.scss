@@ -37,7 +37,9 @@
     & > li > a {
       background-color: $rich-black;
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         background-color: $primary-color;
       }
     }
@@ -65,7 +67,9 @@
       border-width: 0;
     }
 
-    a:hover {
+    a:hover,
+    a:focus,
+    a:active {
       color: white;
     }
 

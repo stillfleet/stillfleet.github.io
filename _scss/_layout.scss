@@ -239,7 +239,9 @@ html, body {
         margin-left: 1rem;
       }
 
-      &:hover {
+      &:hover,
+      &:focus,
+      &:active {
         opacity: 1;
       }
 
@@ -284,7 +286,9 @@ html, body {
           svg path {
             fill: $fpo-gray;
           }
-          &:hover {
+          &:hover,
+          &:focus,
+          &:active {
             svg path {
               fill: $white;
             }

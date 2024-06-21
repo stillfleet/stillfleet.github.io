@@ -172,7 +172,9 @@ body#home {
           color: #2230a1;
           border-color: $school-bus-yellow;
 
-          &:hover {
+          &:hover,
+          &:focus,
+          &:active {
             background-color: $school-bus-yellow;
             color: black;
           }
@@ -228,7 +230,9 @@ body#home {
           background-color: black;
           color: $stillfleet-red;
 
-          &:hover {
+          &:hover,
+          &:focus,
+          &:active {
             background-color: $stillfleet-red;
             color: white;
           }
@@ -263,7 +267,9 @@ body#home {
         color: #fdff00;
         border-color: white;
 
-        &:hover {
+        &:hover,
+        &:focus,
+        &:active {
           background-color:  #fdff00;
           color: rgba(143,106,253,1);
         }

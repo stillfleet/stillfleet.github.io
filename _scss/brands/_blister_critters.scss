@@ -23,7 +23,9 @@ body[data-brand="blister_critters"] {
   a {
     color: $blister_critters_blue;
     font-weight: bold;
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
       color: darken($blister_critters_blue, 20%);
     }
   }
