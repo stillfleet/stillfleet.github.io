@@ -529,7 +529,7 @@ main > section.feature {
     width: 100%;
 
     &.blurred-background {
-      backdrop-filter: blur(10px) brightness(110%);
+      backdrop-filter: blur(20px) brightness(115%);
       @include medium-breakpoint {
         border-radius: 8px;
       }
