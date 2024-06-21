@@ -19,6 +19,8 @@
 
     li {
       a {
+        display: inline-block;
+        padding: 2em;
         svg {
           &.icon {
             min-height: 1.5rem;
