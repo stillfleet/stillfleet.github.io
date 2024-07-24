@@ -57,6 +57,7 @@ body#conventions {
   }
 
   table.schedule {
+    min-width: 375px;
     table-layout: fixed;
     colgroup {
       width: 60px;
@@ -68,23 +69,39 @@ body#conventions {
       background-color: rgba(100,100,240,0.2);
     }
     .times {
-
+      min-width: 50px;
     }
 
-    thead th {
-      text-align: center;
+    thead th, tbody > th:first-of-type {
+      writing-mode: vertical-lr;
+      text-orientation: mixed;
+      text-align: left;
       font-size: $h3;
+
+      & > abbr {
+        text-decoration: none;
+      }
+
+      @include small-breakpoint {
+        text-align: center;
+        font-size: $h3;
+        writing-mode: horizontal-tb;
+        text-orientation: initial;
+      }
+    }
+    thead th {
+
 
       &:first-of-type {
         color: #555;
         text-align: right;
-        font-size: $h5;
       }
     }
     tbody {
       th {
         text-align: right;
         color: #555;
+        min-width: 50px;
       }
 
       td.event {
