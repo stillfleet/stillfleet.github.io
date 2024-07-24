@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+ {% if page.redirect %}
+    <meta http-equiv="Refresh" content="0; URL={{ page.redirect }}" />
+ {% else %}
+    <meta http-equiv="Refresh" content="3; URL=/" />
+ {% endif %}
+</head>
+<body>
+
+{% if page.redirect %}
+
+<h2>Redirecting...</h2>
+
+<p class="h3">You are being redirected to <a href="{{ page.redirect }}">{{ page.redirect }}</a>. This is intentional.</p>
+
+{% else %}
+
+<p>This should be a redirect, but isn't. Taking you back home in a few seconds.</p>
+
+{% endif %}
+</body>
+</html>

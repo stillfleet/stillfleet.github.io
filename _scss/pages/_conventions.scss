@@ -1,0 +1,117 @@
+body#conventions {
+  li > ul, li > ol {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  mark {
+    padding: 0.5rem;
+  }
+  .stillfleet {
+    background-color: $stillfleet-red;
+    color: white;
+
+    a {
+      color: white;
+      font-weight: bold;
+      text-decoration: underline;
+
+      &:hover {
+        color: $electric-yellow;
+      }
+    }
+  }
+  .blister_critters {
+    background-color: $blister_critters-yellow;
+    color: $blister_critters-pink;
+
+    a {
+      color: $blister_critters-pink;
+      font-weight: bold;
+      text-decoration: underline;
+
+      &:hover {
+        color: $blister_critters-pink;
+      }
+    }
+  }
+  .danse_macabre {
+    background-color: $rich-black;
+    color: white;
+
+    a {
+      color: white;
+      font-weight: bold;
+      text-decoration: underline;
+
+      &:hover {
+        color: $electric-yellow;
+      }
+    }
+  }
+
+  h2 {
+    & > img {
+      max-width: 50px;
+      vertical-align: middle;
+    }
+  }
+
+  table.schedule {
+    table-layout: fixed;
+    colgroup {
+      width: 60px;
+    }
+
+    .day {
+    }
+    .day:nth-child(even) {
+      background-color: rgba(100,100,240,0.2);
+    }
+    .times {
+
+    }
+
+    thead th {
+      text-align: center;
+      font-size: $h3;
+
+      &:first-of-type {
+        color: #555;
+        text-align: right;
+        font-size: $h5;
+      }
+    }
+    tbody {
+      th {
+        text-align: right;
+        color: #555;
+      }
+
+      td.event {
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: 50px auto;
+        background-position: center;
+        border: 1px solid white;
+        transition: 0.25s;
+
+        &:hover {
+          background-size: 75px auto;
+          transition: 0.5s;
+        }
+
+        img {
+          max-width: 40px;
+          margin: 0 auto;
+        }
+        &.gencon {
+          background-image: url("/assets/img/third-party/gencon.png");
+        }
+        &.games-on-demand {
+          background-image: url("/assets/img/third-party/games-on-demand.jpg");
+        }
+      }
+    }
+  }
+
+}

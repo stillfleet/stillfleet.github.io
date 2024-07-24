@@ -261,4 +261,28 @@
       }
     }
   }
+  &.◻️ {
+    @supports selector(::marker) {
+      &::marker {
+        content: '◻️';
+      }
+    }
+    @supports not selector(::marker) {
+      &::before {
+        content: '◻️';
+      }
+    }
+  }
+  &.☑️ {
+    @supports selector(::marker) {
+      &::marker {
+        content: '☑️';
+      }
+    }
+    @supports not selector(::marker) {
+      &::before {
+        content: '☑️';
+      }
+    }
+  }
 }
