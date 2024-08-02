@@ -1,0 +1,26 @@
+#mailing_list {
+  border-radius: 4px;
+  padding: $padding;
+  background-color: white;
+  width: 100%;
+
+  @include medium-breakpoint {
+    width: 400px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;  
+    align-items: flex-end; 
+    div { 
+      flex-grow: 1;
+      margin-right: 0.5rem;
+      label {
+        margin: 0;
+      }
+    }
+    & > input {
+      max-height: 3rem;
+    }
+  }
+}

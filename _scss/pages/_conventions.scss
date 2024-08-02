@@ -6,6 +6,52 @@ body#conventions {
   mark {
     padding: 0.5rem;
   }
+  section.callouts {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 0.1rem;
+    max-width: 100%;
+    float: none;
+
+    @include medium-breakpoint {
+      max-width: 400px;
+      float: right;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      a.callout {
+        &:first-of-type {
+          border-radius: 8px 8px 0 0;
+
+          header {
+            border-radius: 8px 8px 0 0;
+          }
+          footer {
+            border-radius: 0;
+          }
+        }
+        &:last-of-type {
+          border-radius: 0 0 8px 8px;
+          header {
+            border-radius: 0;
+          }
+          footer {
+            border-radius: 0 8px 8px;
+          }
+        }
+      }
+    }
+
+    @include small-breakpoint {
+      flex-direction: row;
+    }
+
+    @include xlarge-breakpoint {
+      flex-direction: row;
+      flex-shrink: 2;
+    }
+  }
   .stillfleet {
     background-color: $stillfleet-red;
     color: white;
