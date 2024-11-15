@@ -95,6 +95,21 @@ body#conventions {
     }
   }
 
+  .meet-and-greet {
+    background-color: green;
+    color: white;
+
+    a {
+      color: white;
+      font-weight: bold;
+      text-decoration: underline;
+
+      &:hover {
+        color: $electric-yellow;
+      }
+    }
+  }
+
   h2 {
     & > img {
       max-width: 50px;
@@ -154,13 +169,17 @@ body#conventions {
         text-align: center;
         background-repeat: no-repeat;
         background-size: 50px auto;
-        background-position: center;
+        background-position: 10px 10px;
         border: 1px solid white;
         transition: 0.25s;
+        vertical-align: bottom;
+        font-weight: bold;
+        padding-bottom: 0;
 
         &:hover {
           background-size: 75px auto;
           transition: 0.5s;
+          color: White;
         }
 
         img {
